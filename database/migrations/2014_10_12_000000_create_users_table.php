@@ -17,10 +17,10 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('password');
-            $table->integer('team');
-            $table->integer('sex');
-            $table->integer('size');
-            $table->integer('hot_cold')->nullable();
+            $table->string('team');
+            $table->string('sex');
+            $table->string('size');
+            $table->string('hot_cold')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
