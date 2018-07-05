@@ -1,21 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\User;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
 
 class SubmitController extends Controller
 {
+ 
+
     use RegistersUsers;
-
-
-    public function submit(){
-        echo "あいう";
-    }
-    
 
     /**
      * Where to redirect users after registration.
@@ -43,7 +36,7 @@ class SubmitController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'feel' => 'required|string|max:255',
+            'feel' => 'required|string|max:25',
             
         ]);
     }
@@ -57,10 +50,7 @@ class SubmitController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'feel' => $data['feel']
-            
+            'feel' => $data['feel'],
         ]);
     }
-    
-    
 }
