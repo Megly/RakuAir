@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('team');
             $table->string('sex');
             $table->string('size');
-            $table->string('hot_cold')->nullable();
+            $table->string('feel')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
