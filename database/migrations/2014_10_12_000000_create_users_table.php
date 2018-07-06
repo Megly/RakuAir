@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('team');
             $table->string('sex');
             $table->string('size');
-            $table->string('feel')->nullable();
+            $table->string('feel')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });

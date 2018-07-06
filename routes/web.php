@@ -26,11 +26,11 @@ Route::get('logout', 'Auth\LoginController@logout')->name('logout.get');
 
 // hot and cold page
 Route::get('HotCold', function () {
-    return view('layouts.feel');
+    return view('feel');
 });
 
 // feel submit page
-Route::get('submit', 'Auth\SubmitController@showSubmitForm')->name('submit.get');
-Route::post('submit', 'Auth\SubmitController@submit')->name('submit.post');
+Route::get('feel', 'FeelController@showFeelform')->name('feel.get');
+Route::post('feel', 'FeelController@store')->name('feel.post');
 
 
