@@ -2,13 +2,14 @@
 
 @section('content')
 
- {!! Form::open(['route' => 'submit.post']) !!}
 
-                 <div class="form-group">
-                    {!! Form::label('feel', 'Feel') !!}
-                    {!! Form::select('feel', ['Hot', 'Cold']) !!}
-                    
-                </div>
-                    {!! Form::submit('submit', ['class' => 'btn btn-primary btn-block'])!!}
- {!! Form::close() !!}
+
+        {!! Form::open(['route' => ['hot'], 'method' => 'put']) !!}
+        {!! Form::submit('HOT', ['class' => 'btn btn-danger btn-xs']) !!}
+        {!! Form::close() !!}
+        <!--{!! $user = App\User::find(2)->id !!}-->
+        {!! Form::open(['route' => ['cold' ], 'method' => 'put']) !!}
+        {!! Form::submit('COLD', ['class' => 'btn btn-primary btn-xs']) !!}
+        {!! Form::close() !!}
+
 @endsection

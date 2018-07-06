@@ -33,4 +33,7 @@ Route::get('HotCold', function () {
 Route::get('submit', 'Auth\SubmitController@showSubmitForm')->name('submit.get');
 Route::post('submit', 'Auth\SubmitController@submit')->name('submit.post');
 
+Route::put('hot', 'HotController@update')->name('hot');
+Route::put('cold', 'ColdController@update')->name('cold');
+
 

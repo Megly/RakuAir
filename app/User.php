@@ -26,4 +26,17 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    
+    public function hot($userID){
+        $user = App\User::find($userID);
+        $user->feel = +1;
+        $user->save();
+        
+    }
+
+    public function cold($userID){
+        $user = App\User::find($userID);
+        $user->feel = -1;
+        $user->save();
+    }
 }
