@@ -71,7 +71,7 @@ class HotController extends Controller
         $user = \Auth::user();;
         $user->feel = 1;
         $user->save();
-        return view('layouts.feel');
+        return view('result');
     }
 
     /**
