@@ -36,7 +36,7 @@
                 
                 <div class="form-group">
                     {!! Form::label('size', 'Type') !!}
-                    {!! Form::select('size', ['Skinny', 'Nomal', 'Fat']) !!}
+                    {!! Form::select('size', ['atsugari', 'Nomal', 'Samugari']) !!}
                 </div>
                 
 

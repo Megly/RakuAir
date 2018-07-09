@@ -81,9 +81,35 @@ class ColdController extends Controller
      */
     public function update()
     {
-        $user = \Auth::user();;
-        $user->feel = -1;
-        $user->save();
+        $user = \Auth::user();
+        if ($user->sex==0){
+            if ($user->size==0){
+                $user->feel= -6;
+                $user->save();
+            }
+            elseif ($user->size==1){
+                $user->feel = -4;
+                $user->save();            
+            }
+            else{
+                $user->feel= -2;
+                $user->save();                 
+            }
+        }
+        else{
+            if ($user->size==0){
+                $user->feel = -5;
+                $user->save();
+            }
+            elseif ($user->size==1){
+                $user->feel = -3;
+                $user->save();            
+            }
+            else{
+                $user->feel = -1;
+                $user->save();                 
+            }
+        }
         return view('result');
     }
 
