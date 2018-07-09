@@ -2,8 +2,8 @@
 
 @section('content')
     @if (Auth::check())
-        <?php $user = Auth::user(); ?>
-        {{ $user->name }}
+       @include('layouts.feel')
+        
     @else
         <div class="center jumbotron">
             <div class="text-center">
