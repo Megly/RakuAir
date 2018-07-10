@@ -3,10 +3,11 @@
 @section('content')
 <?php 
 	$result = DB::table('users') ->sum('feel');
-	$hot = DB::table('users') ->where('feel','1') ->sum('feel');
-	$cold = DB::table('users') ->where('feel','-1') ->sum('feel');
+	$hot = DB::table('users') ->where('feel','>=','0') ->sum('feel');
+	$cold = DB::table('users') ->where('feel','<=','0') ->sum('feel');
     $hotcount = DB::table('users') ->where('feel','>=','0') ->count('feel');
 	$coldcount = DB::table('users') ->where('feel','<=','0') ->count('feel');
+	echo abs($cold)
 ?>     
 <script type="text/javascript">
 google.load("visualization", "1", {packages:["corechart"]});
