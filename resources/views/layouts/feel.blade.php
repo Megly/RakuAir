@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class='feelbtn'>
+<div class='feelpage'>
    <div class='hotcontent'>
            <div class='hotbtn'>
                 {!! Form::open(['route' => ['hot'], 'method' => 'put']) !!}
@@ -19,7 +19,7 @@
                 {!! Form::close() !!}
            </div>
            <div class='cold-icon'>
-                <img src="https://i.ytimg.com/vi/a-hPtA5JXH8/maxresdefault.jpg"></img>
+                <img src="https://animoo.jp/uploads/article/image/655/card_160024.jpg"></img>
            </div>
    </div>
 </div>

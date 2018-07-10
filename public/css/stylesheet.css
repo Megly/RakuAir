@@ -9,24 +9,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.hotbtn{
-  display: inline;
-  float: left;
-  width: 49%;
-  background-color: red;
-}
-
-.hotdog{
-  float: left;
-}
-
-.coldbtn{
-  display: inline;
-  float: right;
-  width: 49%;
-  background-color: blue;
-}
-
 h2 {
   color: #6D7781;
   font-family: "Sofia", cursive;
@@ -110,3 +92,34 @@ label {
   font-size: 12px;
 }
 
+.hotcontent {
+  width: 49%;
+  float: left;
+}
+
+.hotbtn{
+  display: inline;
+  float: left;
+  width: 100%;
+  background-color: red;
+}
+
+.hot-icon{
+  float: left;
+}
+
+.coldcontent {
+  width: 49%;
+  float: right;
+}
+
+.coldbtn{
+  display: inline;
+  float: right;
+  width: 100%;
+  background-color: blue;
+}
+
+.cold-icon {
+  float: right;
+}
