@@ -5,8 +5,8 @@
 	$result = DB::table('users') ->sum('feel');
 	$hot = DB::table('users') ->where('feel','1') ->sum('feel');
 	$cold = DB::table('users') ->where('feel','-1') ->sum('feel');
-    $hotcount = DB::table('users') ->where('feel','1'or'2'or'3'or'4'or'5'or'6') ->count('feel');
-	$coldcount = DB::table('users') ->where('feel','-1'or'-2'or'-3'or'-4'or'-5'or'-6') ->count('feel');
+    $hotcount = DB::table('users') ->where('feel','>=','0') ->count('feel');
+	$coldcount = DB::table('users') ->where('feel','<=','0') ->count('feel');
 ?>     
 <script type="text/javascript">
 google.load("visualization", "1", {packages:["corechart"]});
@@ -14,8 +14,8 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 var data = google.visualization.arrayToDataTable([ //グラフデータの指定
         ['Task', 'Hours per Day'],
-        ['Cold',      <?php echo $coldcount?>],
-        ['Hot',     <?php echo $hotcount?>]
+        ['Cold',      <?php echo $coldcount ?>],
+        ['Hot',     <?php echo $hotcount ?>]
      
        
 ]);

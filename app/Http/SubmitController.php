@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ColdController extends Controller
+class SubmitController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class ColdController extends Controller
      */
     public function index()
     {
-     //
+        //
     }
 
     /**
@@ -34,7 +34,11 @@ class ColdController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $feel = new Feel;
+        $feel ->content = $request->content;
+        $feel ->save();
+
+        return redirect('/');
     }
 
     /**
@@ -66,38 +70,9 @@ class ColdController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update()
+    public function update(Request $request, $id)
     {
-        $user = \Auth::user();
-        if ($user->sex==0){
-            if ($user->size==0){
-                $user->feel= -6;
-                $user->save();
-            }
-            elseif ($user->size==1){
-                $user->feel = -4;
-                $user->save();            
-            }
-            else{
-                $user->feel= -2;
-                $user->save();                 
-            }
-        }
-        else{
-            if ($user->size==0){
-                $user->feel = -5;
-                $user->save();
-            }
-            elseif ($user->size==1){
-                $user->feel = -3;
-                $user->save();            
-            }
-            else{
-                $user->feel = -1;
-                $user->save();                 
-            }
-        }
-        return view('result');
+        //
     }
 
     /**
