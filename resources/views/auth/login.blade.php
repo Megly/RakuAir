@@ -11,16 +11,16 @@
             {!! Form::open(['route' => 'login.post']) !!}
                 <div class="form-group">
                     <p class='sofia'>Nickname</p>
-                    {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}
+                    {!! Form::text('name', old('name'), ['class' => 'form-control', 'placeholder' => "Nickname"]) !!}
                 </div>
 
                 <div class="form-group">
                     <p class='sofia'>Password</p>
-                    {!! Form::password('password', ['class' => 'form-control']) !!}
+                    {!! Form::password('password', ['class' => 'form-control', 'placeholder' => "Password"]) !!}
                 </div>
 
-                {!! Form::submit('Log in', ['class' => 'btn btn-primary btn-block']) !!}
-            {!! Form::close() !!}
+                {!! Form::submit('Log in', ['class' => 'btn btn-primary btn-lg']) !!}
+                {!! Form::close() !!}
 
             <p class=loginhere>{!! link_to_route('signup.get', 'New user? Sign up now!') !!}</p>
         </div>

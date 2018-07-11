@@ -12,17 +12,17 @@
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
                     <p class='sofia'>Name</p>
-                    {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}
+                    {!! Form::text('name', old('name'), ['class' => 'form-control', 'placeholder' => "name"]) !!}
                 </div>
 
                 <div class="form-group">
                     <p class='sofia'>Password</p>
-                    {!! Form::password('password', ['class' => 'form-control']) !!}
+                    {!! Form::password('password', ['class' => 'form-control', 'placeholder' => "Password"]) !!}
                 </div>
 
                 <div class="form-group">
                     <p class='sofia'>Confirmation</p>
-                    {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
+                    {!! Form::password('password_confirmation', ['class' => 'form-control', 'placeholder' => "Confirmation"]) !!}
                 </div>
                 
                 <div class="form-group">
@@ -42,7 +42,7 @@
                 
 
                 {!! Form::submit('Sign up', ['class' => 'btn btn-success btn-block']) !!}
-            {!! Form::close() !!}
+                {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
         </div>

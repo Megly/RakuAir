@@ -3,7 +3,7 @@
 return array(
     
     'teams' => array(
-
+        '' => 'Choose your team',
 'RED'=>[
         1 => 'youはたまご',
         2 => 'BoB',
