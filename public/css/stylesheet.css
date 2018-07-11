@@ -36,32 +36,24 @@ h2 {
   margin-bottom: 20px;
 }
 
-.map-parent {
+
+  
+
+
+.map-child  {
   width: 100%;
+  display: inline-block;
+  height: 100%;
+  
+  
 }
-
-.map-red {
-  /*background-color: red;*/
-  width: 25%;
-  float: left;
-}
-
-.map-yellow {
-  /*background-color: yellow;*/
-  width: 25%;
-  float: left;
-}
-
-.map-pink {
-  /*background-color: pink;*/
-  width: 25%;
-  float: left;
-}
-
-.map-purple {
-  /*background-color: purple;*/
-  width: 25%;
-  float: left;
+.map-child p {
+  
+  width: 24%;
+  display: inline-block;
+  height: 700px;
+  text-align: center;
+  
 }
 
 .sofia{
