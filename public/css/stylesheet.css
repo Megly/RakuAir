@@ -9,6 +9,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.navbar {
+  background-color: white;
+}
+
+.logo {
+  width: 150px;
+  height: 38px;
+  padding-top: 10px;
+}
+
 h1 {
   color: white;
   font-family: "Sofia", cursive;
@@ -20,21 +30,48 @@ h1 {
 h2 {
   color: #6D7781;
   font-family: "Sofia", cursive;
-  font-size: 15px;
   font-weight: bold;
   font-size: 3.6em;
   text-align: center;
   margin-bottom: 20px;
 }
 
+.map-parent {
+  width: 100%;
+}
+
+.map-red {
+  /*background-color: red;*/
+  width: 25%;
+  float: left;
+}
+
+.map-yellow {
+  /*background-color: yellow;*/
+  width: 25%;
+  float: left;
+}
+
+.map-pink {
+  /*background-color: pink;*/
+  width: 25%;
+  float: left;
+}
+
+.map-purple {
+  /*background-color: purple;*/
+  width: 25%;
+  float: left;
+}
+
 .sofia{
   color: #6D7781;
   font-family: "Sofia", cursive;
-  font-size: 15px;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
+  
 }
 
 
