@@ -41,13 +41,13 @@ if($gap>=20){
 
 ?> </h1>    
 
-@include('map')
+
 
 
 @include('layouts.piegraph')
 
 @include('layouts.bargraph')
 
-
+<li>{!! link_to_route('map.get', 'map') !!}</li>
 
 @endsection

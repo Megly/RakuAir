@@ -41,3 +41,7 @@ Route::put('cold', 'ColdController@update')->name('cold');
 Route::get('result', function () {
     return view('result');
 })->name('result.get');
+
+Route::get('map', function () {
+    return view('map');
+})->name('map.get');
