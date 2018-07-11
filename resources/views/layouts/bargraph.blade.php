@@ -18,4 +18,4 @@
         }
     );
 </script>
-<div id="gct_sample_column" style="width:80%; height:250pt" ></div>
+<div id="gct_sample_column" style="width:100%; height:250pt" ></div>

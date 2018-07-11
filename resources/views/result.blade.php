@@ -10,9 +10,9 @@
 	$gap = $hot + $cold;
 	
 if($gap>=20){
-	    echo '推奨温度22度';
+	    echo 'Recommended temperature:22℃';
     	}elseif($gap <= -20){
-	    echo '推奨温度26度';;
+	    echo 'Recommended temperature:26℃';
     	}else{
 	    echo 'ええ感';
 	    }

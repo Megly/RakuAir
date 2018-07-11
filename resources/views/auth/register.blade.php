@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="content">
     <div class="text-center">
         <h2>Sign up</h2>
     </div>
@@ -46,4 +47,5 @@
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
         </div>
     </div>
+</div>
 @endsection
