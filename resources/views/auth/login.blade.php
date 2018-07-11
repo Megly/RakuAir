@@ -19,7 +19,7 @@
                     {!! Form::password('password', ['class' => 'form-control', 'placeholder' => "Password"]) !!}
                 </div>
 
-                {!! Form::submit('Log in', ['class' => 'btn btn-primary btn-lg']) !!}
+                {!! Form::submit('Log in', ['class' => 'btn btn-primary btn-block']) !!}
                 {!! Form::close() !!}
 
             <p class=loginhere>{!! link_to_route('signup.get', 'New user? Sign up now!') !!}</p>
