@@ -5,7 +5,7 @@
         function() {
             var data = google.visualization.arrayToDataTable([
                 [       '', 'Cold', 'Hot'],
-                ['now', <?php echo abs($cold) ?>,  <?php echo $hot ?>       ]
+                ['now', <?php echo abs($sumcold) ?>,  <?php echo $sumhot ?>       ]
             
             ]);
     
