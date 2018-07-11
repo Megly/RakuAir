@@ -41,11 +41,13 @@ if($gap>=20){
 
 ?> </h1>    
 
+@include('map')
+
 
 @include('layouts.piegraph')
 
 @include('layouts.bargraph')
 
-            
+
 
 @endsection
