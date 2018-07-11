@@ -3,7 +3,8 @@
 return array(
     
     'teams' => array(
-        // red
+
+'RED'=>[
         1 => 'youはたまご',
         2 => 'BoB',
         3 => 'Fortune',
@@ -12,8 +13,9 @@ return array(
         6 => 'The U.K',
         7 => 'Siésta',
         8 => 'Kolkata (カルカッタ)',
-        9 => 'TWICE',
-        // yellow
+        9 => 'TWICE'
+        ],
+'YELLOW'=>[
         10 => 'Eternal Dragon',
         11 => '卍Olive卍',
         12 => 'なだ万',
@@ -25,8 +27,9 @@ return array(
         18 => 'Letian panda',
         19 => 'Avengers',
         20 => 'CodeWars',
-        21 => 'Pandanity',
-        // pink
+        21 => 'Pandanity'
+       ], 
+'PINK'=>[     
         22 => 'Daichi+no+Megumi',
         23 => 'YAKITOMATO',
         24 => 'HRM',
@@ -38,8 +41,9 @@ return array(
         30 => 'JIAOZI',
         31 => 'TK Kingdom',
         32 => 'Jasmine',
-        33 => 'いいとも',
-        // purple
+        33 => 'いいとも'
+        ],
+'PURPLE'=>[
         34 => 'Mkpali(ムカパリ)',
         35 => 'Pocket 6',
         36 => 'チームきりんさん',
@@ -51,7 +55,8 @@ return array(
         42 => 'A BANANA',
         43 => 'Noisyy',
         44 => 'Team Kay',
-        45 => 'KEMKOW',
+        45 => 'KEMKOW'
+        ],
         
         
         ),
