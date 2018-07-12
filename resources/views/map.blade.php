@@ -29,7 +29,7 @@
 		
 		
 		<div class='map-child'>
-		
+		<h1>Red</h1>
 		@if($sumred>=60)
 	     <p style="background-color:#ff8e8e !important">hot</p>
     	@elseif( 60 > $sumred && $sumred >= 20)
