@@ -4,31 +4,110 @@
 }
 
 body {
-  background-color: black;
+  background-color: #d1f5ff;
   color: #435160;
   font-family: "Open Sans", sans-serif;
 }
 
+/* navbar.blade.php ↓　*/
 .navbar {
-  background-color: white;
+  background-color: #d1f5ff;
 }
 
-.logo {
+/* navbarの小ロゴ ↓　*/
+.logo2 {
   width: 150px;
   height: 38px;
-  padding-top: 10px;
+  margin: 10px;
 }
 
-h1 {
-  color: white;
-  font-family: "Sofia", cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
+
+
+/* welcome.blade.php ↓　*/
+/* welcomeの大ロゴ ↓　*/
+.logo1 {
+  width: 600px;
+  height: 152px;
+  margin: 150px;
+  transition: 1.5s;
 }
 
-h2 {
-  color: #6D7781;
+/* ボタン ↓　*/
+.btn {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px 11px 5px 15px;
+    text-decoration: none;
+    color: #67c5ff;
+    transition: all .5s, opacity .5s 1s, display 0s;
+    margin: 0 20px;
+}
+
+/* ボタンの左の縦棒 ↓　*/
+.btn:before {
+   position: absolute;
+   display: inline-block;
+   content: '';
+   width: 4px;
+   height: 100%;
+   top: 0;
+   left: 0;
+   border-radius: 3px;
+   background:#67c5ff;
+}
+
+/* ボタンの右の縦棒 ↓　*/
+.btn:after{
+   position: absolute;
+   display: inline-block;
+   content: '';
+   width: 4px;
+   height: 100%;
+   top:0;
+   left: 100%;
+   border-radius: 3px;
+   background:#67c5ff;
+}
+
+/* カーソルを合わせた時の棒の動きの角度 ↓　*/
+.btn:hover:before,.btn:hover:after{
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+
+/* register.blade.php ↓　*/
+/* 左側のコンテント ↓　*/
+.left-content {
+  width: 49%;
+  margin-top: 50px;
+  font-size: 70px;
+  float: left;
+}
+
+.debu {
+  color: red;
+  font-size: 90px;
+}
+
+.gari {
+  color: blue;
+  font-size: 90px;
+}
+
+/* 右側のコンテント ↓　*/
+.right-content {
+  width: 49%;
+  float: right;
+  margin-top: 20px;
+}
+
+/* signupのタイトル ↓　*/
+.sighup-title {
+  color: #5b75ad;
   font-family: "Sofia", cursive;
   font-weight: bold;
   font-size: 3.6em;
@@ -36,36 +115,120 @@ h2 {
   margin-bottom: 20px;
 }
 
-
-  
-
-
-.map-child  {
-  width: 100%;
-  display: inline-block;
-  height: 100%;
-  
-  
-}
-.map-child p {
-  
-  width: 24%;
-  display: inline-block;
-  height: 700px;
-  text-align: center;
-  
-}
-
+/* signupの質問項目 ↓　*/
 .sofia{
-  color: #6D7781;
+  color: #5b75ad;
   font-family: "Sofia", cursive;
   font-weight: bold;
   font-size: 1.4em;
   text-align: left;
   margin-bottom: 2px;
-  
 }
 
+/* signupボタン ↓　*/
+.btn-signup {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px 11px 5px 15px;
+    text-decoration: none;
+    color: #67c5ff;
+}
+
+/* already have?の部分 ↓　*/
+.loginhere {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.loginhere:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #6D7781;
+}
+
+::-webkit-input-placeholder {
+  color: #435160;
+  font-size: 12px;
+}
+
+/* login.blade.php ↓　*/
+.loginpage {
+  margin-top: 20px;
+}
+
+.btn-login {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px 11px 5px 15px;
+    text-decoration: none;
+    color: #67c5ff;
+}
+
+
+/* feel.blade.php ↓　*/
+.feelpage {
+  margin-top: 200px;
+}
+
+/* 左のコンテント ↓　*/
+.hotcontent {
+  width: 49%;
+  float: left;
+}
+
+.hotbtn{
+  display: inline;
+  float: left;
+  width: 100%;
+  background-color: red;
+}
+
+.hot-icon{
+  float: left;
+}
+
+/* 右のコンテント ↓　*/
+.coldcontent {
+  width: 49%;
+  float: right;
+}
+
+.coldbtn{
+  display: inline;
+  float: right;
+  width: 100%;
+  background-color: blue;
+}
+
+.cold-icon {
+  float: right;
+}
+
+/* map.blade.php ↓　*/
+.map-child  {
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+
+.map-child p {
+  width: 24%;
+  display: inline-block;
+  height: 700px;
+  text-align: center;
+}
+
+
+/* ここからまだ ↓　*/
 
 a {
   color: #435160;
@@ -108,60 +271,14 @@ label {
   border: 3px solid #435160;
 }
 
-.loginhere {
-  margin-top: 30px;
-  display: block;
-  font-size: 11px;
-  text-align: center;
+
+h1 {
+  color: white;
+  font-family: "Sofia", cursive;
   font-weight: bold;
-}
-.loginhere:hover {
-  margin-top: 30px;
-  display: block;
-  font-size: 11px;
   text-align: center;
-  font-weight: bold;
-  color: #6D7781;
+  margin-bottom: 20px;
 }
 
-::-webkit-input-placeholder {
-  color: #435160;
-  font-size: 12px;
-}
 
-.hotcontent {
-  width: 49%;
-  float: left;
-}
 
-.hotbtn{
-  display: inline;
-  float: left;
-  width: 100%;
-  background-color: red;
-}
-
-.hot-icon{
-  float: left;
-}
-
-.coldcontent {
-  width: 49%;
-  float: right;
-}
-
-.coldbtn{
-  display: inline;
-  float: right;
-  width: 100%;
-  background-color: blue;
-}
-
-.cold-icon {
-  float: right;
-}
-
-.content {
-  width: 50%;
-  float: right;
-}

@@ -10,7 +10,7 @@
             ]);
     
             var options = {
-                title: 'ポイント',
+                'backgroundColor': {'fill':'#d1f5ff'},
             };
     
             var chart = new google.visualization.ColumnChart(document.getElementById('gct_sample_column'));

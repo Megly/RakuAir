@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
+@include('commons.navbar')
+
 @section('content')
-<h1><?php 
+<?php 
 	// $result = DB::table('users') ->sum('feel');
 	// $hot = DB::table('users') ->where('feel','>=','0') ->sum('feel');
 	// $hotcount = DB::table('users') ->where('feel','>=','0') ->count('feel');
@@ -30,16 +32,16 @@
 	$gap = $sumhot + $sumcold;
 
 	
-if($gap>=20){
-	    echo 'Recommended temperature:22℃';
-    	}elseif($gap <= -20){
-	    echo 'Recommended temperature:26℃';
-    	}else{
-	    echo 'ええ感';
-	    }
+// if($gap>=20){
+// 	    echo 'Recommended temperature:22℃';
+//     	}elseif($gap <= -20){
+// 	    echo 'Recommended temperature:26℃';
+//     	}else{
+// 	    echo 'ええ感';
+// 	    }
 	
 
-?> </h1>    
+?>   
 
 
 
@@ -48,6 +50,6 @@ if($gap>=20){
 
 @include('layouts.bargraph')
 
-<li>{!! link_to_route('map.get', 'map') !!}</li>
+{!! link_to_route('map.get', 'map') !!}
 
 @endsection

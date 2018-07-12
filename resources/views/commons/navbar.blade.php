@@ -2,7 +2,7 @@
     <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-                <a href="/"><img class="logo" src="/images/meglylogo.jpg"></img></a>
+                <a href="/"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
             </div>
             
             <div class="container-right">

@@ -1,25 +1,27 @@
 @extends('layouts.app')
 
+@include('commons.navbar')
+
 @section('content')
 <div class='feelpage'>
    <div class='hotcontent'>
-           <div class='hotbtn'>
+           <div class='square_btn'>
                 {!! Form::open(['route' => ['hot'], 'method' => 'put']) !!}
                 {!! Form::submit('HOT', ['class' => 'btn btn-danger btn-lg btn-block']) !!}
                 {!! Form::close() !!}
            </div>
            <div class='hot-icon'>
-                <img src="http://livedoor.blogimg.jp/jin115/imgs/6/1/612dd8c5.jpg"></img>
+                <img src="#"></img>
            </div>
    </div>
    <div class='coldcontent'>
-           <div class=coldbtn>
+           <div class='square_btn'>
                 {!! Form::open(['route' => ['cold' ], 'method' => 'put']) !!}
                 {!! Form::submit('COLD', ['class' => 'btn btn-primary btn-lg btn-block']) !!}
                 {!! Form::close() !!}
            </div>
            <div class='cold-icon'>
-                <img src="https://animoo.jp/uploads/article/image/655/card_160024.jpg"></img>
+                <img src="#"></img>
            </div>
    </div>
 </div>

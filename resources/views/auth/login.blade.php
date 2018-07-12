@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="text-center">
-        <h2>Log in</h2>
+<div class="loginpage">
+    <div class="sighup-title">
+        <p>Log in</p>
     </div>
 
     <div class="row">
@@ -19,10 +20,11 @@
                     {!! Form::password('password', ['class' => 'form-control', 'placeholder' => "Password"]) !!}
                 </div>
 
-                {!! Form::submit('Log in', ['class' => 'btn btn-primary btn-block']) !!}
+                {!! Form::submit('Log in', ['class' => 'btn-login btn-block']) !!}
                 {!! Form::close() !!}
 
             <p class=loginhere>{!! link_to_route('signup.get', 'New user? Sign up now!') !!}</p>
         </div>
     </div>
+</div>
 @endsection

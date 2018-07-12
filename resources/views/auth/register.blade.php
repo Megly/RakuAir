@@ -2,8 +2,21 @@
 
 @section('content')
 <div class="content">
-    <div class="text-center">
-        <h2>Sign up</h2>
+<div class="left-content">
+    <p><span class="debu">デブ</span>と<span class="gari">ガリ</span>の<br>争いを<br>終わらせたい。</p>
+    
+    
+    
+    
+    
+    
+
+
+
+</div>
+<div class="right-content">
+    <div class="sighup-title">
+        <p>Sign up</p>
     </div>
 
     <div class="row">
@@ -41,11 +54,12 @@
                 </div>
                 
 
-                {!! Form::submit('Sign up', ['class' => 'btn btn-success btn-block']) !!}
+                {!! Form::submit('Sign up', ['class' => 'btn-signup btn-block']) !!}
                 {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
         </div>
+    </div>
     </div>
 </div>
 @endsection
