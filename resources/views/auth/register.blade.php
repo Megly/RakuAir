@@ -15,8 +15,8 @@
 
 </div>
 <div class="right-content">
-    <div class="text-center">
-        <h2>Sign up</h2>
+    <div class="sighup-title">
+        <p>Sign up</p>
     </div>
 
     <div class="row">
@@ -54,7 +54,7 @@
                 </div>
                 
 
-                {!! Form::submit('Sign up', ['class' => 'square_btn']) !!}
+                {!! Form::submit('Sign up', ['class' => 'btn-signup btn-block']) !!}
                 {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
