@@ -2,6 +2,19 @@
 
 @section('content')
 <div class="content">
+<div class="left-content">
+    <p><span class="debu">デブ</span>と<span class="gari">ガリ</span>の<br>争いを<br>終わらせたい。</p>
+    
+    
+    
+    
+    
+    
+
+
+
+</div>
+<div class="right-content">
     <div class="text-center">
         <h2>Sign up</h2>
     </div>
@@ -41,11 +54,12 @@
                 </div>
                 
 
-                {!! Form::submit('Sign up', ['class' => 'btn btn-success btn-block']) !!}
+                {!! Form::submit('Sign up', ['class' => 'square_btn']) !!}
                 {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
         </div>
+    </div>
     </div>
 </div>
 @endsection
