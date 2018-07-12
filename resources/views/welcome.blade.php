@@ -20,7 +20,7 @@
     <body>
      
             <div class="text-center">
-                <h1>RakuAir (insert logo pic)</h1><br>
+                <img class="logo2" src="/images/RakuAir6.png"></img><br>
                 {!! link_to_route('signup.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
                 <p>or</p>
                 {!! link_to_route('login', 'Login!', null, ['class' => 'btn btn-lg btn-success']) !!}
