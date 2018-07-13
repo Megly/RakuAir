@@ -102,10 +102,7 @@ body {
 /* register.blade.php ↓　******************************************************/
 /* 左側のコンテント ↓　*/
 .left-content {
-  width: 49%;
-  margin-top: 50px;
   font-size: 70px;
-  float: left;
 }
 
 .debu {
@@ -120,9 +117,7 @@ body {
 
 /* 右側のコンテント ↓　*/
 .right-content {
-  width: 49%;
-  float: right;
-  margin-top: 20px;
+
 }
 
 /* signupのタイトル ↓　*/
