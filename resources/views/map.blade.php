@@ -54,6 +54,5 @@
 		
 	</div>
 	
-{!! link_to_route('result.get', 'result') !!}
 
 @endsection
