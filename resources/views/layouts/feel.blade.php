@@ -3,7 +3,9 @@
 @include('commons.navbar')
 
 @section('content')
+
 <div class='feelpage'>
+    <h1 class ="exp">How do you feel now??</h1>
    <div class='hotcontent'>
        
         <div class='hot-icon'>

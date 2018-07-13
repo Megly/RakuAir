@@ -28,7 +28,6 @@ body {
 .logo2 {
   width: 150px;
   height: 50px;
-  margin: 10px;
 }
 
 
@@ -101,6 +100,20 @@ body {
 
 /* register.blade.php ↓　******************************************************/
 /* 左側のコンテント ↓　*/
+.ex1 {
+    text-align: center;
+    font-size: 100px;
+    color: #5b75ad;
+}
+
+.ex2 {
+    text-align: center;
+    font-size: 50px;
+    color: #5b75ad;
+}
+
+
+
 .left-content {
   width: 49%;
   margin-top: 50px;
@@ -211,6 +224,14 @@ body {
   margin-top: 0px;
 }
 
+.exp {
+    text-align: center;
+    font-size: 48px;
+    color: #5b75ad;
+}
+
+
+
 /* 左のコンテント ↓　*/
 .hotcontent {
   width: 49%;
@@ -262,7 +283,6 @@ body {
 
 .hot-icon_img{
    width: 50%;
-  height: 50%;
   margin: 10% 25%;
 }
 
@@ -318,7 +338,6 @@ body {
 
 .cold-icon_img {
   width: 50%;
-  height: 50%;
   margin: 10% 10%;
 }
 
@@ -332,9 +351,14 @@ body {
 .map-child p {
   width: 24%;
   display: inline-block;
-  height: 700px;
+  height: 500px;
   text-align: center;
+  padding: 30% 0;
+ 　z-index: 10;
+ 　font-weight: bold;
+ 　font-size: 28px !important;
 }
+
 
 /*input[type="text"], input[type="password"] {*/
 /*  width: 350px;*/

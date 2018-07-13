@@ -2,7 +2,7 @@
     <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-                <a href="/"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+                <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
             </div>
             
             <div class="container-right">

@@ -1,26 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="content">
-<div class="left-content">
-    <p><span class="debu">デブ</span>と<span class="gari">ガリ</span>の<br>争いを<br>終わらせたい。</p>
-    
-    
-    
-    
-    
-    
+<div class="container-fluid">
+    <div class="row">
+        
 
 
-
+    　<p class="ex1">汗かいてない？</p>
+     <p class="ex1">震えてない？</p>
+     
+     
+     
+    
+    <p class="ex2"></p>
+    
 </div>
-<div class="right-content">
-    <div class="sighup-title">
-        <p>Sign up</p>
+    <!--<div class="sighup-title">-->
+    <!--    <p>Sign up</p>-->
     </div>
 
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+
+        <div class="col-sm-6 col-sm-offset-3">
 
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
@@ -59,7 +59,6 @@
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
         </div>
-    </div>
     </div>
 </div>
 @endsection
