@@ -30,7 +30,7 @@
 		?>
 		
 		
-		<div class='map-child'>
+	<div class='map-child'>
 		
 		@if($sumred>=60)
 	     <p style="background-color:#ff8e8e !important">hot</p>
