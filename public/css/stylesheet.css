@@ -9,9 +9,19 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* navbar.blade.php ↓　*/
+/* navbar.blade.php ↓　********************************************************/
 .navbar {
   background-color: #d1f5ff;
+}
+
+/* カーソルを当てた時のアニメーション↓　*/
+.navbar-right:hover {
+  background-color: #5b75ad;
+}
+
+/* navbarの下線消すコード ↓　*/
+.navbar-static-top {
+  border-width: 0;
 }
 
 /* navbarの小ロゴ ↓　*/
@@ -23,16 +33,16 @@ body {
 
 
 
-/* welcome.blade.php ↓　*/
+/* welcome.blade.php ↓　*******************************************************/
 /* welcomeの大ロゴ ↓　*/
 .logo1 {
   width: 600px;
   height: 152px;
-  margin: 150px;
+  margin: 200px 0px 50px 0px;
   transition: 1.5s;
 }
 
-/* ボタン ↓　*/
+/* ボタン両方 ↓　*/
 .btn {
     position: relative;
     display: inline-block;
@@ -42,7 +52,6 @@ body {
     text-decoration: none;
     color: #67c5ff;
     transition: all .5s, opacity .5s 1s, display 0s;
-    margin: 0 20px;
 }
 
 /* ボタンの左の縦棒 ↓　*/
@@ -58,6 +67,11 @@ body {
    background:#67c5ff;
 }
 
+/* 左ボタン ↓　*/
+.square_btn1 {
+    margin-right: 100px;
+}
+
 /* ボタンの右の縦棒 ↓　*/
 .btn:after{
    position: absolute;
@@ -71,6 +85,11 @@ body {
    background:#67c5ff;
 }
 
+/* 右ボタン ↓　*/
+.square_btn2 {
+    margin-left: 100px;
+}
+
 /* カーソルを合わせた時の棒の動きの角度 ↓　*/
 .btn:hover:before,.btn:hover:after{
   -webkit-transform: rotate(20deg);
@@ -79,7 +98,7 @@ body {
 }
 
 
-/* register.blade.php ↓　*/
+/* register.blade.php ↓　******************************************************/
 /* 左側のコンテント ↓　*/
 .left-content {
   width: 49%;
@@ -144,6 +163,7 @@ body {
   text-align: center;
   font-weight: bold;
 }
+
 .loginhere:hover {
   margin-top: 30px;
   display: block;
@@ -158,9 +178,20 @@ body {
   font-size: 12px;
 }
 
-/* login.blade.php ↓　*/
+
+/* login.blade.php ↓　*********************************************************/
 .loginpage {
   margin-top: 20px;
+}
+
+/* loginのタイトル ↓　*/
+.login-title {
+  color: #5b75ad;
+  font-family: "Sofia", cursive;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .btn-login {
@@ -174,7 +205,7 @@ body {
 }
 
 
-/* feel.blade.php ↓　*/
+/* feel.blade.php ↓　**********************************************************/
 .feelpage {
   margin-top: 200px;
 }
@@ -213,7 +244,7 @@ body {
   float: right;
 }
 
-/* map.blade.php ↓　*/
+/* map.blade.php ↓　***********************************************************/
 .map-child  {
   width: 100%;
   display: inline-block;
@@ -225,22 +256,6 @@ body {
   display: inline-block;
   height: 700px;
   text-align: center;
-}
-
-
-/* ここからまだ ↓　*/
-
-a {
-  color: #435160;
-  text-decoration: none;
-}
-
-.login {
-  width: 350px;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  margin-left: -175px;
 }
 
 /*input[type="text"], input[type="password"] {*/
@@ -256,29 +271,4 @@ a {
 /*input[type=checkbox] {*/
 /*  display: none;*/
 /*}フォーム入力の背景色*/
-
-label {
-  display: block;
-  position: absolute;
-  margin-right: 10px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: transparent;
-  content: "";
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  border: 3px solid #435160;
-}
-
-
-h1 {
-  color: white;
-  font-family: "Sofia", cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-
 
