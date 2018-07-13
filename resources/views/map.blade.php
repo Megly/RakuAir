@@ -34,14 +34,9 @@
 
 		
 		<div class='map-child'>
-<<<<<<< HEAD
-		<h1>Red</h1>
-		@if($sumred>=60)
-=======
 		
 		@foreach($array as $sum)
 		@if($sum>=60)
->>>>>>> master
 	     <p style="background-color:#ff8e8e !important">hot</p>
     	@elseif( 60 > $sum && $sum >= 20)
 	     <p style="background-color:#f9bdbd !important">hot</p>

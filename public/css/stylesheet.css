@@ -36,9 +36,9 @@ body {
 /* welcome.blade.php ↓　*******************************************************/
 /* welcomeの大ロゴ ↓　*/
 .logo1 {
-  width: 600px;
-  height: 200px;
-  margin: 200px 0px 50px 0px;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 50px 0px;
   transition: 1.5s;
 }
 
@@ -153,12 +153,7 @@ body {
     font-size: x-large;
     padding: 5px 11px 5px 15px;
     text-decoration: none;
-<<<<<<< HEAD
-    /*color change*/
-    color: #5b75ad; 
-=======
     color:  #5b75ad;
->>>>>>> master
 }
 
 /* already have?の部分 ↓　*/
@@ -168,7 +163,6 @@ body {
   font-size: 11px;
   text-align: center;
   font-weight: bold;
-  color: #5b75ad;
 }
 
 .loginhere:hover {
@@ -214,26 +208,25 @@ body {
 
 /* feel.blade.php ↓　**********************************************************/
 .feelpage {
-  margin-top: 200px;
+  margin-top: 0px;
 }
 
 /* 左のコンテント ↓　*/
 .hotcontent {
   width: 49%;
   float: left;
+  text-align: center;
 }
 
 .hotbtn{
   display: inline;
-  float: left;
-  width: 100%;
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    padding: 5px 11px 5px 15px;
-    text-decoration: none;
-    color: #ff6767;
-    transition: .4s;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 11px 5px 15px;
+  text-decoration: none;
+  color: #ff6767;
+  transition: .4s;
 }
 
 .hotbtn:before {
@@ -267,27 +260,29 @@ body {
 }
 
 
-.hot-icon{
-  float: left;
+.hot-icon_img{
+   width: 50%;
+  height: 50%;
+  margin: 10% 25%;
 }
 
 /* 右のコンテント ↓　*/
 .coldcontent {
   width: 49%;
   float: right;
+  text-align: center;
 }
 
 .coldbtn{
   display: inline;
-  float: right;
-  width: 100%;
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    padding: 5px 11px 5px 15px;
-    text-decoration: none;
-    color: #67c5ff;
-    transition: .4s;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 11px 5px 15px;
+  text-decoration: none;
+  color: #67c5ff;
+  transition: .4s;
+  
 }
 
 .coldbtn:before {
@@ -321,8 +316,10 @@ body {
 }
 
 
-.cold-icon {
-  float: right;
+.cold-icon_img {
+  width: 50%;
+  height: 50%;
+  margin: 10% 10%;
 }
 
 /* map.blade.php ↓　***********************************************************/
@@ -352,5 +349,3 @@ body {
 /*input[type=checkbox] {*/
 /*  display: none;*/
 /*}フォーム入力の背景色*/
-
-
