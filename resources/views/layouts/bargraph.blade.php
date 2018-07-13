@@ -11,6 +11,8 @@
     
             var options = {
                 'backgroundColor': {'fill':'#d1f5ff'},
+                // title added
+                'title' : 'point'
             };
     
             var chart = new google.visualization.ColumnChart(document.getElementById('gct_sample_column'));
