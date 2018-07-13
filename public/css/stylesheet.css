@@ -133,7 +133,8 @@ body {
     font-size: x-large;
     padding: 5px 11px 5px 15px;
     text-decoration: none;
-    color: #67c5ff;
+    /*color change*/
+    color: #5b75ad; 
 }
 
 /* already have?の部分 ↓　*/
@@ -143,6 +144,7 @@ body {
   font-size: 11px;
   text-align: center;
   font-weight: bold;
+  color: #5b75ad;
 }
 .loginhere:hover {
   margin-top: 30px;
