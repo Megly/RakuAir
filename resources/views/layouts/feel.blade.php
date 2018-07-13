@@ -11,7 +11,7 @@
                 {!! Form::close() !!}
            </div>
            <div class='hot-icon'>
-                <img src="images/hoticon.png"></img>
+                <img src="#"></img>
            </div>
    </div>
    <div class='coldcontent'>
@@ -21,7 +21,7 @@
                 {!! Form::close() !!}
            </div>
            <div class='cold-icon'>
-                <img src="images/coldicon.png"></img>
+                <img src="#"></img>
            </div>
    </div>
 </div>
