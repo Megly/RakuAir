@@ -28,31 +28,31 @@
 		$sumpurple = $sumpurple + $feelings->feel;
 		};
 		
- $array = [$sumred,$sumyellow,$sumpink,$sumpurple]
-		?>
-		
+$array =array(
+ $sumred => 'red',
+ $sumyellow => 'yellow',
+ $sumpink => 'pink',
+ $sumpurple => 'purple')
+	?>
 
-		
-		<div class='map-child'>
-		
-		@foreach($array as $sum)
-		@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important">hot</p>
-    	@elseif( 60 > $sum && $sum >= 20)
-	     <p style="background-color:#f9bdbd !important">hot</p>
-    	@elseif( -20 >= $sum && $sum >= -60){
-	     <p style="background-color:#bdd2f9 !important">cold</p>
-    	@elseif($sum <= -60){
-	     <p style="background-color:#8ec6ff !important">cold</p>
-    	@else
-	     <p clss = map-child style="background-color:#f7fff7 !important">comfortable</p>
-    	@endif
+
+
+	<div class='map-child'>
+
+	@foreach($array as $sum => $tribe)
+	@if($sum>=60)
+	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is hot</p>
+     @elseif( 60 > $sum && $sum >= 20)
+	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is hot</p>
+     @elseif( -20 >= $sum && $sum >= -60){
+	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is cold</p>
+     @elseif($sum <= -60){
+	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is cold</p>
+     @else
+	     <p style="background-color:#f7fff7 !important"><?php echo $tribe ?> is comfortable</p>
+     @endif
 	    
 	    @endforeach
-	    
 	
-		
-	</div>
-	
-
+</div>
 @endsection

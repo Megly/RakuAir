@@ -48,7 +48,7 @@
 
 @include('layouts.piegraph')
 
-@include('layouts.bargraph')
+<!--@include('layouts.bargraph')-->
 
 
 
