@@ -99,7 +99,7 @@ class HotController extends Controller
         }
 
 
-        return view('result');
+        return view('map');
     }
 
     /**

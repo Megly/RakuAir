@@ -50,6 +50,6 @@
 
 @include('layouts.bargraph')
 
-{!! link_to_route('map.get', 'map') !!}
+
 
 @endsection

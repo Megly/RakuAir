@@ -97,7 +97,7 @@ class ColdController extends Controller
                 $user->save();                 
             }
         }
-        return view('result');
+        return view('map');
     }
 
     /**

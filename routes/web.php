@@ -45,3 +45,7 @@ Route::get('result', function () {
 Route::get('map', function () {
     return view('map');
 })->name('map.get');
+
+Route::get('feel', function () {
+    return view('layouts.feel');
+})->name('feel.get');
