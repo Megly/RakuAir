@@ -6,13 +6,11 @@
         
     @else
         <div class="text-center">
-                <img class=logo1 src="images/RakuAirBlack.png"></img><br>
-            <div class="btn-group">
-                <!--{!! link_to_route('signup.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}<br><br>-->
-                <a href="{{ route('signup.get')}}" class="btn square_btn1">Sign up</a>
-                <!--{!! link_to_route('login', 'Login!', null, ['class' => 'btn btn-lg btn-success']) !!}-->
-                <a href="{{ route('login')}}" class="btn square_btn2">Log in</a>
+            <img class=logo1 src="images/RakuAirBlack.png"></img><br>
+                <div class = "col-sm-offset-1 col-sm-5">
+                <a href="{{ route('signup.get')}}" class="btn square_btn1">Sign up</a></div>
+                <div class = "col-sm-5">
+                <a href="{{ route('login')}}" class="btn square_btn2">Log in</a></div>
             </div>
-        </div>
     @endif
 @endsection

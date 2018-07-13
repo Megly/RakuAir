@@ -3,7 +3,8 @@
 @section('content')
 <div class="content">
 <div class="left-content">
-    <p><span class="debu">デブ</span>と<span class="gari">ガリ</span>の<br>争いを<br>終わらせたい。</p>
+    <div class = "col-md-3">
+    <p><span class="debu">デブ</span>と<span class="gari">ガリ</span>の<br>争いを<br>終わらせたい。</p> </div>
     
     
     
