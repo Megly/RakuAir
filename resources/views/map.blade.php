@@ -27,68 +27,33 @@
  foreach($purple as $feelings){
 		$sumpurple = $sumpurple + $feelings->feel;
 		};
+		
+ $array = [$sumred,$sumyellow,$sumpink,$sumpurple]
 		?>
 		
+
 		
 		<div class='map-child'>
 		
-		@if($sumred>=60)
+		@foreach($array as $sum)
+		@if($sum>=60)
 	     <p style="background-color:#ff8e8e !important">hot</p>
-    	@elseif( 60 > $sumred && $sumred >= 20)
+    	@elseif( 60 > $sum && $sum >= 20)
 	     <p style="background-color:#f9bdbd !important">hot</p>
-    	@elseif( -20 >= $sumred && $sumred >= -60)
+    	@elseif( -20 >= $sum && $sum >= -60){
 	     <p style="background-color:#bdd2f9 !important">cold</p>
-    	@elseif($sumred <= -60)
+    	@elseif($sum <= -60){
 	     <p style="background-color:#8ec6ff !important">cold</p>
-    	
     	@else
 	     <p clss = map-child style="background-color:#f7fff7 !important">comfortable</p>
+    	@endif
 	    
-	    @endif
+	    @endforeach
 	    
-	    
-	    	
-		@if($sumyellow>=60)
-	     <p style="background-color:#ff8e8e !important">hot</p>
-    	@elseif( 60 > $sumyellow && $sumyellow >= 20)
-	     <p style="background-color:#f9bdbd !important">hot</p>
-    	@elseif( -20 >= $sumyellow && $sumyellow >= -60)
-	     <p style="background-color:#bdd2f9 !important">cold</p>
-   		@elseif($sumyellow <= -60)
-	     <p style="background-color:#8ec6ff !important">cold</p>
-    	@else
-	     <p style="background-color:#f7fff7 !important">comfortable</p>
-	    
-	    @endif
-	   
-	   
-	@if($sumpink>=60)
-	     <p style="background-color:#ff8e8e !important">hot</p>
-    	@elseif( 60 > $sumpink && $sumpink >= 20)
-	     <p style="background-color:#f9bdbd !important">hot</p>
-    	@elseif( -20 >= $sumpink && $sumpink >= -60)
-	     <p style="background-color:#bdd2f9 !important">cold</p>
-    	@elseif($sumpink <= -60)
-	     <p style="background-color:#8ec6ff !important">cold</p>
-    	@else
-	     <p style="background-color:#f7fff7 !important">comfortable</p>
-	    
-	    @endif
-	    
-	    
-	 @if($sumpurple>=60)
-	     <p style="background-color:#ff8e8e !important">hot</p>
-    	@elseif( 60 > $sumpurple && $sumpurple >= 20)
-	     <p style="background-color:#f9bdbd !important">hot</p>
-    	@elseif( -20 >= $sumpurple && $sumpurple >= -60)
-	     <p style="background-color:#bdd2f9 !important">cold</p>
-    	@elseif($sumpurple <= -60)
-	     <p style="background-color:#8ec6ff !important">cold</p>
-    	@else
-	     <p style="background-color:#f7fff7 !important">comfortable</p>
-	    
-	    @endif
-	    
+	
 		
 	</div>
+	
+{!! link_to_route('result.get', 'result') !!}
+
 @endsection

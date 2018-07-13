@@ -76,6 +76,7 @@ body {
   -webkit-transform: rotate(20deg);
   -ms-transform: rotate(20deg);
   transform: rotate(20deg);
+  background:#67c5ff;
 }
 
 
@@ -279,6 +280,5 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
 }
-
 
 
