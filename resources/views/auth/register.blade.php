@@ -54,7 +54,7 @@
                 </div>
                 
 
-                {!! Form::submit('Sign up', ['class' => 'btn-signup btn-block']) !!}
+                {!! Form::submit('Sign up', ['class' => 'btn btn-signup btn-block']) !!}
                 {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
