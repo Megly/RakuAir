@@ -13,10 +13,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         
+        
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
         
         <link rel="stylesheet" href="{{ secure_asset('css/stylesheet.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/css.css') }}">
     </head>
     <body>
         <!--@include('commons.navbar')-->
@@ -27,5 +29,67 @@
             @yield('content')
         </div>
     </body>
-</html
+    
+    css
+
+  <body><div class="area"></div><nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="{{ route('feel.get')}}">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                            Home
+                        </span>
+                    </a>
+                  
+                </li>
+
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-folder-open fa-2x"></i>
+                        <span class="nav-text">
+                            Pages
+                        </span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="{{ route('result.get')}}">
+                        <i class="fa fa-bar-chart-o fa-2x"></i>
+                        <span class="nav-text">
+                            Graphs and Statistics
+                        </span>
+                    </a>
+                </li>
+ 
+                <li>
+                   <a href="{{ route('map.get')}}">
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        <span class="nav-text">
+                            Maps
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <i class="fa fa-info fa-2x"></i>
+                        <span class="nav-text">
+                            Information
+                        </span>
+                    </a>
+                </li>
+         
+                <li>
+                   <a href="{{ route('logout.get')}}">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Logout
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+  </body>
+    
+</html>
 
