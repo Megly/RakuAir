@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@include('commons.navbar')
-
 @section('content')
 <?php 
 	// $result = DB::table('users') ->sum('feel');
