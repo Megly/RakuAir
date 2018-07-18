@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <?php 
 	// $result = DB::table('users') ->sum('feel');
 	// $hot = DB::table('users') ->where('feel','>=','0') ->sum('feel');
@@ -46,6 +47,7 @@
 
 @include('layouts.piegraph')
 
+@include('commons.newnavbar')
 <!--@include('layouts.bargraph')-->
 
 

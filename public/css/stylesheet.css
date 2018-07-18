@@ -3,10 +3,20 @@
   padding: 0;
 }
 
+.container {
+    width: 100%;
+}
+
 body {
   background-color: #d1f5ff;
   color: #435160;
   font-family: "Open Sans", sans-serif;
+}
+
+/* copyright*/
+footer {
+    text-align: center;
+    margin-top: 35px;
 }
 
 /* navbar.blade.php ↓　********************************************************/
@@ -33,7 +43,7 @@ body {
 
 
 /* welcome.blade.php ↓　*******************************************************/
-/* welcomeの大ロゴ ↓　*/
+/* welcomeの背景マップ*/
 .map-unko {
     width: 100%;
     height: 100%;
@@ -45,15 +55,19 @@ body {
     opacity: 0.5;
 }
 
+/* 大ロゴとボタンのdiv*/
 .text-center {
     position: absolute;
     top: 10px;
+    width: 100%;
+    z-index: 10;
 }
 
+/* welcomeの大ロゴ ↓　*/
 .logo1 {
     width: 70%;
     height: auto;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 25px 50px 0px;
     transition: 1.5s;
 }
 
@@ -67,6 +81,10 @@ body {
     text-decoration: none;
     transition: all .5s, opacity .5s 1s, display 0s;
     background-color: rgba(0,0,0,0);
+}
+
+.btn-group {
+    margin-right: 25px;
 }
 
 /* ボタンの左の縦棒 ↓　*/
@@ -84,7 +102,7 @@ body {
 
 /* 左ボタン ↓　*/
 .square_btn1 {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 /* ボタンの右の縦棒 ↓　*/
@@ -102,7 +120,7 @@ body {
 
 /* 右ボタン ↓　*/
 .square_btn2 {
-    margin-left: 100px;
+    margin-right: 25px;
 }
 
 /* カーソルを合わせた時の棒の動きの角度 ↓　*/
@@ -114,8 +132,8 @@ body {
 }
 
 
+
 /* register.blade.php ↓　******************************************************/
-/* 左側のコンテント ↓　*/
 .ex1 {
     text-align: center;
     font-size: 100px;
@@ -128,26 +146,24 @@ body {
     color: #5b75ad;
 }
 
+/*.left-content {*/
+/*  font-size: 70px;*/
+/*}*/
 
+/*.debu {*/
+/*  color: red;*/
+/*  font-size: 90px;*/
+/*}*/
 
-.left-content {
-  font-size: 70px;
-}
-
-.debu {
-  color: red;
-  font-size: 90px;
-}
-
-.gari {
-  color: blue;
-  font-size: 90px;
-}
+/*.gari {*/
+/*  color: blue;*/
+/*  font-size: 90px;*/
+/*}*/
 
 /* 右側のコンテント ↓　*/
-.right-content {
+/*.right-content {*/
 
-}
+/*}*/
 
 /* signupのタイトル ↓　*/
 .sighup-title {
@@ -204,6 +220,7 @@ body {
 }
 
 
+
 /* login.blade.php ↓　*********************************************************/
 .loginpage {
   margin-top: 20px;
@@ -230,24 +247,29 @@ body {
 }
 
 
+
 /* feel.blade.php ↓　**********************************************************/
 .feelpage {
   margin-top: 0px;
 }
 
-.exp {
+.explanation {
     text-align: center;
     font-size: 48px;
     color: #5b75ad;
+    margin: 50px 0px;
 }
-
-
 
 /* 左のコンテント ↓　*/
 .hotcontent {
-  width: 49%;
+  width: 40%;
   float: left;
   text-align: center;
+  margin-left: 10%;
+}
+
+.hot-icon_img{
+   width: 50%;
 }
 
 .hotbtn{
@@ -259,6 +281,7 @@ body {
   text-decoration: none;
   color: #ff6767;
   transition: .4s;
+  margin-top: 25px;
 }
 
 .hotbtn:before {
@@ -291,17 +314,16 @@ body {
   transform: rotate(10deg);
 }
 
-
-.hot-icon_img{
-   width: 50%;
-  margin: 10% 25%;
-}
-
 /* 右のコンテント ↓　*/
 .coldcontent {
-  width: 49%;
+  width: 40%;
   float: right;
   text-align: center;
+  margin-right: 10%;
+}
+
+.cold-icon_img {
+  width: 50%;
 }
 
 .coldbtn{
@@ -313,7 +335,7 @@ body {
   text-decoration: none;
   color: #67c5ff;
   transition: .4s;
-  
+  margin-top: 25px;
 }
 
 .coldbtn:before {
@@ -347,22 +369,18 @@ body {
 }
 
 
-.cold-icon_img {
-  width: 50%;
-  margin: 10% 10%;
-}
 
 /* map.blade.php ↓　***********************************************************/
 .map-child  {
   width: 100%;
   display: inline-block;
   height: 100%;
+  text-align: center;
 }
 
 .map-child p {
   width: 24%;
   display: inline-block;
-  height: 500px;
   text-align: center;
   padding: 30% 0;
  　z-index: 0;

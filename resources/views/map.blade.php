@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('commons.newnavbar')
+
 @section('content')
 
 
