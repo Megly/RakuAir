@@ -444,6 +444,7 @@ footer {
   display: inline-block;
   height: 100%;
   text-align: center;
+  /*margin-top: 65px;*/
 }
 
 .map-child p {
@@ -457,12 +458,16 @@ footer {
   font-size: 28px !important;
 }
 
+
+
 /* result.blade.php ↓　***********************************************************/
 .result-top {
     margin-top: 100px;
 }
 
 
+
+/* teammaps ↓　***********************************************************/
 .tribe {
     margin-top: 60px;
 }
