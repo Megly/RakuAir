@@ -7,6 +7,12 @@
      <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
+<div class="map-detaile">
+        <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>
+	    <p>{!! link_to_route('yellow.get', 'Yellow tribe datails') !!}</p>
+	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> 
+	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>
+</div>	    
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
  $sumred = 0;
@@ -43,7 +49,7 @@ $array =array(
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is ☀</p>
+	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> </p>
      @elseif( 60 > $sum && $sum >= 20)
 	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is ☀</p>
      @elseif( -20 >= $sum && $sum >= -60)
@@ -57,10 +63,11 @@ $array =array(
 	    @endforeach
 	
 </div>
-
-     <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>
-	    <p>{!! link_to_route('yellow.get', 'Yellow tribe datails') !!}</p>
-	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> 
-	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>
+<!--<div class="map-detaile">-->
+<!--        <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>-->
+<!--	    <p>{!! link_to_route('yellow.get', 'Yellow tribe datails') !!}</p>-->
+<!--	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> -->
+<!--	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>-->
+<!--</div>	    -->
 	    
 @endsection

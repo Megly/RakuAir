@@ -38,7 +38,6 @@ footer {
 .logo2 {
   width: 150px;
   height: 50px;
-  position: fixed;
 }
 
 
@@ -137,7 +136,7 @@ footer {
 /* register.blade.php ↓　******************************************************/
 .ex1 {
     text-align: center;
-    font-size: 75px;
+    font-size: 100px;
     color: #5b75ad;
 }
 
@@ -442,7 +441,6 @@ footer {
 .map-child  {
   width: 100%;
   display: inline-block;
-  height: 100%;
   text-align: center;
 }
 
@@ -455,17 +453,28 @@ footer {
   font-family: sofia;
   font-weight: bold;
   font-size: 28px !important;
+  
 }
 
+.map-detaile {
+    width: 100%;
+  text-align: center;
+}
+.map-detaile p {
+    display: inline-block;
+    width: 24%;
+    margin-top: 30px;
+    
+}
 /* result.blade.php ↓　***********************************************************/
 .result-top {
     margin-top: 100px;
 }
 
-
 .tribe {
-    margin-top: 60px;
+    margin-top: 10px;
 }
+
 
 /*input[type="text"], input[type="password"] {*/
 /*  width: 350px;*/
