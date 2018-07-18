@@ -3,13 +3,17 @@
 <!--@include('commons.navbar')-->
 
 @section('content')
+<div class="icon-image">
+    <img class="logo2" src="/images/RakuAirBlack.png"></img>
+</div>
+
 <div class="container-fluid">
     <div class="row">
         
 
 
-    　<p class="ex1">汗かいてない？</p>
-      <p class="ex1">震えてない？</p>
+    　<p class="ex1">Yes RakuAir</p>
+      <p class="ex1">Yes Life</p>
      
      
      

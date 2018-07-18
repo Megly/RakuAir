@@ -4,6 +4,10 @@
 
 @section('content')
 
+<div class="icon-image">
+    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
+
 <div class='feelpage'>
     <div class="explanation">How do you feel now??</div>
     
@@ -15,7 +19,7 @@
         </div>
         <div class='hotbtn'>
                 {!! Form::open(['route' => ['hot'], 'method' => 'put']) !!}
-                {!! Form::submit('HOT', ['class' => 'btn  btn-lg btn-block']) !!}
+                {!! Form::submit('HOT', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
     </div>
@@ -29,6 +33,19 @@
         <div class='coldbtn'>
                 {!! Form::open(['route' => ['cold' ], 'method' => 'put']) !!}
                 {!! Form::submit('COLD', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+   </div>
+   
+    <div class='comcontent'>
+        <div class='com-icon'>
+                {!! Form::open(['route' => ['com' ], 'method' => 'put']) !!}
+                {!! Form::image('images/coldicon2.png', 'btnSub', ['class' => 'cold-icon_img']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='combtn'>
+                {!! Form::open(['route' => ['com' ], 'method' => 'put']) !!}
+                {!! Form::submit('COMFORTABLE', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
    </div>

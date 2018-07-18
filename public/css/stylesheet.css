@@ -20,24 +20,20 @@ footer {
 }
 
 /* navbar.blade.php ↓　********************************************************/
-.navbar {
-  background-color: #d1f5ff;
-}
-
-/* カーソルを当てた時のアニメーション↓　*/
-.navbar-right:hover {
-  background-color: #5b75ad;
-}
+/*.navbar {*/
+/*  background-color: #d1f5ff;*/
+/*}*/
 
 /* navbarの下線消すコード ↓　*/
-.navbar-static-top {
-  border-width: 0;
-}
+/*.navbar-static-top {*/
+/*  border-width: 0;*/
+/*}*/
 
 /* navbarの小ロゴ ↓　*/
 .logo2 {
   width: 150px;
   height: 50px;
+  position: fixed;
 }
 
 
@@ -67,7 +63,7 @@ footer {
 .logo1 {
     width: 70%;
     height: auto;
-    margin: 0px 25px 50px 0px;
+    margin: 100px 0px 50px 0px;
     transition: 1.5s;
 }
 
@@ -135,6 +131,7 @@ footer {
 
 /* register.blade.php ↓　******************************************************/
 .ex1 {
+    font-family: "Sofia", cursive;
     text-align: center;
     font-size: 8vw;
     color: #5b75ad;
@@ -262,14 +259,14 @@ footer {
 
 /* 左のコンテント ↓　*/
 .hotcontent {
-  width: 40%;
+  width: 33%;
   float: left;
   text-align: center;
-  margin-left: 10%;
+  /*margin-left: 10%;*/
 }
 
 .hot-icon_img{
-   width: 50%;
+   width: 33%;
 }
 
 .hotbtn{
@@ -314,16 +311,70 @@ footer {
   transform: rotate(10deg);
 }
 
+/* comfortableのコンテント ↓　*/
+.comcontent {
+  width: 33%;
+  float: left;
+  text-align: center;
+  /*margin-right: 10%;*/
+}
+
+.com-icon_img {
+  width: 33%;
+}
+
+.combtn{
+  display: inline;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 11px 5px 15px;
+  text-decoration: none;
+  color: #67c5ff;
+  transition: .4s;
+  margin-top: 25px;
+}
+
+.combtn:before {
+   position: absolute;
+   display: inline-block;
+   content: '';
+   width: 4px;
+   height: 100%;
+   top: 0;
+   left: 0;
+   border-radius: 3px;
+   background:#67c5ff;
+}
+
+.combtn:after{
+   position: absolute;
+   display: inline-block;
+   content: '';
+   width: 4px;
+   height: 100%;
+   top:0;
+   left: 100%;
+   border-radius: 3px;
+   background:#67c5ff;
+}
+
+.combtn:hover:before,.combtn:hover:after{
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
 /* 右のコンテント ↓　*/
 .coldcontent {
-  width: 40%;
+  width: 33%;
   float: right;
   text-align: center;
-  margin-right: 10%;
+  /*margin-right: 10%;*/
 }
 
 .cold-icon_img {
-  width: 50%;
+  width: 33%;
 }
 
 .coldbtn{
@@ -379,7 +430,7 @@ footer {
 }
 
 .map-child p {
-  width: 24%;
+  width: 20%;
   display: inline-block;
   text-align: center;
   padding: 30% 0;
@@ -387,6 +438,20 @@ footer {
  　font-weight: bold;
  　font-size: 28px !important;
 }
+
+.maplinks  {
+  ;
+}
+
+.maplinks p {
+  
+}
+
+/* result.blade.php ↓　***********************************************************/
+.result-top {
+    margin-top: 50px;
+}
+
 
 
 /*input[type="text"], input[type="password"] {*/

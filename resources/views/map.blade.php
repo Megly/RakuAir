@@ -3,7 +3,9 @@
 @include('commons.newnavbar')
 
 @section('content')
-
+<div class="icon-image">
+     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
 
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
@@ -58,12 +60,13 @@ $array =array(
 	    
 	    @endforeach
 	    
-	 
+</div>
+<div class= 'maplinks'>
 	    
-	    {!! link_to_route('red.get', 'Red tribe datails') !!}
-	    {!! link_to_route('yellow.get', 'Yellow tribe datails') !!}	
-	    {!! link_to_route('pink.get', 'Pink tribe datails') !!}	    
-	    {!! link_to_route('purple.get', 'Purple tribe datails') !!}	    
+	    <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>
+	    <p>{!! link_to_route('yellow.get', 'Yellow tribe datails') !!}</p>
+	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> 
+	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>    
 
 	
 </div>

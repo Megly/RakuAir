@@ -1,3 +1,9 @@
+<div class="icon-image">
+    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
+
+<div class="result-top">
+
 <script type="text/javascript">
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
@@ -5,7 +11,9 @@ function drawChart() {
 var data = google.visualization.arrayToDataTable([ //グラフデータの指定
         ['Task', 'Hours per Day'],
         ['Cold',    <?php echo $countcold ?>],
-        ['Hot',     <?php echo $counthot ?>]
+        ['Hot',     <?php echo $counthot ?>],
+        ['Comfortable',     <?php echo $countcom ?>]
+        
      
        
 ]);
@@ -18,3 +26,5 @@ var chart = new google.visualization.PieChart(document.getElementById('piechart'
 }
 </script>
 <div id="piechart"></div>
+
+</div>
