@@ -7,17 +7,17 @@
 
 
     　<p class="ex1">汗かいてない？</p>
-     <p class="ex1">震えてない？</p>
+      <p class="ex1">震えてない？</p>
      
      
      
     
-    <p class="ex2"></p>
+      <p class="ex2"></p>
     
-</div>
+    </div>
     <!--<div class="sighup-title">-->
     <!--    <p>Sign up</p>-->
-    </div>
+</div>
 
 
         <div class="col-sm-6 col-sm-offset-3">
