@@ -4,13 +4,13 @@
     google.setOnLoadCallback(
         function() {
             var data = google.visualization.arrayToDataTable([
-                [       '', 'Cold', 'Hot'],
+                [  '', 'Cold', 'Hot'],
                 ['now', <?php echo abs($sumcold) ?>,  <?php echo $sumhot ?>       ]
             
             ]);
     
-            var options = {
-                'backgroundColor': {'fill':'#d1f5ff'},
+        　　var options = {
+                'backgroundColor': {'fill':'#002560'},
                 // title added
                 'title' : 'point'
             };
