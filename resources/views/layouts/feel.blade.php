@@ -40,7 +40,7 @@
     <div class='comcontent'>
         <div class='com-icon'>
                 {!! Form::open(['route' => ['com' ], 'method' => 'put']) !!}
-                {!! Form::image('images/coldicon2.png', 'btnSub', ['class' => 'cold-icon_img']) !!}
+                {!! Form::image('images/thumbup.png', 'btnSub', ['class' => 'com-icon_img']) !!}
                 {!! Form::close() !!}
         </div>
         <div class='combtn'>
