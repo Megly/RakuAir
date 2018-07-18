@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@include('commons.navbar')
-
 @section('content')
 
 

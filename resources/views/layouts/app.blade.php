@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="{{ secure_asset('css/css.css') }}">
     </head>
     <body>
+        
         <!--@include('commons.navbar')-->
 
         <div class="container">
@@ -28,58 +29,37 @@
 
             @yield('content')
         </div>
-    </body>
     
-    css
-
-  <body><div class="area"></div><nav class="main-menu">
-            <ul>
-                <li>
-                    <a href="{{ route('feel.get')}}">
-                        <i class="fa fa-home fa-2x"></i>
+<div class="cp_cont">
+    <div class="cp_offcm01">
+            <input type="checkbox" id="cp_toggle01">
+            <label for="cp_toggle01"><span></span></label>
+        <div class="cp_menu">
+        <ul>
+            <li><a href="{{ route('feel.get')}}">
+                  <i class="fa fa-home fa-2x"></i>
                         <span class="nav-text">
                             Home
                         </span>
-                    </a>
-                  
-                </li>
-
-                <li class="has-subnav">
-                    <a href="#">
-                       <i class="fa fa-folder-open fa-2x"></i>
+                </a></li>
+             <li>
+                    <a href="{{ route('result.get')}}">
+                        <i class="fa fa-bar-chart-o fa-2x"></i>
                         <span class="nav-text">
-                            Pages
+                            Graph
                         </span>
                     </a>
                 </li>
                 
-                <li>
-                    <a href="{{ route('result.get')}}">
-                        <i class="fa fa-bar-chart-o fa-2x"></i>
-                        <span class="nav-text">
-                            Graphs and Statistics
-                        </span>
-                    </a>
-                </li>
- 
-                <li>
-                   <a href="{{ route('map.get')}}">
+                <li><a href="{{ route('map.get')}}">
                         <i class="fa fa-map-marker fa-2x"></i>
                         <span class="nav-text">
-                            Maps
+                            Map
                         </span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                            Information
-                        </span>
-                    </a>
-                </li>
-         
-                <li>
+                
+              <li>
                    <a href="{{ route('logout.get')}}">
                          <i class="fa fa-power-off fa-2x"></i>
                         <span class="nav-text">
@@ -87,9 +67,11 @@
                         </span>
                     </a>
                 </li>  
-            </ul>
-        </nav>
-  </body>
+        </ul>
+        </div>
+    </div>
+</div>
+</body>
     
 </html>
 
