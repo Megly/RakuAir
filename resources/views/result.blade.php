@@ -37,10 +37,24 @@
 //     	}elseif($gap <= -20){
 // 	    echo 'Recommended temperature:26℃';
 //     	}else{
-// 	    echo 'ええ感';
+// 	    echo 'ええ感';s
 // 	    }
+$hot3 = App\User::all()->where('feel','>','0')->('team','>=','1')->('team','<=','10'); //テーブルのfeelカラムを配列として取得
+	$sumhotred = 0;
+ 	foreach($hot3 as $feelings){
+		$sumhot3 = $sumhot3 + $feelings->feel;
+	}
+ 
+$cold3 = App\User::all()->where('feel','<','0')->('team','>=','1')->('team','<=','10');
+$sumcoldred = 0;
+	foreach($cold3 as $feelings3){
+		$sumcoldred = $sumcoldred + $feelings->feel;
+		$gap = $sumhot + $sumcold;
+	}
 	
-
+	
+	}
+	
 ?>   
 
 

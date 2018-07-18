@@ -41,15 +41,15 @@ $array =array(
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is hot</p>
+	     <p class="col-xs-3 col-sm-3 col-md-3" style="background-color:#ff8e8e  !important"><?php echo $tribe ?> is hot</p>
      @elseif( 60 > $sum && $sum >= 20)
-	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is hot</p>
+	     <p class="col-xs-3 col-sm-3 col-md-3" style="background-color:#f9bdbd !important"><?php echo $tribe ?> is hot</p>
      @elseif( -20 >= $sum && $sum >= -60){
-	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is cold</p>
+	     <p class="col-xs-3 col-sm-3 col-md-3" style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is cold</p>
      @elseif($sum <= -60){
-	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is cold</p>
+	     <p class="col-xs-3 col-sm-3 col-md-3" style="background-color:#8ec6ff !important"><?php echo $tribe ?> is cold</p>
      @else
-	     <p style="background-color:#f7fff7 !important"><?php echo $tribe ?> is comfortable</p>
+	     <p class="col-xs-3 col-sm-3 col-md-3" style="background-color:#f7fff7 !important"><?php echo $tribe ?> is comfortable</p>
      @endif
 	    
 	    @endforeach
