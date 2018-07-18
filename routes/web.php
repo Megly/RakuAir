@@ -37,6 +37,7 @@ Route::post('submit', 'Auth\SubmitController@submit')->name('submit.post');
 
 Route::put('hot', 'HotController@update')->name('hot');
 Route::put('cold', 'ColdController@update')->name('cold');
+Route::put('com', 'ComController@update')->name('com');
 
 Route::get('result', function () {
     return view('result');

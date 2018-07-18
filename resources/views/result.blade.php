@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
 <?php 
 	// $result = DB::table('users') ->sum('feel');
 	// $hot = DB::table('users') ->where('feel','>=','0') ->sum('feel');
@@ -16,6 +15,12 @@
 		$counthot = $counthot + 1 ;
 	}
 	
+	
+	$com1 = App\User::all()->where('feel','==','0'); //テーブルのfeelカラムを配列として取得
+	$countcom = 0;
+	foreach($com1 as $feelings2){
+		$countcom = $countcom + 1 ;
+	}
 
 	// $cold = DB::table('users') ->where('feel','<=','0') ->sum('feel');
   	// $coldcount = DB::table('users') ->where('feel','<=','0') ->count('feel');
@@ -38,18 +43,14 @@
 //     	}else{
 // 	    echo 'ええ感';
 // 	    }
-	
-
-?>   
 
 
-
+?>
 
 @include('layouts.piegraph')
 
+
 @include('commons.newnavbar')
 <!--@include('layouts.bargraph')-->
-
-
 
 @endsection

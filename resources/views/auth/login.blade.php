@@ -2,6 +2,10 @@
 
 
 @section('content')
+<div class="icon-image">
+    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
+
 <div class="loginpage">
     <div class="login-title">
         <p>Log in</p>

@@ -3,7 +3,9 @@
 @include('commons.newnavbar')
 
 @section('content')
-
+<div class="icon-image">
+     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
 
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
