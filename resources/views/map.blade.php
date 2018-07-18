@@ -35,32 +35,29 @@ $array =array(
  $sumyellow => 'yellow',
  $sumpink => 'pink',
  $sumpurple => 'purple');
- 
-
- 
-	?>
+?>
 
 
 
-	<div class='map-child'>
+	<div class='map'>
 
 	    @foreach($array as $sum => $tribe)
 	　
 	    @if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is hot</p>
+	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is very hot</p>
      @elseif( 60 > $sum && $sum >= 20)
 	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is hot</p>
      @elseif( -20 >= $sum && $sum >= -60){
 	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is cold</p>
      @elseif($sum <= -60){
-	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is cold</p>
+	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is very cold</p>
      @else
 	     <p style="background-color:#f7fff7 !important"><?php echo $tribe ?> is comfortable</p>
      @endif
 	    
 	    @endforeach
 	    
-</div>
+
 <div class= 'maplinks'>
 	    
 	    <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>
@@ -68,6 +65,6 @@ $array =array(
 	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> 
 	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>    
 
-	
+</div>
 </div>
 @endsection

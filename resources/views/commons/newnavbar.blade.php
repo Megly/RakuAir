@@ -1,3 +1,4 @@
+<div class="newnav"></div>
 <div class="cp_cont">
     <div class="cp_offcm01">
             <input type="checkbox" id="cp_toggle01">
@@ -34,4 +35,5 @@
         </ul>
         </div>
     </div>
+</div>
 </div>
