@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #d1f5ff;
+  background-color: #fffef4;
   color: #435160;
   font-family: "Open Sans", sans-serif;
 }
@@ -449,7 +449,7 @@ footer {
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 

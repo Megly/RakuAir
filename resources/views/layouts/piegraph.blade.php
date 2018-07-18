@@ -18,8 +18,7 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
        
 ]);
 var options = { //オプションの指定
-        'backgroundColor': {'fill':'#d1f5ff'},
-
+        'backgroundColor': {'fill':'#fffef4'},
 };
 var chart = new google.visualization.PieChart(document.getElementById('piechart')); //グラフを表示させる要素の指定
     chart.draw(data, options);
