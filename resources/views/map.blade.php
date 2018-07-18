@@ -51,10 +51,16 @@ $array =array(
      @elseif($sum <= -60)
 	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is ❆</p>
      @else
-	     <p style="background-color:#f7fff7 !important"><?php echo $tribe ?> is OK</p>
+	     <p style="background-color:#03eb89 !important"><?php echo $tribe ?> is OK</p>
      @endif
 	    
 	    @endforeach
 	
 </div>
+
+     <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>
+	    <p>{!! link_to_route('yellow.get', 'Yellow tribe datails') !!}</p>
+	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> 
+	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>
+	    
 @endsection
