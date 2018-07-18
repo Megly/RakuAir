@@ -10,7 +10,7 @@
 body {
   background-color: #fffef4;
   color: #435160;
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
 }
 
 /* copyright*/
@@ -20,20 +20,24 @@ footer {
 }
 
 /* navbar.blade.php ↓　********************************************************/
-/*.navbar {*/
-/*  background-color: #d1f5ff;*/
-/*}*/
+.navbar {
+  background-color: #d1f5ff;
+}
+
+/* カーソルを当てた時のアニメーション↓　*/
+.navbar-right:hover {
+  background-color: #5b75ad;
+}
 
 /* navbarの下線消すコード ↓　*/
-/*.navbar-static-top {*/
-/*  border-width: 0;*/
-/*}*/
+.navbar-static-top {
+  border-width: 0;
+}
 
 /* navbarの小ロゴ ↓　*/
 .logo2 {
   width: 150px;
   height: 50px;
-  position: fixed;
 }
 
 
@@ -54,7 +58,7 @@ footer {
 /* 大ロゴとボタンのdiv*/
 .text-center {
     position: absolute;
-    top: 10px;
+    top: 100px;
     width: 100%;
     z-index: 10;
     margin-top: 100px;
@@ -132,9 +136,8 @@ footer {
 
 /* register.blade.php ↓　******************************************************/
 .ex1 {
-    font-family: "Sofia", cursive;
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     color: #5b75ad;
 }
 
@@ -163,6 +166,13 @@ footer {
 
 /*}*/
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sofia", cursive;
+}
+
+
 /* signupのタイトル ↓　*/
 .sighup-title {
   color: #5b75ad;
@@ -181,6 +191,11 @@ footer {
   font-size: 1.4em;
   text-align: left;
   margin-bottom: 2px;
+}
+
+/* signupの入力内容　*/
+.form{
+    font-family: arial;
 }
 
 /* signupボタン ↓　*/
@@ -260,14 +275,14 @@ footer {
 
 /* 左のコンテント ↓　*/
 .hotcontent {
-  width: 33%;
+  width: 40%;
   float: left;
   text-align: center;
-  /*margin-left: 10%;*/
+  margin-left: 10%;
 }
 
 .hot-icon_img{
-   width: 33%;
+   width: 50%;
 }
 
 .hotbtn{
@@ -366,16 +381,17 @@ footer {
   transform: rotate(10deg);
 }
 
+
 /* 右のコンテント ↓　*/
 .coldcontent {
-  width: 33%;
+  width: 40%;
   float: right;
   text-align: center;
-  /*margin-right: 10%;*/
+  margin-right: 10%;
 }
 
 .cold-icon_img {
-  width: 33%;
+  width: 50%;
 }
 
 .coldbtn{
@@ -435,15 +451,17 @@ footer {
   display: inline-block;
   text-align: center;
   padding: 30% 0;
- 　z-index: 0;
- 　font-weight: bold;
- 　font-size: 28px !important;
+  z-index: 0;
+  font-family: sofia;
+  font-weight: bold;
+  font-size: 28px !important;
 }
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
     margin-top: 100px;
 }
+
 
 
 
