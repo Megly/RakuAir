@@ -37,7 +37,7 @@ cursor: pointer;
 transition: 0.53s transform;
 -webkit-transition-timing-function: cubic-bezier(.38,.52,.23,.99);
 transition-timing-function: cubic-bezier(.38,.52,.23,.99);
-background-color: #d1f5ff;
+background-color: #5b75ad;
 opacity: 0.8;
 }
 .cp_offcm01 .cp_menu ul {
@@ -51,8 +51,8 @@ list-style: none;
 display: block;
 padding: 20px;
 text-decoration: none;
-color: #5b75ad;
-border-bottom: 1px solid #5b75ad;
+color: #fffef4;
+border-bottom: 1px solid #fffef4;
 }
 .cp_offcm01 #cp_toggle01 {
 position: absolute;
