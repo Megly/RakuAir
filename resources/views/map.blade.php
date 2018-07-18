@@ -32,15 +32,19 @@ $array =array(
  $sumred => 'red',
  $sumyellow => 'yellow',
  $sumpink => 'pink',
- $sumpurple => 'purple')
+ $sumpurple => 'purple');
+ 
+
+ 
 	?>
 
 
 
 	<div class='map-child'>
 
-	@foreach($array as $sum => $tribe)
-	@if($sum>=60)
+	    @foreach($array as $sum => $tribe)
+	　
+	    @if($sum>=60)
 	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is hot</p>
      @elseif( 60 > $sum && $sum >= 20)
 	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is hot</p>
@@ -53,6 +57,14 @@ $array =array(
      @endif
 	    
 	    @endforeach
+	    
+	 
+	    
+	    {!! link_to_route('red.get', 'Red tribe datails') !!}
+	    {!! link_to_route('yellow.get', 'Yellow tribe datails') !!}	
+	    {!! link_to_route('pink.get', 'Pink tribe datails') !!}	    
+	    {!! link_to_route('purple.get', 'Purple tribe datails') !!}	    
+
 	
 </div>
 @endsection
