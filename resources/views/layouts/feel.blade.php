@@ -33,5 +33,18 @@
         </div>
    </div>
    
+   <div class='cotcontent'>
+        <div class='con-icon'>
+                {!! Form::open(['route' => ['con' ], 'method' => 'put']) !!}
+                {!! Form::image('images/hoticon2.png', 'btnSub', ['class' => 'hot-icon_img']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='conbtn'>
+                {!! Form::open(['route' => ['con'], 'method' => 'put']) !!}
+                {!! Form::submit('Con', ['class' => 'btn  btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+    </div>
+   
 </div>
 @endsection

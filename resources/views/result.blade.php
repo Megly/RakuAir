@@ -37,10 +37,14 @@
 //     	}elseif($gap <= -20){
 // 	    echo 'Recommended temperature:26℃';
 //     	}else{
-// 	    echo 'ええ感';
+// 	    echo 'ええ感';s
 // 	    }
-	
 
+$users = DB::table('users')->where('team','>','0')->where('team','<','10');
+$redsum = $users->sum('feel');
+
+echo $redsum; 
+	
 ?>   
 
 
