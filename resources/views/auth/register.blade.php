@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="icon-image">
-    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+    <img class="logo2" src="/images/RakuAirBlack.png"></img>
 </div>
 
 <div class="container-fluid">
