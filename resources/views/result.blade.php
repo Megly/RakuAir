@@ -40,7 +40,10 @@
 // 	    echo 'ええ感';
 // 	    }
 	
+$users = DB::table('users')->where('team','>','0')->where('team','<','10');
+$redsum = $users->sum('feel');
 
+echo $redsum;
 ?>   
 
 
