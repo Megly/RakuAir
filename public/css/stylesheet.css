@@ -132,7 +132,9 @@ footer {
   background: #5b75ad;
 }
 
-
+.teams {
+    font-family: fantasy !important;
+}
 
 /* register.blade.php ↓　******************************************************/
 .ex1 {
@@ -456,9 +458,21 @@ footer {
   font-weight: bold;
   font-size: 28px !important;
 }
+<<<<<<< HEAD
 
 .maplinks  {
   ;
+=======
+.map-detail {
+    width: 100%;
+  text-align: center;
+}
+.map-detaile p {
+    display: inline-block;
+    width: 24%;
+    margin-top: 30px;
+    
+>>>>>>> master
 }
 
 .maplinks p {

@@ -1,3 +1,5 @@
+
+<div class="teams">
 <?php
 
 return array(
@@ -65,3 +67,4 @@ return array(
     );
         
 ?>
+</div>
