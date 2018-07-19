@@ -13,12 +13,12 @@
 $i = 0;
 $redteam = array(
         1 => 'youはたまご',
-        2 => 'BoB',
-        3 => 'Fortune',
-        4 => 'Ra Ra Ra RIZAP',
-        5 => 'ぽなるけみり',
-        6 => 'The U.K',
-        7 => 'Siésta',
+        2 => 'Ra Ra Ra RIZAP',
+        3 => 'BoB',
+        4 => 'Fortune',
+        5 => 'Siésta',
+        6 => 'ぽなるけみり',
+        7 => 'The U.K',
         8 => 'Kolkata (カルカッタ)',
         9 => 'TWICE');
         
