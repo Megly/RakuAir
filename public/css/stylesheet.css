@@ -458,11 +458,6 @@ footer {
   font-weight: bold;
   font-size: 28px !important;
 }
-<<<<<<< HEAD
-
-.maplinks  {
-  ;
-=======
 .map-detail {
     width: 100%;
   text-align: center;
@@ -472,7 +467,6 @@ footer {
     width: 24%;
     margin-top: 30px;
     
->>>>>>> master
 }
 
 .maplinks p {
