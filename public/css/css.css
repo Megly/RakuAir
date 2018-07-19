@@ -1,5 +1,5 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-}
+
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 
 
@@ -66,7 +66,6 @@ transform: translateX(-100vw);
 /* menu toggle */
 .cp_offcm01 #cp_toggle01 ~ label {
 display: block;
-padding: 0.5em;
 cursor: pointer;
 -webkit-transition: 0.5s transform;
 transition: 0.5s transform;

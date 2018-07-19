@@ -9,7 +9,7 @@
 </div>
 
 <div class='feelpage'>
-    <div class="explanation">How do you feel now??</div>
+    <div class="explanation">How do you feel now?</div>
     
     <div class='hotcontent'>
         <div class='hot-icon'>

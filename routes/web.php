@@ -51,9 +51,11 @@ Route::get('feel', function () {
     return view('layouts.feel');
 })->name('feel.get');
 
-Route::get('red', function () {return view('teammaps.red');})->name('red.get');
-Route::get('yellow', function () {return view('teammaps.yellow');})->name('yellow.get');
-Route::get('pink', function () {return view('teammaps.pink');})->name('pink.get');
-Route::get('purple', function () {return view('teammaps.purple');})->name('purple.get');
-
-
+Route::get('red', function () {
+    return view('teammaps.red');})->name('red.get');
+Route::get('yellow', function () {
+    return view('teammaps.yellow');})->name('yellow.get');
+Route::get('pink', function () {
+    return view('teammaps.pink');})->name('pink.get');
+Route::get('purple', function () {
+    return view('teammaps.purple');})->name('purple.get');
