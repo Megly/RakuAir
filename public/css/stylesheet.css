@@ -474,6 +474,16 @@ footer {
     text-align: center;
 }
 
+/*.blink-red {*/
+/*  animation: blinkAnime 1s infinite alternate;*/
+/*}*/
+/*@keyframes blinkAnime{*/
+/*   0% { color: #000000 }*/
+/* 100% { color: red }*/
+/*}点滅するアニメーション*/
+
+
+
 /* result.blade.php ↓　***********************************************************/
 .result-top {
     margin-top: 100px;
