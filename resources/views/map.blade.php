@@ -37,10 +37,10 @@
 		};
 		
 $array =array(
- $sumred => 'red',
- $sumyellow => 'yellow',
- $sumpink => 'pink',
- $sumpurple => 'purple')
+ $sumred => 'Red',
+ $sumyellow => 'Yellow',
+ $sumpink => 'Pink',
+ $sumpurple => 'Purple')
 	?>
 
 
