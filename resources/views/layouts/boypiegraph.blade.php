@@ -1,7 +1,3 @@
-<div class="icon-image">
-    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
-</div>
-
 <div class="result-top">
 
 <script type="text/javascript">
@@ -10,21 +6,21 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 var data = google.visualization.arrayToDataTable([ //グラフデータの指定
         ['Task', 'Hours per Day'],
-        ['Cold',    <?php echo $countcold ?>],
-        ['Hot',     <?php echo $counthot ?>],
-        ['Comfortable',     <?php echo $countcom ?>]
+        ['Cold',    <?php echo $countboycold ?>],
+        ['Hot',     <?php echo $countboyhot ?>],
+        ['Comfortable',     <?php echo $countcomboy ?>]
         
      
        
 ]);
 var options = { //オプションの指定
-         title: 'All',
+         title: 'Men',
         'backgroundColor': {'fill':'#fffef4'},
 };
-var chart = new google.visualization.PieChart(document.getElementById('piechart')); //グラフを表示させる要素の指定
+var chart = new google.visualization.PieChart(document.getElementById('boypiechart')); //グラフを表示させる要素の指定
     chart.draw(data, options);
 }
 </script>
-<div id="piechart"></div>
+<div id="boypiechart"></div>
 
 </div>
