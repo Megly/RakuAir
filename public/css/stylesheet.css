@@ -41,9 +41,11 @@ footer {
   height: 50px;
 }
 
-.hot {
-    width: 50px;
+.feelings {
     text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 10%;
 }
 
 

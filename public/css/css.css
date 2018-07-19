@@ -41,10 +41,7 @@ background-color: #5b75ad;
 opacity: 0.8;
 
 }
-.cp_menu .p {
-  text-align: center;
-  width: 50px;
-}
+
     
 
 .cp_offcm01 .cp_menu ul {
@@ -56,10 +53,17 @@ list-style: none;
 }
 .cp_offcm01 .cp_menu li a {
 display: block;
-padding: 20px;
+padding: 10px;
 text-decoration: none;
 color: #fffef4;
 border-bottom: 1px solid #fffef4;
+
+
+}
+.cp_offcm01 .cp_menu li img {
+ max-width: 50%;
+  margin-left: 25%;
+ 
 }
 .cp_offcm01 #cp_toggle01 {
 position: absolute;
@@ -97,6 +101,10 @@ content: '\f00d';
 .cp_contents {
 color: #5b75ad;
 text-align: center;
+}
+
+.nav-text {
+  font-size: 2em;
 }
 
 @font-face {
