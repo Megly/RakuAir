@@ -46,5 +46,11 @@ for ($i=1; $i<10; $i++){
 
 </div>
 
+        <div class='clear1abtn'>
+                {!! Form::open(['route' => ['clear1a' ], 'method' => 'put']) !!}
+                {!! Form::submit('1a温度変えました', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+
 
 @endsection

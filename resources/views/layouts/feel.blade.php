@@ -48,6 +48,10 @@
                 {!! Form::submit('COMFORTABLE', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
+        
+                {!! Form::open(['route' => ['clear1a' ], 'method' => 'put']) !!}
+                {!! Form::submit('1a温度変えました', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
    </div>
    
 </div>

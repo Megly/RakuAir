@@ -59,3 +59,5 @@ Route::get('pink', function () {
     return view('teammaps.pink');})->name('pink.get');
 Route::get('purple', function () {
     return view('teammaps.purple');})->name('purple.get');
+    
+Route::put('clear1a', 'Clear1AController@a1')->name('clear1a');
