@@ -50,7 +50,7 @@ $array =array(
      @elseif($sum <= -60)
 	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is ❆</p>
      @else
-	     <p style="background-color:#03eb89 !important"><?php echo $tribe ?> is OK</p>
+	     <p style="background-color:#a8ffda !important"><?php echo $tribe ?> is OK</p>
      @endif
 	    
 	    @endforeach
