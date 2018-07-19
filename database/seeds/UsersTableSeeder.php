@@ -11,7 +11,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 1; $i <= 300; $i++) {
+        for ($i = 1; $i <= 250; $i++) {
         DB::table('users')->insert([
             'name' => str_random(10),
             'password' => bcrypt('secret'),
@@ -21,6 +21,6 @@ class UsersTableSeeder extends Seeder
             'feel' => rand(-6,6),
         
         ]);
-        }
     }
+}
 }

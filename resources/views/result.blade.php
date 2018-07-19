@@ -34,10 +34,7 @@
 		$countcold = $countcold + 1 ;
 	}
 	
-	
-	
-	
-	
+
 
  $girlhot = App\User::all()->where('sex','1')->where('feel','>','0');
  $countgirlhot = 0;
