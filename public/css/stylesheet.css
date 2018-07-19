@@ -131,7 +131,9 @@ footer {
   background: #5b75ad;
 }
 
-
+.teams {
+    font-family: fantasy !important;
+}
 
 /* register.blade.php ↓　******************************************************/
 .ex1 {
@@ -456,7 +458,7 @@ footer {
   font-size: 28px !important;
   
 }
-.map-detaile {
+.map-detail {
     width: 100%;
   text-align: center;
 }
