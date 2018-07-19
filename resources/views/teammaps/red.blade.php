@@ -11,7 +11,17 @@
 <div class="tribe">
 <?php
 $i = 0;
-
+$redteam = array(
+        1 => 'youはたまご',
+        2 => 'BoB',
+        3 => 'Fortune',
+        4 => 'Ra Ra Ra RIZAP',
+        5 => 'ぽなるけみり',
+        6 => 'The U.K',
+        7 => 'Siésta',
+        8 => 'Kolkata (カルカッタ)',
+        9 => 'TWICE');
+        
  ${"team".$i} = NULL;
 for ($i=1; $i<10; $i++){
  ${"team".$i} = App\User::all()->where('team',$i);
@@ -20,16 +30,15 @@ for ($i=1; $i<10; $i++){
 	${"sum".$i} = ${"sum".$i} + $feelings->feel;
 }
      if(${"sum".$i}>=10)
-	    echo '<p style="background-color:#ff8e8e !important">☀very hot☀</p>';
+	    echo '<p style="background-color:#ff8e8e !important">'.$redteam[$i].' is ☀very hot☀</p>';
      elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
-	     echo '<p style="background-color:#f9bdbd !important">☀hot☀</p>';
+	     echo '<p style="background-color:#f9bdbd !important">'.$redteam[$i].' is ☀hot☀</p>';
      elseif( -5 >= ${"sum".$i} && ${"sum".$i} >= -10)
-	     echo '<p style="background-color:#bdd2f9 !important">❆cold❆</p>';
+	     echo '<p style="background-color:#bdd2f9 !important">'.$redteam[$i].' is ❆cold❆</p>';
      elseif(${"sum".$i} <= -10)
-	     echo '<p style="background-color:#8ec6ff !important">❆very cold❆</p>';
+	     echo '<p style="background-color:#8ec6ff !important">'.$redteam[$i].' is ❆very cold❆</p>';
      else
-	     echo '<p style="background-color:#a8ffda !important">comfortable</p>';
-    
+	     echo '<p style="background-color:#a8ffda !important">'.$redteam[$i].' is comfortable</p>';
     
 };
 
