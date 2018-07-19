@@ -7,14 +7,14 @@ return array(
     'teams' => array(
         '' => 'Choose your team',
 'RED'=>[
-        1 => 'youはたまご',
-        2 => 'BoB',
-        3 => 'Fortune',
-        4 => 'Ra Ra Ra RIZAP',
-        5 => 'ぽなるけみり',
-        6 => 'The U.K',
-        7 => 'Siésta',
-        8 => 'Kolkata (カルカッタ)',
+        1 => 'BoB'youはたまご,
+        2 => 'Ra Ra Ra RIZAP',
+        3 => 'youはたまご'BoB,
+        4 => 'Fortune',
+        5 => 'ぽなるけみり'Siésta,
+        6 => 'The U.K'ぽなるけみり,
+        7 => 'Siésta'The U.K,
+        8 => 'Kolkata (カルカッタ)'TWICE,
         9 => 'TWICE'
         ],
 'YELLOW'=>[
