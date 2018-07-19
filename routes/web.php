@@ -51,6 +51,12 @@ Route::get('feel', function () {
     return view('layouts.feel');
 })->name('feel.get');
 
+
+Route::get('introduction', function () {
+    return view('introduction');
+})->name('introduction.get');
+
+
 Route::get('red', function () {
     return view('teammaps.red');})->name('red.get');
 Route::get('yellow', function () {

@@ -498,3 +498,15 @@ footer {
 /*input[type=checkbox] {*/
 /*  display: none;*/
 /*}フォーム入力の背景色*/
+
+
+
+/*introduction のcss*/
+
+h1{
+   text-align:center;
+}
+
+.life{
+    margin-bottom:50px;
+}
