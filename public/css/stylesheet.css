@@ -65,7 +65,7 @@ footer {
 
 /* welcomeの大ロゴ ↓　*/
 .logo1 {
-    width: 40%;
+    width: 30%;
     height: auto;
     margin: 0px 0px 50px 0px;
     transition: 1.5s;
@@ -170,14 +170,14 @@ footer {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Sofia", cursive;
+  font-family: cursive;
 }
 
 
 /* signupのタイトル ↓　*/
 .sighup-title {
   color: #5b75ad;
-  font-family: "Sofia", cursive;
+  font-family: cursive;
   font-weight: bold;
   font-size: 3.6em;
   text-align: center;
@@ -187,7 +187,7 @@ footer {
 /* signupの質問項目 ↓　*/
 .sofia{
   color: #5b75ad;
-  font-family: "Sofia", cursive;
+  font-family: cursive;
   font-weight: bold;
   font-size: 1.4em;
   text-align: left;
@@ -243,7 +243,7 @@ footer {
 /* loginのタイトル ↓　*/
 .login-title {
   color: #5b75ad;
-  font-family: "Sofia", cursive;
+  font-family: cursive;
   font-weight: bold;
   font-size: 3.6em;
   text-align: center;
@@ -453,7 +453,7 @@ footer {
   text-align: center;
   padding: 30% 0;
   z-index: 0;
-  font-family: sofia;
+  font-family: cursive;
   font-weight: bold;
   font-size: 28px !important;
   
@@ -470,7 +470,9 @@ footer {
     font-weight: bold;
     
 }
-
+.tribe {
+    text-align: center;
+}
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
