@@ -25,7 +25,7 @@ $purpleteam = array(
         44 => 'Team Kay',
         45 => 'KEMKOW');
  ${"team".$i} = NULL;
-for ($i=33; $i<46; $i++){
+for ($i=34; $i<46; $i++){
  ${"team".$i} = App\User::all()->where('team',$i);
  	 ${"sum".$i} = 0;
  	foreach( ${"team".$i} as $feelings){
