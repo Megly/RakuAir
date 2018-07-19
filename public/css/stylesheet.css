@@ -55,6 +55,23 @@ footer {
     opacity: 0.5;
 }
 
+.map-child  {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.map-child p {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding: 30% 0; 
+  z-index: 0;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px !important;
+}
+
 /* 大ロゴとボタンのdiv*/
 .text-center {
     position: absolute;
@@ -133,6 +150,23 @@ footer {
 
 .teams {
     font-family: fantasy !important;
+}
+
+.map-child  {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.map-child p {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding: 30% 0; 
+  z-index: 0;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px !important;
 }
 
 /* register.blade.php ↓　******************************************************/
@@ -440,48 +474,85 @@ footer {
 
 
 /* map.blade.php ↓　***********************************************************/
-.map-child  {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  /*margin-top: 65px;*/
-}
-
-.map-child p {
-  width: 24%;
-  display: inline-block;
-  text-align: center;
-  padding: 30% 0;
-  z-index: 0;
-  font-family: cursive;
-  font-weight: bold;
-  font-size: 28px !important;
-  
-}
 .map-detail {
     width: 100%;
   text-align: center;
+  margin-bottom: 10px;
 }
-.map-detail p {
+
+.map-detail a {
     display: inline-block;
     width: 24%;
     margin-top: 30px;
     font-size: 20px;
     font-weight: bold;
-    
-}
-.tribe {
-    text-align: center;
 }
 
-/*.blink-red {*/
-/*  animation: blinkAnime 1s infinite alternate;*/
-/*}*/
-/*@keyframes blinkAnime{*/
-/*   0% { color: #000000 }*/
-/* 100% { color: red }*/
-/*}点滅するアニメーション*/
+.btn-master {
+    padding: 15px 70px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    border-radius: 5px;
+}
 
+.btn-jedi {
+    /*color: #fff !important;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 10px 0 0 0;
+}
+.btn-jedi:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.btn-red {color: #ff1c1c !important; background-color: #ffbcbc;}
+.btn-yellow {color: #d8c638 !important; background-color: #ffffbc;}
+.btn-pink {color: #ff2baf !important; background-color: #ffcbea;}
+.btn-purple {color: #ce21ff !important; background-color: #f0bcff;}
+/*.tribe {text-align: center;}*/
+
+.red-tribe {font-size: 30px;}
+.yellow-tribe {font-size: 30px;}
+.pink-tribe {font-size: 30px;}
+.purple-tribe {font-size: 30px;}
+
+.map-child2  {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.map-child2 p {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding: 15% 0; 
+  z-index: 0;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px !important;
+}
+
+/*点滅するアニメーション*/
+.blink-veryhot {animation: blinkAnime .2s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
+}
+
+.blink-hot {animation: blinkAnime 1s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
+}
 
 
 /* result.blade.php ↓　***********************************************************/

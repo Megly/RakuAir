@@ -8,11 +8,13 @@
 </div>
 
 <div class="map-detail">
-        <p>{!! link_to_route('red.get', 'Red tribe detail') !!}</p>
-	    <p>{!! link_to_route('yellow.get', 'Yellow tribe detail') !!}</p>
-	    <p>{!! link_to_route('pink.get', 'Pink tribe detail') !!}</p> 
-	    <p>{!! link_to_route('purple.get', 'Purple tribe detail') !!}</p>
-</div>	    
+        <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> tribe detail</a>
+        <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> tribe detail</a>
+        <a class="btn-master btn-jedi btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> tribe detail</a>
+        <a class="btn-master btn-jedi btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> tribe detail</a>
+</div>
+
+
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
  $sumred = 0;
@@ -45,13 +47,13 @@ $array =array(
 
 
 
-	<div class='map-child'>
+<div class='map-child2'>
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is ☀☀<p>
+	     <p style="background-color:#ff8e8e !important"><span class="blink-veryhot"><?php echo $tribe ?> is ☀very hot!☀</span></p>
      @elseif( 60 > $sum && $sum >= 20)
-	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is ☀</p>
+	     <p style="background-color:#f9bdbd !important"><span class="blink-hot"><?php echo $tribe ?> is hot☀</span></p>
      @elseif( -20 >= $sum && $sum >= -60)
 	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is ❆</p>
      @elseif($sum <= -60)
@@ -63,11 +65,4 @@ $array =array(
 	    @endforeach
 	
 </div>
-<!--<div class="map-detaile">-->
-<!--        <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>-->
-<!--	    <p>{!! link_to_route('yellow.get', 'Yellow tribe datails') !!}</p>-->
-<!--	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> -->
-<!--	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>-->
-<!--</div>	    -->
-	    
 @endsection
