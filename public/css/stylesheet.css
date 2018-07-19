@@ -517,7 +517,6 @@ footer {
 .btn-yellow {color: #d8c638 !important; background-color: #ffffbc;}
 .btn-pink {color: #ff2baf !important; background-color: #ffcbea;}
 .btn-purple {color: #ce21ff !important; background-color: #f0bcff;}
-/*.tribe {text-align: center;}*/
 
 .red-tribe {font-size: 30px;}
 .yellow-tribe {font-size: 30px;}
@@ -563,6 +562,7 @@ footer {
 /* teammaps ↓　***********************************************************/
 .tribe {
     margin-top: 10px;
+    text-align: center;
 }
 
 
