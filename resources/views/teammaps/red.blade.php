@@ -30,13 +30,13 @@ for ($i=1; $i<10; $i++){
 	${"sum".$i} = ${"sum".$i} + $feelings->feel;
 }
      if(${"sum".$i}>=10)
-	    echo '<p style="background-color:#ff8e8e !important">'.$redteam[$i].' is ☀very hot☀</p>';
+	    echo '<p style="background-color:#ff8e8e !important">'.$redteam[$i].' is ☀very hot☀　2℃下げましょう</p>';
      elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
-	     echo '<p style="background-color:#f9bdbd !important">'.$redteam[$i].' is ☀hot☀</p>';
+	     echo '<p style="background-color:#f9bdbd !important">'.$redteam[$i].' is ☀hot☀　1℃下げましょう</p>';
      elseif( -5 >= ${"sum".$i} && ${"sum".$i} >= -10)
-	     echo '<p style="background-color:#bdd2f9 !important">'.$redteam[$i].' is ❆cold❆</p>';
+	     echo '<p style="background-color:#bdd2f9 !important">'.$redteam[$i].' is ❆cold❆　1℃上げましょう</p>';
      elseif(${"sum".$i} <= -10)
-	     echo '<p style="background-color:#8ec6ff !important">'.$redteam[$i].' is ❆very cold❆</p>';
+	     echo '<p style="background-color:#8ec6ff !important">'.$redteam[$i].' is ❆very cold❆　2℃上げましょう</p>';
      else
 	     echo '<p style="background-color:#a8ffda !important">'.$redteam[$i].' is comfortable</p>';
     
