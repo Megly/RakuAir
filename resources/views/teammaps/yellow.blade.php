@@ -28,7 +28,7 @@ for ($i=10; $i<22; $i++){
      elseif(${"sum".$i} <= -10)
 	     echo '<p style="background-color:#8ec6ff !important">❆very cold❆</p>';
      else
-	     echo '<p style="background-color:#03eb89 !important">comfortable</p>';
+	     echo '<p style="background-color:#a8ffda !important">comfortable</p>';
     
     
 };
