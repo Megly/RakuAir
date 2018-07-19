@@ -7,7 +7,7 @@
             <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-home fa-2x"></i>
-                   <span class="nav-text">Home</span>
+                   <span class="nav-text">Feel</span>
                 </a>
             </li>
             
