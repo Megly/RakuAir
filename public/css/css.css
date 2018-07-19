@@ -39,7 +39,14 @@ transition: 0.53s transform;
 transition-timing-function: cubic-bezier(.38,.52,.23,.99);
 background-color: #5b75ad;
 opacity: 0.8;
+
 }
+.cp_menu .p {
+  text-align: center;
+  width: 50px;
+}
+    
+
 .cp_offcm01 .cp_menu ul {
 margin: 0;
 padding: 0;
