@@ -290,11 +290,11 @@ footer {
     color:  #5b75ad;
 }
 
-/* manipulation.blae.php */
+/* manipulation.blade.php *****************************************************/
 .asakai {
     float: left;
     width: 49%;
-}
+}S
 
 .remote {
     float: right;
@@ -502,8 +502,9 @@ footer {
 
 
 /* map.blade.php ↓　***********************************************************/
+/*mapの上のボタン↓*/
 .map-detail {
-    width: 100%;
+  width: 100%;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -511,7 +512,7 @@ footer {
 .map-detail a {
     display: inline-block;
     width: 24%;
-    margin-top: 30px;
+    margin: 30px 3px 0px 3px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -546,25 +547,58 @@ footer {
 .btn-pink {color: #ff2baf !important; background-color: #ffcbea;}
 .btn-purple {color: #ce21ff !important; background-color: #f0bcff;}
 
+/*tribeの文字*/
 .red-tribe {font-size: 30px; color: #ff1c1c;}
 .yellow-tribe {font-size: 30px; color: #d8c638;}
 .pink-tribe {font-size: 30px; color: #ff2baf;}
 .purple-tribe {font-size: 30px; color: #ce21ff;}
 
+
+.tribe-brother {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.red-tribe-map {
+    display: inline-block;
+    margin: 1px 1px;
+    text-align: center;
+    width: 25%;
+}
+
+.yellow-tribe-map {
+    display: inline-block;
+    margin: 1px 1px;
+    text-align: center;
+    width: 24%;
+}
+
+.pink-tribe-map {
+    display: inline-block;
+    margin: 1px 1px;
+    text-align: center;
+    width: 24%;
+}
+
+.purple-tribe-map {
+    display: inline-block;
+    margin: 1px 1px;
+    text-align: center;
+    width: 25%;
+}
+
 .map-child2  {
   width: 100%;
   display: inline-block;
   text-align: center;
-  height: 10px;
-  /*margin-top: 65px;*/
 }
 
 .map-child2 p {
   width: 24%;
   display: inline-block;
   text-align: center;
-  padding: 15% 0; 
-  z-index: 0;
+  padding: 15% 0;
   font-family: cursive;
   font-weight: bold;
   font-size: 28px !important;
@@ -581,6 +615,18 @@ footer {
 @keyframes blinkAnime{
    0% { color: #000000 }
  100% { color: red }
+}
+
+.blink-verycold {animation: blinknoAnime .2s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.blink-cold {animation: blinknoAnime 1s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
 }
 
 /*map color info*/
@@ -622,7 +668,6 @@ footer {
 .grah:hover {
     transform: scale(1.5);    
 }
-
 
 
 

@@ -52,8 +52,6 @@ $redteam = array(
 ?>
 
 </div>
-<<<<<<< HEAD
-=======
 
  <!--色説明-->
    <div class="tribecolor">
@@ -64,5 +62,4 @@ $redteam = array(
         <img class="verycold" src="/images/verycold.png"></img> :very cold
    </div>
 
->>>>>>> master
 @endsection

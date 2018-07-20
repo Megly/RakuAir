@@ -55,16 +55,6 @@ for ($i=10; $i<22; $i++){
 
 </div>
 
-
-
-
-
-<<<<<<< HEAD
-
-=======
-</div>
->>>>>>> master
-
  <!--色説明-->
    <div class="tribecolor">
         <img class="veryhot" src="/images/veryhot.png"></img>:very hot

@@ -44,9 +44,9 @@
                 </div>
 
                 <div class="form-group">
-                    <p class='sofia'>Confirmation</p>
+                    <p class='sofia'>Password (Confirmation)</p>
                     <div class="form">
-                    {!! Form::password('password_confirmation', ['class' => 'form-control', 'placeholder' => "Confirmation"]) !!}
+                    {!! Form::password('password_confirmation', ['class' => 'form-control', 'placeholder' => "Password (Confirmation)"]) !!}
                     </div>
                 </div>
                 
