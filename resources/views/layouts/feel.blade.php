@@ -3,12 +3,11 @@
 @include('commons.newnavbar')
 
 @section('content')
-
 <div class="icon-image">
     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
-<div class='feelpage'>
+<div class="feel-page">
     <div class="explanation">How do you feel now?</div>
     
     <div class='hotcontent'>
@@ -24,7 +23,7 @@
         </div>
     </div>
    
-   <div class='coldcontent'>
+    <div class='coldcontent'>
         <div class='cold-icon'>
                 {!! Form::open(['route' => ['cold' ], 'method' => 'put']) !!}
                 {!! Form::image('images/coldicon2.png', 'btnSub', ['class' => 'cold-icon_img']) !!}
@@ -35,7 +34,7 @@
                 {!! Form::submit('COLD', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
-   </div>
+    </div>
    
     <div class='comcontent'>
         <div class='com-icon'>
@@ -48,9 +47,7 @@
                 {!! Form::submit('COMFORTABLE', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
-        
-
-   </div>
+    </div>
    
 </div>
 @endsection

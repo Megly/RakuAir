@@ -7,6 +7,56 @@
      <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
+
+<?php
+ $red = App\User::all()->where('team','>','0')->where('team','<','10');
+ $sumred = 0;
+ 	foreach($red as $feelings){
+		$sumred = $sumred + $feelings->feel;
+		};
+		
+ $yellow = App\User::all()->where('team','>','9')->where('team','<','22');
+ $sumyellow = 0;
+ foreach($yellow as $feelings){
+		$sumyellow = $sumyellow + $feelings->feel;
+		};
+ $pink = App\User::all()->where('team','>','21')->where('team','<','34');
+ $sumpink = 0;
+ foreach($pink as $feelings){
+		$sumpink = $sumpink + $feelings->feel;
+		};
+ $purple = App\User::all()->where('team','>','33')->where('team','<','46');
+ $sumpurple = 0;
+ foreach($purple as $feelings){
+		$sumpurple = $sumpurple + $feelings->feel;
+		};
+		
+$array =array(
+ $sumred => 'Red',
+ $sumyellow => 'Yellow',
+ $sumpink => 'Pink',
+ $sumpurple => 'Purple')
+	?>
+
+
+
+<div class='map-child2'>
+
+	@foreach($array as $sum => $tribe)
+	@if($sum>=60)
+	     <p><span class="blink-veryhot"><?php echo $tribe ?> is 激熱</span></p>
+     @elseif( 60 > $sum && $sum >= 20)
+	     <p><span class="blink-hot"><?php echo $tribe ?> is 熱</span></p>
+     @elseif( -20 >= $sum && $sum >= -60)
+	     <p><span class="blink-cold"><?php echo $tribe ?> is 寒</span></p>
+     @elseif($sum <= -60)
+	     <p><span class="blink-veryhot"><?php echo $tribe ?> is 極寒</span></p>
+     @else
+	     <p><?php echo $tribe ?> is 快適</p>
+     @endif
+	    
+	    @endforeach
+
 <div class="map-detail">
         <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> tribe's map</a>
         <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> tribe's map</a>
@@ -179,55 +229,6 @@ for ($i=34; $i<46; $i++){
 </div>
 </div>
 
-<?php
- $red = App\User::all()->where('team','>','0')->where('team','<','10');
- $sumred = 0;
- 	foreach($red as $feelings){
-		$sumred = $sumred + $feelings->feel;
-		};
-		
- $yellow = App\User::all()->where('team','>','9')->where('team','<','22');
- $sumyellow = 0;
- foreach($yellow as $feelings){
-		$sumyellow = $sumyellow + $feelings->feel;
-		};
- $pink = App\User::all()->where('team','>','21')->where('team','<','34');
- $sumpink = 0;
- foreach($pink as $feelings){
-		$sumpink = $sumpink + $feelings->feel;
-		};
- $purple = App\User::all()->where('team','>','33')->where('team','<','46');
- $sumpurple = 0;
- foreach($purple as $feelings){
-		$sumpurple = $sumpurple + $feelings->feel;
-		};
-		
-$array =array(
- $sumred => 'Red',
- $sumyellow => 'Yellow',
- $sumpink => 'Pink',
- $sumpurple => 'Purple')
-	?>
-
-
-
-<div class='map-child2'>
-
-	@foreach($array as $sum => $tribe)
-	@if($sum>=60)
-	     <p><span class="blink-veryhot"><?php echo $tribe ?>激熱</span></p>
-     @elseif( 60 > $sum && $sum >= 20)
-	     <p><span class="blink-hot"><?php echo $tribe ?>熱</span></p>
-     @elseif( 60 > $sum && $sum >= 20)
-     @elseif( -20 >= $sum && $sum >= -60)
-	     <p><span class="blink-cold"><?php echo $tribe ?>寒</span></p>
-     @elseif($sum <= -60)
-	     <p><span class="blink-veryhot"><?php echo $tribe ?>極寒</span></p>
-     @else
-	     <p><?php echo $tribe ?>快適</p>
-     @endif
-	    
-	    @endforeach
 
     <!--色説明-->
    <div class="colorinfo">
