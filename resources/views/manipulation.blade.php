@@ -9,21 +9,21 @@
 </div>
 
 <div class='manipulationpage'>
-    <div class="explanation">各エリアの温度調整／リモコンの操作方法</div>
+    <div class="explanation">How can we adjust temperature in each areas?</div>
         <div class="asakai">
-            <h1>見取り図（Asakai Theatre A）</h1><br>
-                <p>リモコンの色が各エリア（トライブ）の色に相当します。</p>
-                <p>※緑のエリアはトライブが重なっている部分を示しています。</p>
-                <p>（例）PinkトライブのエリアB　→　黄色/緑のリモコン</p>
+            <h1>Sketch（Asakai Theatre A）</h1><br>
+                <p>The colors of the remote controllers equivalent to the colors of the areas (tribes).</p>
+                <p>*The area of green stands for the area which 2 tribes are mixed.</p>
+                <p>Ex.) area B of Pink tribe >>> Go to the yellow/green controller. </p>
                 <img class="map" src="/images/Map.png"></img><br><br><br><br><br><br><br>
         </div>
     
         
         <div class="remote">
-            <h1>リモコンの見方</h1><br>
-                <p>赤枠内のボタンが各エリアに相当します。</p>
-                <p>※A～Gまでないリモコンもあります。</p>
-                <p>（例）エリアC　→　①Cボタンをpush　②「室温調節」ボタンで温度調節</p>
+            <h1>How to manipulate the controllers</h1><br>
+                <p>Each buttoms in the red line equivalent to the areas shown on the map.</p>
+                <p>*Not all the controllers have A-G.</p>
+                <p>Ex.) area C >>> 1.Press the buttom "C" twice.  2.Press the buttom "室温調節" to adjust temperature.</p>
                 <div class=remotes>
                     <img class="remote1" src="/images/RemoteClose.jpg"></img>
                     <img class="remote2" src="/images/RemoteOpen.jpg"></img>
