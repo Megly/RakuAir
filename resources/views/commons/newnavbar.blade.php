@@ -8,42 +8,42 @@
             <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-info-circle fa-2x"></i>
-                   <span class="nav-text"> Desc.</span>
+                   <span class="nav-text iconpos"> Desc.</span>
                 </a>
             </li> 
             
             <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-book fa-2x"></i>
-                   <span class="nav-text"> How to</span>
+                   <span class="nav-text iconpos"> How to</span>
                 </a>
             </li> 
             
             <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-home fa-2x"></i>
-                   <span class="nav-text"> Feel</span>
+                   <span class="nav-text iconpos"> Feel</span>
                 </a>
             </li>
             
             <li>
                 <a href="{{ route('result.get')}}">
-                    <i class="fa fa-bar-chart-o fa-2x"></i>
-                    <span class="nav-text"> Graph</span>
+                    <i class="fa fa-bar-chart-o fa-2x" style="font-size:26px"></i>
+                    <span class="nav-text iconpos2"> Graph</span>
                 </a>
             </li>
                 
             <li>
                 <a href="{{ route('map.get')}}">
-                    <i class="fa fa-map-marker fa-2x"></i>
-                    <span class="nav-text"> Map</span>
+                    <i class="fa fa-map-marker fa-2x" style="font-size:35px"></i>
+                    <span class="nav-text iconpos"> Map</span>
                 </a>
             </li>
                 
             <li>
                 <a href="{{ route('logout.get')}}">
                     <i class="fa fa-power-off fa-2x"></i>
-                    <span class="nav-text"> Logout</span>
+                    <span class="nav-text iconpos"> Logout</span>
                 </a>
             </li>  
             

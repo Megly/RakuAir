@@ -107,6 +107,18 @@ text-align: center;
   font-size: 2em;
 }
 
+/*icon position*/
+.iconpos {
+    margin-left: 10px;
+}
+
+.iconpos2 {
+    margin-left: 5px;
+}
+
+
+
+
 /*@font-face {*/
 /*  font-family: 'Titillium Web';*/
 /*  font-style: normal;*/
