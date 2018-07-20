@@ -24,7 +24,8 @@ $pinkteam = array (
         31 => '御富士も梅雨',
         32 => 'JIAOZI',
         33 => 'いいとも');
-        
+$user = \Auth::user();
+$userteam = $user->team;        
  ${"team".$i} = NULL;
  
 for ($i=22; $i<34; $i++){
@@ -34,15 +35,15 @@ for ($i=22; $i<34; $i++){
 	${"sum".$i} = ${"sum".$i} + $feelings->feel;
 }
      if(${"sum".$i}>=10)
-	    echo '<p style="background-color:#ff8e8e !important">'.$pinkteam[$i].' is ☀very hot☀ 2℃下げましょう</p>';
+	    echo '<p style="background-color:#ff8e8e !important">'.$pinkteam[$i].'</p>';
      elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
-	     echo '<p style="background-color:#f9bdbd !important">'.$pinkteam[$i].' is ☀hot☀　1℃下げましょう</p>';
+	     echo '<p style="background-color:#f9bdbd !important">'.$pinkteam[$i].'</p>';
      elseif( -5 >= ${"sum".$i} && ${"sum".$i} >= -10)
-	     echo '<p style="background-color:#bdd2f9 !important">'.$pinkteam[$i].' is ❆cold❆　1℃上げましょう</p>';
+	     echo '<p style="background-color:#bdd2f9 !important">'.$pinkteam[$i].'</p>';
      elseif(${"sum".$i} <= -10)
-	     echo '<p style="background-color:#8ec6ff !important">'.$pinkteam[$i].' is ❆very cold❆　2℃上げましょう</p>';
+	     echo '<p style="background-color:#8ec6ff !important">'.$pinkteam[$i].'</p>';
      else
-	     echo '<p style="background-color:#a8ffda !important">'.$pinkteam[$i].' is comfortable</p>';
+	     echo '<p style="background-color:#a8ffda !important">'.$pinkteam[$i].'</p>';
     
     
 };
@@ -52,25 +53,31 @@ for ($i=22; $i<34; $i++){
 
 
 </div>
-
+        <div class = 'clearbtnparent'>
+        @if($userteam == 22 ||   $userteam == 26)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2c' ], 'method' => 'put']) !!}
                 {!! Form::submit('2c clear', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
+        @elseif($userteam == 30)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2d' ], 'method' => 'put']) !!}
                 {!! Form::submit('2d clear', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
+        @elseif($userteam == 23 || $userteam == 24 || $userteam == 25 || $userteam == 27 || $userteam == 28 || $userteam == 29)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear3a' ], 'method' => 'put']) !!}
                 {!! Form::submit('3a clear', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
+        @elseif($userteam == 31 || $userteam == 32 || $userteam == 33)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear3b' ], 'method' => 'put']) !!}
                 {!! Form::submit('3b clear', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
+        </div>
+        @endif
         </div>
 @endsection

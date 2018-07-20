@@ -72,5 +72,5 @@ Route::put('clear4a', 'ClearController@a4')->name('clear4a');
 Route::put('clear4b', 'ClearController@b4')->name('clear4b');
 Route::put('clear4c', 'ClearController@c4')->name('clear4c');
 Route::put('clear4d', 'ClearController@d4')->name('clear4d');
-Route::put('clear4g', 'ClearController@g4')->name('clear4g');
+
 

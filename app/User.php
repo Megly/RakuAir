@@ -39,11 +39,11 @@ class User extends Authenticatable
         $user->feel = -1;
         $user->save();
     }
+
     
-    public function clear1a(){
-     $user = User::all()->where('team','>=','1')->where('team','<=','3');
-     $user -> feel = 0;
-     $user -> update();
+    public function team($i){
+        $user = App\User::find($i);
+         return $user->team;
     }
     
     
