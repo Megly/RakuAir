@@ -4,6 +4,21 @@
             <label for="cp_toggle01"><span></span></label>
         <div class="cp_menu">
         <ul>
+            
+            <li>
+                <a href="{{ route('feel.get')}}">
+                   <i class="fa fa-info-circle fa-2x"></i>
+                   <span class="nav-text"> Desc.</span>
+                </a>
+            </li> 
+            
+            <li>
+                <a href="{{ route('feel.get')}}">
+                   <i class="fa fa-book fa-2x"></i>
+                   <span class="nav-text"> How to</span>
+                </a>
+            </li> 
+            
             <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-home fa-2x"></i>
