@@ -16,7 +16,7 @@ body {
 /* copyright*/
 footer {
     text-align: center;
-    margin-top: 60%;
+    margin-top: 10px;
     
 }
 
@@ -610,6 +610,20 @@ footer {
     text-align: center;
 }
 
+.veryhot-tribe dl {
+background-color: #cd5c5c;
+-webkit-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
+}
+.veryhot-tribe:hover img {
+-webkit-transform: rotateX(180deg);
+transform: rotateX(180deg);
+}
+.veryhot-tribe:hover dl {
+-webkit-transform: rotateX(0);
+transform: rotateX(0);
+}
+
 /* result.blade.php ↓　***********************************************************/
 .result-top {
     margin-top: 50px;
@@ -630,6 +644,17 @@ footer {
 .tribe {
     margin: 10px 10px;
     text-align: center;
+    background-color: #cd5c5c;
+-webkit-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
+}
+.tribe:hover img {
+-webkit-transform: rotateX(180deg);
+transform: rotateX(180deg);
+}
+.tribe:hover dl {
+-webkit-transform: rotateX(0);
+transform: rotateX(0);
 }
 
 .screen {

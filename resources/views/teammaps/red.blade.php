@@ -38,7 +38,7 @@ $redteam = array(
 
 
      if(${"sum".$i}>=10)
-	    echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.$redteam[$i].'</p>';
+	    echo '<dl style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.$redteam[$i].'</dl>';
      elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
 	     echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.$redteam[$i].'</p>';
      elseif( -5 >= ${"sum".$i} && ${"sum".$i} >= -10)
@@ -52,8 +52,6 @@ $redteam = array(
 ?>
 
 </div>
-<<<<<<< HEAD
-=======
 
  <!--色説明-->
    <div class="tribecolor">
@@ -64,5 +62,4 @@ $redteam = array(
         <img class="verycold" src="/images/verycold.png"></img> :very cold
    </div>
 
->>>>>>> master
 @endsection
