@@ -22,6 +22,8 @@
         
         <body>
             
+        <div class= "wholebody">
+            
             <div class = "body1">
          
             <h1>Introduction</h1>
@@ -39,10 +41,11 @@
             <!--このRakuAirによってあなたの生活は劇的に変化するのです！<br>-->
             <!--Let's try this out!!-->
             </p>
+            </div>
             
             <div class = "body2">
              <h1>How to Use RakuAir</h1>
-             <p> You can manage everyting in very simple way.
+             <p> You can manage everyting in very simple way.</p>
                <!--  <ol>-->
             　　 <!--<li><p><i class="fa fa-map-marker fa-2x"></i>  : 現在のページです。使用方法、仕組みを説明します。</p></i></li>-->
                <!--  <li><p><i class="fa fa-home fa-2x"></i>  : 暑い、寒いの入力を好きな時にできます。</p></i></li>-->
@@ -59,9 +62,10 @@
                      <li>3.Plase adjust air conditionar as it says. </li><br>
                      <li>4.After adjusting, plase push"clear" button to refresh data.</li>
                  </ol></p>
-             </p>
              </div>
              
+             
+             <div class= "body3">
                 <h2>Bar in the right</h2>
              <ol>
             　　 <li><p><i class="fa fa-map-marker fa-2x"></i>  : Current page you are lokking to. You can check how it works and details.</p></i></li>
@@ -70,7 +74,7 @@
                  <li><p><i class="fa fa-map-marker fa-2x"></i>  : You can see where is comfortable using the map of training room.</p></i></li>
                  <li><p><i class="fa fa-power-off fa-2x"></i>  : Logging out.</p></i></li>
              </ol>
-              
+             </div>
              
               <h1>Uniqueness</h1>
               <!--<p>このRakuAirでは、性別や体質等でポイントが分けられています。ポイントは、－６ポイントから６ポイントまであり、そのポイントをベースに集計や差分を出しています。-->
@@ -96,7 +100,7 @@
               
               </div> 
               
-   
+        </div>
         </body>
         
         

@@ -769,24 +769,24 @@ h1{
     font-size: 45px;
     margin-top: 0px;
 }
-.body1 h1{
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     text-align:center;
-     margin-bottom: 20px;
+
+.wholebody {
+    text-align:center;
 }
 
-.body1 p,ol{
-      text-align:center;
-      font-size:25px;
+.wholebody h1 {
+    display:inline-block;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 20px;
+    
 }
 
-.body2 ol{
-    display: inline-block;
-    text-align: left;
+.wholebody p {
+    font-size:25px;
 }
 
 .footer2 footer{
     font-size: 30px;
+     text-align:center;
 }
 
