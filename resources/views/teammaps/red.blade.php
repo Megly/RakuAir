@@ -60,25 +60,25 @@ $userteam = $user->team;
         @if($userteam == 1 ||   $userteam == 2 || $userteam == 4)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear1a' ], 'method' => 'put']) !!}
-                {!! Form::submit('1a clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 7)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear1b' ], 'method' => 'put']) !!}
-                {!! Form::submit('1b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 3)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2a' ], 'method' => 'put']) !!}
-                {!! Form::submit('2a clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 5 ||  $userteam == 6 || $userteam == 8 || $userteam == 9)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2b' ], 'method' => 'put']) !!}
-                {!! Form::submit('2b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @endif

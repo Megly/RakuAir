@@ -61,25 +61,25 @@ for ($i=22; $i<34; $i++){
         @if($userteam == 22 ||   $userteam == 26)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2c' ], 'method' => 'put']) !!}
-                {!! Form::submit('2c clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 30)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2d' ], 'method' => 'put']) !!}
-                {!! Form::submit('2d clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 23 || $userteam == 24 || $userteam == 25 || $userteam == 27 || $userteam == 28 || $userteam == 29)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear3a' ], 'method' => 'put']) !!}
-                {!! Form::submit('3a clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 31 || $userteam == 32 || $userteam == 33)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear3b' ], 'method' => 'put']) !!}
-                {!! Form::submit('3b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @endif
