@@ -23,19 +23,17 @@
     
     <body>
         
-        <!--@include('commons.navbar')-->
-
-        <div class="container">
+        
             
             @include('commons.error_messages')
 
             @yield('content')
-        </div>
+       
 
     </body>
   
-    <!--<footer>-->
-    <!--        &copy; 2018 KEMKOW All Rights Reserved.-->
-    <!--</footer>-->
+    <footer>
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 </html>  
 

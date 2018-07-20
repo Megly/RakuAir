@@ -5,16 +5,17 @@
 
 .container {
     width: 100%;
+    
 }
 
-body {
+.body {
     background-color: #fffef4;
     color: #435160;
   /*font-family: "Open Sans", sans-serif;*/
 }
 
 /* copyright*/
-footer {
+.footer {
     text-align: center;
     
 }
@@ -45,6 +46,7 @@ footer {
 .sky {
     width: 100%;
     height: 100%;
+    margin: 0 0 0 0;
 }
 .map-child  {
   width: 100%;
