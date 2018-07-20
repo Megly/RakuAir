@@ -8,10 +8,10 @@
 </div>
 
 <div class="map-detail">
-        <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> tribe detail</a>
-        <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> tribe detail</a>
-        <a class="btn-master btn-jedi btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> tribe detail</a>
-        <a class="btn-master btn-jedi btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> tribe detail</a>
+        <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> tribe's map</a>
+        <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> tribe's map</a>
+        <a class="btn-master btn-jedi btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> tribe's map</a>
+        <a class="btn-master btn-jedi btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> tribe's map</a>
 </div>
 
 

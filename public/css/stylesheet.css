@@ -19,27 +19,15 @@ footer {
     margin-top: 35px;
 }
 
-/* navbar.blade.php ↓　********************************************************/
-.navbar {
-  background-color: #d1f5ff;
-}
-
-/* カーソルを当てた時のアニメーション↓　*/
-.navbar-right:hover {
-  background-color: #5b75ad;
-}
-
-/* navbarの下線消すコード ↓　*/
-.navbar-static-top {
-  border-width: 0;
-}
-
 /* navbarの小ロゴ ↓　*/
 .logo2 {
   width: 150px;
   height: 50px;
 }
 
+.icon-image {
+    margin-top: 10px;
+}
 
 
 /* welcome.blade.php ↓　*******************************************************/
@@ -518,10 +506,10 @@ footer {
 .btn-pink {color: #ff2baf !important; background-color: #ffcbea;}
 .btn-purple {color: #ce21ff !important; background-color: #f0bcff;}
 
-.red-tribe {font-size: 30px;}
-.yellow-tribe {font-size: 30px;}
-.pink-tribe {font-size: 30px;}
-.purple-tribe {font-size: 30px;}
+.red-tribe {font-size: 30px; color: #ff1c1c;}
+.yellow-tribe {font-size: 30px; color: #d8c638;}
+.pink-tribe {font-size: 30px; color: #ff2baf;}
+.purple-tribe {font-size: 30px; color: #ce21ff;}
 
 .map-child2  {
   width: 100%;
@@ -554,16 +542,74 @@ footer {
 }
 
 
+
 /* result.blade.php ↓　***********************************************************/
 .result-top {
     margin-top: 100px;
 }
 
+
+
 /* teammaps ↓　***********************************************************/
 .tribe {
-    margin-top: 10px;
+    margin: 10px 10px;
     text-align: center;
 }
+
+.screen {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    border: 2px;
+}
+
+/*tribeの文字*/
+.veryhot-tribe {padding-top: 50px; font-size: 30px; animation: blinkAnime .2s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
+}
+
+.hot-tribe {padding-top: 60px; font-size:25px; animation: blinkAnime 1s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
+}
+
+.cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.com-tribe {
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*input[type="text"], input[type="password"] {*/
