@@ -9,38 +9,30 @@
 }
 
 body {
-  background-color: #fffef4;
-  color: #435160;
+    background-color: #fffef4;
+    color: #435160;
   /*font-family: "Open Sans", sans-serif;*/
 }
 
 /* copyright*/
 footer {
     text-align: center;
+<<<<<<< HEAD
     margin-top: 60px;
     margin-bottom: 0px;
+=======
+>>>>>>> master
     
-}
-
-/* navbar.blade.php ↓　********************************************************/
-.navbar {
-  background-color: #d1f5ff;
-}
-
-/* カーソルを当てた時のアニメーション↓　*/
-.navbar-right:hover {
-  background-color: #5b75ad;
-}
-
-/* navbarの下線消すコード ↓　*/
-.navbar-static-top {
-  border-width: 0;
 }
 
 /* navbarの小ロゴ ↓　*/
 .logo2 {
   width: 150px;
   height: 50px;
+}
+
+.icon-image {
+    margin-top: 10px;
 }
 
 .feelings {
@@ -52,16 +44,26 @@ footer {
 
 
 /* welcome.blade.php ↓　*******************************************************/
-/* welcomeの背景マップ*/
-.map-unko {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
- 　 z-index: 0;
- 　 font-weight: bold;
- 　 font-size: 28px !important;
-    opacity: 0.5;
+/* welcomeの背景*/
+welcome {
+    background-image: url("../images/sky.jpg");
+}
+
+.map-child  {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.map-child p {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding: 30% 0; 
+  z-index: 0;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px !important;
 }
 
 /* 大ロゴとボタンのdiv*/
@@ -142,6 +144,23 @@ footer {
 
 .teams {
     font-family: fantasy !important;
+}
+
+.map-child  {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.map-child p {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding: 30% 0; 
+  z-index: 0;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px !important;
 }
 
 /* register.blade.php ↓　******************************************************/
@@ -268,6 +287,42 @@ footer {
     text-decoration: none;
     color:  #5b75ad;
 }
+
+/* manipulation.blae.php */
+.asakai {
+    float: left;
+    text-align: center;
+    width: 49%;
+    padding: 30px 0px 30px 30px;
+}
+
+.remote {
+    float: right;
+    text-align: center;
+    width: 49%;
+    padding: 30px 30px 30px 0px;
+}
+
+.map {
+    width: 100%;
+    height: 45%;
+}
+
+.remotes {
+}
+
+
+.remote1 {
+    padding-top: 0;
+    width: 47%;
+    height: auto;
+}
+
+.remote2 {
+    width: 49%;
+    height: auto;
+}
+
 
 
 
@@ -449,7 +504,56 @@ footer {
 
 
 /* map.blade.php ↓　***********************************************************/
-.map-child  {
+.map-detail {
+    width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.map-detail a {
+    display: inline-block;
+    width: 24%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-master {
+    padding: 15px 70px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.btn-jedi {
+    /*color: #fff !important;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 10px 0 0 0;
+}
+.btn-jedi:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.btn-red {color: #ff1c1c !important; background-color: #ffbcbc;}
+.btn-yellow {color: #d8c638 !important; background-color: #ffffbc;}
+.btn-pink {color: #ff2baf !important; background-color: #ffcbea;}
+.btn-purple {color: #ce21ff !important; background-color: #f0bcff;}
+
+.red-tribe {font-size: 30px; color: #ff1c1c;}
+.yellow-tribe {font-size: 30px; color: #d8c638;}
+.pink-tribe {font-size: 30px; color: #ff2baf;}
+.purple-tribe {font-size: 30px; color: #ce21ff;}
+
+.map-child2  {
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -457,43 +561,133 @@ footer {
   /*margin-top: 65px;*/
 }
 
-.map-child p {
+.map-child2 p {
   width: 24%;
   display: inline-block;
   text-align: center;
-  padding: 30% 0;
+  padding: 15% 0; 
   z-index: 0;
   font-family: cursive;
   font-weight: bold;
   font-size: 28px !important;
-  height: 10px;
-  
 }
-.map-detail {
-    width: 100%;
-  text-align: center;
+
+/*点滅するアニメーション*/
+.blink-veryhot {animation: blinkAnime .2s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
 }
-.map-detail p {
-    display: inline-block;
-    width: 24%;
-    font-size: 20px;
-    font-weight: bold;
-    
-    
+
+.blink-hot {animation: blinkAnime 1s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
 }
-.tribe {
+
+/*map color info*/
+.colorinfo {
+    margin-top: 900px;
+    text-align: center;
+}
+
+.hot {
+    margin-left: 5px;
+}
+
+.good {
+    margin-left: 5px;
+}
+
+.cold {
+    margin-left: 5px;
+}
+
+.verycold {
+    margin-left: 5px;
+}
+
+.tribecolor {
+    margin-top: 100px;
     text-align: center;
 }
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
+.grah {
+    float: left;
+    width: 33%;
+}
+.grah:hover {
+    transform: scale(1.5);    
+}
+
+
+
 
 /* teammaps ↓　***********************************************************/
 .tribe {
-    margin-top: 10px;
+    margin: 10px 10px;
+    text-align: center;
 }
+
+.screen {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    border: 2px;
+}
+
+/*tribeの文字*/
+.veryhot-tribe {padding-top: 50px; font-size: 30px; animation: blinkAnime .2s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
+}
+
+.hot-tribe {padding-top: 60px; font-size:25px; animation: blinkAnime 1s infinite alternate;}
+@keyframes blinkAnime{
+   0% { color: #000000 }
+ 100% { color: red }
+}
+
+.cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.com-tribe {
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*input[type="text"], input[type="password"] {*/
