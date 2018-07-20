@@ -13,18 +13,12 @@
             </li> 
             
             <li>
-                <a href="{{ route('feel.get')}}">
+                <a href="{{ route('manipulation.get')}}">
                    <i class="fa fa-book fa-2x"></i>
                    <span class="nav-text iconpos"> How to</span>
                 </a>
             </li> 
             
-            <li>
-                <a href="{{ route('manipulation.get')}}">
-                   <i class="fa fa-home fa-2x"></i>
-                   <span class="nav-text"> How to</span>
-                </a>
-            </li>
             
             <li>
                 <a href="{{ route('feel.get')}}">
