@@ -1,3 +1,5 @@
+<img class="sky" src="../images/sky.jpg"></img>
+
 @extends('layouts.app')
 
 @section('content')
@@ -55,6 +57,7 @@ $array =array(
 	    
 	    @endforeach
 	 </div>
+
 	 
 	 <div class="text-center">
 	        <div class="logo-img">
