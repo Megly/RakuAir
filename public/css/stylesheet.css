@@ -517,8 +517,17 @@ footer {
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
+.grah {
+    float: left;
+    width: 33%;
+}
+.grah:hover {
+    transform: scale(1.5);    
+}
+
 
 /* teammaps ↓　***********************************************************/
 .tribe {
