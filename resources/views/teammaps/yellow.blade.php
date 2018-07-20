@@ -30,7 +30,9 @@ $yellowteam = array(
         19 => 'TERAKOYA',
         20 => 'Letian panda',
         21 => 'Pandanity');
-        
+$user = \Auth::user();
+$userteam = $user->team;
+
  ${"team".$i} = NULL;
 for ($i=10; $i<22; $i++){
  ${"team".$i} = App\User::all()->where('team',$i);
@@ -40,6 +42,7 @@ for ($i=10; $i<22; $i++){
 }
 
      if(${"sum".$i}>=10)
+
 	    echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.$yellowteam[$i].'</p>';
      elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
 	     echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.$yellowteam[$i].'</p>';
@@ -49,11 +52,47 @@ for ($i=10; $i<22; $i++){
 	     echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.$yellowteam[$i].'</p>';
      else
 	     echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.$yellowteam[$i].'</p>';
+
     
 };
 ?>
 
 </div>
+
+
+
+
+
+</div>
+
+        <div class = 'clearbtnparent'>
+        @if($userteam == 10 ||   $userteam == 11 || $userteam == 14 || $userteam == 15 )        
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2a' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @elseif($userteam == 18 ||   $userteam == 19)
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2b' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @elseif($userteam == 12 ||   $userteam == 13 || $userteam == 16 || $userteam == 17 )
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2c' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @elseif($userteam == 20 ||   $userteam == 21)
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2d' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @endif
+        </div>
+
 
  <!--色説明-->
    <div class="tribecolor">
@@ -63,5 +102,6 @@ for ($i=10; $i<22; $i++){
         <img class="cold" src="/images/cold.png"></img> :cold
         <img class="verycold" src="/images/verycold.png"></img> :very cold
    </div>
+
 
 @endsection
