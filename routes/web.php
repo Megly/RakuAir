@@ -80,3 +80,8 @@ Route::put('clear4d', 'ClearController@d4')->name('clear4d');
 
 Route::get('mypage', function () {
     return view('mypage');})->name('mypage.get');
+
+Route::get('introduction', function () {
+    return view('introduction');
+})->name('introduction.get');
+

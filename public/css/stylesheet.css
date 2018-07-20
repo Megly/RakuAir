@@ -79,7 +79,7 @@ footer {
 
 /* welcomeの大ロゴ ↓　*/
 .logo1 {
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: 0px 0px 50px 0px;
     transition: 1.5s;
@@ -666,10 +666,33 @@ footer {
  100% { color: red }
 }
 
+.veryhot-tribe:hover:after{
+content:"エアコンを３度下げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
+}
 .hot-tribe {padding-top: 60px; font-size:25px; animation: blinkAnime 1s infinite alternate;}
 @keyframes blinkAnime{
    0% { color: #000000 }
  100% { color: red }
+}
+
+.hot-tribe:hover:after{
+content:"エアコンを２度下げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
 }
 
 .cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
@@ -678,10 +701,33 @@ footer {
  100% { color: blue }
 }
 
+.cold-tribe:hover:after{
+content:"エアコンを２度上げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
+}
 .verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
 @keyframes blinknoAnime{
    0% { color: #000000 }
  100% { color: blue }
+}
+
+.verycold-tribe:hover:after{
+content:"エアコンを３度上げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
 }
 
 .com-tribe {
@@ -689,9 +735,22 @@ footer {
     padding-top: 60px;
 }
 
+.com-tribe:hover:after{
+content:"快適なはずです。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
+}
+
 .clearbtnparent {
     text-align:center;
 }
+
 
 .clearbtn {
     position: relative;
@@ -746,3 +805,46 @@ footer {
 /*input[type=checkbox] {*/
 /*  display: none;*/
 /*}フォーム入力の背景色*/
+
+
+
+/*introduction のcss*/
+
+h1{
+   text-align:center;
+   font-family:sans-serif;
+   margin-bottom: 5px;
+   margin-top:40px;
+}
+.intrologo img{
+    width:800px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.life{
+    margin-bottom:50px;
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.wholebody {
+    text-align:center;
+}
+
+.wholebody h1 {
+    display:inline-block;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 20px;
+    
+}
+
+.wholebody p {
+    font-size:25px;
+}
+
+.footer2 footer{
+    font-size: 30px;
+     text-align:center;
+}
+
