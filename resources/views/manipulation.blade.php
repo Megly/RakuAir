@@ -22,7 +22,8 @@
         <div class="remote">
             <h1>リモコンの見方</h1><br>
                 <p>赤枠内のボタンが各エリアに相当します。</p>
-                <p>（例）エリアC　→　①Cボタンをpush　②「室温調節」ボタンで温度調節</p><br>
+                <p>※A～Gまでないリモコンもあります。</p>
+                <p>（例）エリアC　→　①Cボタンをpush　②「室温調節」ボタンで温度調節</p>
                 <div class=remotes>
                     <img class="remote1" src="/images/RemoteClose.jpg"></img>
                     <img class="remote2" src="/images/RemoteOpen.jpg"></img>
