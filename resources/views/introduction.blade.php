@@ -25,11 +25,10 @@
             <div class = "body1">
          
             <h1>Introduction</h1>
-            <p>We have been worring about the room temperature since we started training.<br>
+            <p>We have been worring about the room temperature for a long time.<br>
             Despite you want to change the temperature, lots of factors had been preventing you from doing that.<br>
             That suffering ends today. 
             Once you use RakuAir, you can set you feeling, check others and recommendation of settings.<br>
-            Every process is very simple, while this effects to everyone in good way.<br>
             RakuAir definitely brings great comfort to you all. Say hello to new world.<br>
                
             <!--突然ですが、「暑いなー」又は「寒いなー」と思うこと多くありませんか？　-->
@@ -43,7 +42,7 @@
             
             <div class = "body2">
              <h1>How to Use RakuAir</h1>
-             <p> You can manage everyting just by clicking the right.
+             <p> You can manage everyting in very simple way.
                <!--  <ol>-->
             　　 <!--<li><p><i class="fa fa-map-marker fa-2x"></i>  : 現在のページです。使用方法、仕組みを説明します。</p></i></li>-->
                <!--  <li><p><i class="fa fa-home fa-2x"></i>  : 暑い、寒いの入力を好きな時にできます。</p></i></li>-->
@@ -59,6 +58,11 @@
                  <li><p><i class="fa fa-map-marker fa-2x"></i>  : You can see where is comfortable using the map of training room.</p></i></li>
                  <li><p><i class="fa fa-power-off fa-2x"></i>  : Logging out.</p></i></li>
                  </ol>
+                 
+                 <h2>Procedure</h2>
+                 <p><ol>
+                     <li>Choose your feeling from in </li>
+                 </ol></p>
              </p>
              </div>
               
