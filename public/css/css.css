@@ -15,6 +15,11 @@ a {
 text-decoration: none;
 color: inherit;
 }
+
+ul > li:hover > a{
+	background-color: #2f4a84;
+}
+
 /*.cp_cont {*/
 /*height: 65vh;*/
 /*}*/
@@ -63,8 +68,8 @@ border-bottom: 1px solid #fffef4;
 .cp_offcm01 .cp_menu li img {
  max-width: 50%;
   margin-left: 25%;
- 
 }
+
 .cp_offcm01 #cp_toggle01 {
 position: absolute;
 display: none;
@@ -75,7 +80,9 @@ opacity: 0;
 transform: translateX(-100vw);
 }
 /* menu toggle */
+
 .cp_offcm01 #cp_toggle01 ~ label {
+
 display: block;
 cursor: pointer;
 -webkit-transition: 0.5s transform;
