@@ -16,7 +16,8 @@ body {
 /* copyright*/
 footer {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 60%;
+    
 }
 
 /* navbarの小ロゴ ↓　*/
@@ -27,6 +28,13 @@ footer {
 
 .icon-image {
     margin-top: 10px;
+}
+
+.feelings {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 10%;
 }
 
 
@@ -282,6 +290,38 @@ footer {
     color:  #5b75ad;
 }
 
+/* manipulation.blae.php */
+.asakai {
+    float: left;
+    width: 49%;
+}
+
+.remote {
+    float: right;
+    width: 49%;
+}
+
+.map {
+    width: 100%;
+    height: 50%;
+}
+
+.remotes {
+}
+
+
+.remote1 {
+    padding-top: 0;
+    width: 47%;
+    height: auto;
+}
+
+.remote2 {
+    width: 49%;
+    height: auto;
+}
+
+
 
 
 /* feel.blade.php ↓　**********************************************************/
@@ -515,6 +555,8 @@ footer {
   width: 100%;
   display: inline-block;
   text-align: center;
+  height: 10px;
+  /*margin-top: 65px;*/
 }
 
 .map-child2 p {
@@ -541,12 +583,46 @@ footer {
  100% { color: red }
 }
 
+/*map color info*/
+.colorinfo {
+    margin-top: 900px;
+    text-align: center;
+}
 
+.hot {
+    margin-left: 5px;
+}
+
+.good {
+    margin-left: 5px;
+}
+
+.cold {
+    margin-left: 5px;
+}
+
+.verycold {
+    margin-left: 5px;
+}
+
+.tribecolor {
+    margin-top: 100px;
+    text-align: center;
+}
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
+.grah {
+    float: left;
+    width: 33%;
+}
+.grah:hover {
+    transform: scale(1.5);    
+}
+
 
 
 

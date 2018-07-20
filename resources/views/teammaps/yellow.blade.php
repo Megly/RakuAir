@@ -59,6 +59,19 @@ for ($i=10; $i<22; $i++){
 
 
 
+<<<<<<< HEAD
 
+=======
+</div>
+>>>>>>> master
+
+ <!--色説明-->
+   <div class="tribecolor">
+        <img class="veryhot" src="/images/veryhot.png"></img>:very hot
+        <img class="hot" src="/images/hot.png"></img> :hot
+        <img class="good" src="/images/good.png"></img> :comfortable
+        <img class="cold" src="/images/cold.png"></img> :cold
+        <img class="verycold" src="/images/verycold.png"></img> :very cold
+   </div>
 
 @endsection

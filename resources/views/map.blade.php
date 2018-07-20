@@ -51,18 +51,28 @@ $array =array(
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><span class="blink-veryhot"><?php echo $tribe ?> is ☀very hot!☀</span></p>
+	     <p style="background-color:#ff8e8e !important"><span class="blink-veryhot"><?php echo $tribe ?>激熱 </span></p>
      @elseif( 60 > $sum && $sum >= 20)
-	     <p style="background-color:#f9bdbd !important"><span class="blink-hot"><?php echo $tribe ?> is hot☀</span></p>
+	     <p style="background-color:#f9bdbd !important"><span class="blink-hot"><?php echo $tribe ?>熱 </span></p>
+     @elseif( 60 > $sum && $sum >= 20)
      @elseif( -20 >= $sum && $sum >= -60)
-	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is ❆</p>
+	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?>寒</p>
      @elseif($sum <= -60)
-	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is ❆</p>
+	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?>極寒 </p>
      @else
-	     <p style="background-color:#a8ffda !important"><?php echo $tribe ?> is OK</p>
+	     <p style="background-color:#a8ffda !important"><?php echo $tribe ?>快適</p>
      @endif
 	    
 	    @endforeach
-	
 </div>
+    <!--色説明-->
+   <div class="colorinfo">
+        <img class="veryhot" src="/images/veryhot.png"></img>:very hot
+        <img class="hot" src="/images/hot.png"></img> :hot
+        <img class="good" src="/images/good.png"></img> :comfortable
+        <img class="cold" src="/images/cold.png"></img> :cold
+        <img class="verycold" src="/images/verycold.png"></img> :very cold
+   </div>
+
+
 @endsection

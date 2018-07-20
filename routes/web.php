@@ -32,6 +32,10 @@ Route::get('hotcold', function () {
 });
 
 // feel submit page
+Route::get('manipulation', function () {
+    return view('manipulation');
+})->name('manipulation.get');
+
 Route::get('submit', 'Auth\SubmitController@showSubmitForm')->name('submit.get');
 Route::post('submit', 'Auth\SubmitController@submit')->name('submit.post');
 
@@ -59,3 +63,6 @@ Route::get('pink', function () {
     return view('teammaps.pink');})->name('pink.get');
 Route::get('purple', function () {
     return view('teammaps.purple');})->name('purple.get');
+    
+Route::get('mypage', function () {
+    return view('mypage');})->name('mypage.get');
