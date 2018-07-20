@@ -5,6 +5,7 @@
 
 .container {
     width: 100%;
+    
 }
 
 body {
@@ -16,7 +17,8 @@ body {
 /* copyright*/
 footer {
     text-align: center;
-    margin-top: 60%;
+    margin-top: 60px;
+    margin-bottom: 0px;
     
 }
 
@@ -72,7 +74,7 @@ footer {
 
 /* welcomeの大ロゴ ↓　*/
 .logo1 {
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: 0px 0px 50px 0px;
     transition: 1.5s;
@@ -514,8 +516,39 @@ footer {
 
 h1{
    text-align:center;
+   font-family:sans-serif;
+   margin-bottom: 5px;
+   margin-top:40px;
+}
+.intrologo img{
+    width:800px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .life{
     margin-bottom:50px;
+    font-size: 45px;
+    margin-top: 0px;
 }
+.body1 h1{
+     display:inline-block;
+     border-bottom:4px solid #5b75ad;
+     text-align:center;
+     margin-bottom: 20px;
+}
+
+.body1 p,ol{
+      text-align:center;
+      font-size:25px;
+}
+
+.body2 ol{
+    display: inline-block;
+    text-align: left;
+}
+
+.footer2 footer{
+    font-size: 30px;
+}
+
