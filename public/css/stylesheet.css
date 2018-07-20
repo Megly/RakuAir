@@ -689,9 +689,12 @@
 .veryhot-tribe {padding-top: 50px; font-size: 30px; animation: blinkAnime .2s infinite alternate;}
 @keyframes blinkAnime{
    0% { color: #000000 }
- 100% { color: red }
+ 100% { color: yellow }
 }
 
+.veryhot-tribe:hover {
+    color: white;
+}
 .hot-tribe {padding-top: 60px; font-size:25px; animation: blinkAnime 1s infinite alternate;}
 @keyframes blinkAnime{
    0% { color: #000000 }
