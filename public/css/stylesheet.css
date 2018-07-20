@@ -8,15 +8,14 @@
 }
 
 body {
-  background-color: #fffef4;
-  color: #435160;
+    background-color: #fffef4;
+    color: #435160;
   /*font-family: "Open Sans", sans-serif;*/
 }
 
 /* copyright*/
 footer {
     text-align: center;
-    margin-top: 60%;
     
 }
 
@@ -50,16 +49,9 @@ footer {
 
 
 /* welcome.blade.php ↓　*******************************************************/
-/* welcomeの背景マップ*/
-.map-unko {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
- 　 z-index: 0;
- 　 font-weight: bold;
- 　 font-size: 28px !important;
-    opacity: 0.5;
+/* welcomeの背景*/
+welcome {
+    background-image: url("../images/sky.jpg");
 }
 
 /* 大ロゴとボタンのdiv*/
