@@ -16,7 +16,8 @@ body {
 /* copyright*/
 footer {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 60%;
+    
 }
 
 /* navbar.blade.php ↓　********************************************************/
@@ -40,6 +41,12 @@ footer {
   height: 50px;
 }
 
+.feelings {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 10%;
+}
 
 
 /* welcome.blade.php ↓　*******************************************************/
@@ -444,6 +451,7 @@ footer {
   width: 100%;
   display: inline-block;
   text-align: center;
+  height: 10px;
   /*margin-top: 65px;*/
 }
 
@@ -456,6 +464,7 @@ footer {
   font-family: cursive;
   font-weight: bold;
   font-size: 28px !important;
+  height: 10px;
   
 }
 .map-detail {
@@ -465,9 +474,9 @@ footer {
 .map-detail p {
     display: inline-block;
     width: 24%;
-    margin-top: 30px;
     font-size: 20px;
     font-weight: bold;
+    
     
 }
 .tribe {

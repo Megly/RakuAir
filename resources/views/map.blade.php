@@ -49,15 +49,15 @@ $array =array(
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is ☀☀ <br>2℃下げましょう<p>
+	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?>激熱 </p>
      @elseif( 60 > $sum && $sum >= 20)
-	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is ☀ <br>1℃下げましょう</p>
+	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?>熱 </p>
      @elseif( -20 >= $sum && $sum >= -60)
-	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?> is ❆ <br>1℃上げましょう</p>
+	     <p style="background-color:#bdd2f9 !important"><?php echo $tribe ?>寒</p>
      @elseif($sum <= -60)
-	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?> is ❆ <br>2℃上げましょう</p>
+	     <p style="background-color:#8ec6ff !important"><?php echo $tribe ?>極寒 </p>
      @else
-	     <p style="background-color:#a8ffda !important"><?php echo $tribe ?> is OK <br>　</p>
+	     <p style="background-color:#a8ffda !important"><?php echo $tribe ?>快適</p>
      @endif
 	    
 	    @endforeach

@@ -16,31 +16,50 @@
             <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-home fa-2x"></i>
-                   <span class="nav-text">Feel</span>
+                   <span class="nav-text"> Feel</span>
                 </a>
             </li>
             
             <li>
                 <a href="{{ route('result.get')}}">
                     <i class="fa fa-bar-chart-o fa-2x"></i>
-                    <span class="nav-text">Graph</span>
+                    <span class="nav-text"> Graph</span>
                 </a>
             </li>
                 
             <li>
                 <a href="{{ route('map.get')}}">
                     <i class="fa fa-map-marker fa-2x"></i>
-                    <span class="nav-text">Map</span>
+                    <span class="nav-text"> Map</span>
                 </a>
             </li>
                 
             <li>
                 <a href="{{ route('logout.get')}}">
                     <i class="fa fa-power-off fa-2x"></i>
-                    <span class="nav-text">Logout</span>
+                    <span class="nav-text"> Logout</span>
                 </a>
             </li>  
+            
+            <li>
+           <a>    <p class="feelings"> Your feelings </p>
+<?php
+  $you = Auth::user()->feel;
+ if ($you>0) {
+    echo "<img class='hot' src='images/hoticon2.png'></img>";}
+ elseif ($you==0) {
+    echo "<img class='hot' src='images/thumbup.png'></img>";}
+ else {
+    echo "<img class='hot' src='images/coldicon2.png'></img>";}
+    
+?>
+
+</a>
+                
+            </li>
+            
         </ul>
         </div>
     </div>
 </div>
+

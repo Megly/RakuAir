@@ -65,3 +65,6 @@ Route::get('pink', function () {
     return view('teammaps.pink');})->name('pink.get');
 Route::get('purple', function () {
     return view('teammaps.purple');})->name('purple.get');
+    
+Route::get('mypage', function () {
+    return view('mypage');})->name('mypage.get');
