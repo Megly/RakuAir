@@ -1,3 +1,5 @@
+<img class="sky" src="../images/sky.jpg"></img>
+
 @extends('layouts.app')
 
 @section('content')
@@ -42,7 +44,7 @@ $array =array(
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is ☀</p>
+	     <p style="background-color:#ff8e8e !important"><?php echo $tribe ?> is ☀very hot!☀</span></p>
      @elseif( 60 > $sum && $sum >= 20)
 	     <p style="background-color:#f9bdbd !important"><?php echo $tribe ?> is ☀</p>
      @elseif( -20 >= $sum && $sum >= -60)
@@ -55,6 +57,7 @@ $array =array(
 	    
 	    @endforeach
 	 </div>
+
 	 
 	 <div class="text-center">
 	        <div class="logo-img">

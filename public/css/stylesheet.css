@@ -17,12 +17,8 @@ body {
 /* copyright*/
 footer {
     text-align: center;
-<<<<<<< HEAD
     margin-top: 60px;
     margin-bottom: 0px;
-=======
->>>>>>> master
-    
 }
 
 /* navbarの小ロゴ ↓　*/
@@ -670,6 +666,41 @@ welcome {
     font-size: 20px;
     padding-top: 60px;
 }
+
+.cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
+@keyframes blinknoAnime{
+   0% { color: #000000 }
+ 100% { color: blue }
+}
+
+.com-tribe {
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

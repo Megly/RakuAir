@@ -31,8 +31,9 @@
         </div>
 
     </body>
-    <footer>
-            &copy; 2018 KEMKOW All Rights Reserved.
-    </footer>
-</html>
+  
+    <!--<footer>-->
+    <!--        &copy; 2018 KEMKOW All Rights Reserved.-->
+    <!--</footer>-->
+</html>  
 
