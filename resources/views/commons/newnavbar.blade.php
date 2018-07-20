@@ -5,6 +5,13 @@
         <div class="cp_menu">
         <ul>
             <li>
+                <a href="{{ route('manipulation.get')}}">
+                   <i class="fa fa-home fa-2x"></i>
+                   <span class="nav-text"> How to</span>
+                </a>
+            </li>
+            
+            <li>
                 <a href="{{ route('feel.get')}}">
                    <i class="fa fa-home fa-2x"></i>
                    <span class="nav-text"> Feel</span>
