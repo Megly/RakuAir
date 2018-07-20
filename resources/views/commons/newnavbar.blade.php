@@ -6,7 +6,7 @@
         <ul>
             
             <li>
-                <a href="{{ route('feel.get')}}">
+                <a href="{{ route('introduction.get')}}">
                    <i class="fa fa-info-circle fa-2x"></i>
                    <span class="nav-text iconpos"> Desc.</span>
                 </a>

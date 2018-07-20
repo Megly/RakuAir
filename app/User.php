@@ -39,4 +39,12 @@ class User extends Authenticatable
         $user->feel = -1;
         $user->save();
     }
+
+    
+    public function team($i){
+        $user = App\User::find($i);
+         return $user->team;
+    }
+    
+    
 }

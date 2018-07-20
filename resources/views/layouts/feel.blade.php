@@ -48,6 +48,8 @@
                 {!! Form::submit('COMFORTABLE', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
+        
+
    </div>
    
 </div>

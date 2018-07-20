@@ -31,6 +31,9 @@ $purpleteam = array(
         45 => 'KEMKOW');
         
  ${"team".$i} = NULL;
+$user = \Auth::user();
+$userteam = $user->team;
+
  
 for ($i=34; $i<46; $i++){
  ${"team".$i} = App\User::all()->where('team',$i);
@@ -40,6 +43,7 @@ for ($i=34; $i<46; $i++){
 }
      
      if(${"sum".$i}>=10)
+
 	    echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe"">'.$purpleteam[$i].'</p>';
      elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
 	     echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.$purpleteam[$i].'</p>';
@@ -54,6 +58,34 @@ for ($i=34; $i<46; $i++){
 
 	?>
 </div>
+        <div class = 'clearbtnparent'>
+        @if($userteam == 34 ||   $userteam == 35 || $userteam == 38 || $userteam == 39 )
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4a' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @elseif($userteam == 42 || $userteam == 43)
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4b' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @elseif($userteam == 36 ||  $userteam == 37 || $userteam == 41)
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4c' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        @elseif($userteam == 40 ||  $userteam == 44 || $userteam == 45)
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4d' ], 'method' => 'put']) !!}
+                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+
+        @endif
+        </div>
 
  <!--色説明-->
    <div class="tribecolor">
