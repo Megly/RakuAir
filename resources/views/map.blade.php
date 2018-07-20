@@ -12,7 +12,8 @@
 	    <p>{!! link_to_route('yellow.get', 'Yellow tribe detail') !!}</p>
 	    <p>{!! link_to_route('pink.get', 'Pink tribe detail') !!}</p> 
 	    <p>{!! link_to_route('purple.get', 'Purple tribe detail') !!}</p>
-</div>	    
+</div>
+
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
  $sumred = 0;
@@ -61,7 +62,6 @@ $array =array(
      @endif
 	    
 	    @endforeach
-	
 </div>
 <!--<div class="map-detaile">-->
 <!--        <p>{!! link_to_route('red.get', 'Red tribe datails') !!}</p>-->
@@ -69,5 +69,14 @@ $array =array(
 <!--	    <p>{!! link_to_route('pink.get', 'Pink tribe datails') !!}</p> -->
 <!--	    <p>{!! link_to_route('purple.get', 'Purple tribe datails') !!}</p>-->
 <!--</div>	    -->
-	    
+
+    <!--色説明-->
+   <div class="colorinfo">
+        <img class="veryhot" src="/images/veryhot.png"></img>:very hot
+        <img class="hot" src="/images/hot.png"></img> :hot
+        <img class="good" src="/images/good.png"></img> :comfortable
+        <img class="cold" src="/images/cold.png"></img> :cold
+        <img class="verycold" src="/images/verycold.png"></img> :very cold
+   </div>
+
 @endsection
