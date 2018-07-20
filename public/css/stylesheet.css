@@ -470,6 +470,7 @@ footer {
 .map-detail {
     width: 100%;
   text-align: center;
+  margin-top: 20px;
 }
 .map-detail p {
     display: inline-block;
@@ -480,6 +481,34 @@ footer {
     
 }
 .tribe {
+    text-align: center;
+}
+
+/*map color info*/
+
+.colorinfo {
+    margin-top: 500px;
+    text-align: center;
+}
+
+.hot {
+    margin-left: 5px;
+}
+
+.good {
+    margin-left: 5px;
+}
+
+.cold {
+    margin-left: 5px;
+}
+
+.verycold {
+    margin-left: 5px;
+}
+
+.tribecolor {
+    margin-top: 100px;
     text-align: center;
 }
 
