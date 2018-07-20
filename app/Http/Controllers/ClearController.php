@@ -131,7 +131,7 @@ class ClearController extends Controller
      foreach($users as $user){
      $user -> feel = 0;
      $user -> save();
-     };};
+     };
      return view('map');
     }    
     

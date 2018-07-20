@@ -32,6 +32,10 @@ Route::get('hotcold', function () {
 });
 
 // feel submit page
+Route::get('manipulation', function () {
+    return view('manipulation');
+})->name('manipulation.get');
+
 Route::get('submit', 'Auth\SubmitController@showSubmitForm')->name('submit.get');
 Route::post('submit', 'Auth\SubmitController@submit')->name('submit.post');
 
@@ -74,3 +78,5 @@ Route::put('clear4c', 'ClearController@c4')->name('clear4c');
 Route::put('clear4d', 'ClearController@d4')->name('clear4d');
 
 
+Route::get('mypage', function () {
+    return view('mypage');})->name('mypage.get');
