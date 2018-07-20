@@ -693,22 +693,68 @@ footer {
  100% { color: red }
 }
 
+.veryhot-tribe:hover:after{
+content:"エアコンを３度下げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
+}
 .hot-tribe {padding-top: 60px; font-size:25px; animation: blinkAnime 1s infinite alternate;}
 @keyframes blinkAnime{
    0% { color: #000000 }
  100% { color: red }
 }
 
+.hot-tribe:hover:after{
+content:"エアコンを２度下げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
+}
+
 .cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
 @keyframes blinknoAnime{
    0% { color: #000000 }
  100% { color: blue }
 }
 
+.cold-tribe:hover:after{
+content:"エアコンを２度上げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
+}
 .verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
 @keyframes blinknoAnime{
    0% { color: #000000 }
  100% { color: blue }
+}
+
+.verycold-tribe:hover:after{
+content:"エアコンを３度上げる事を許可します。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
 }
 
 .com-tribe {
@@ -716,22 +762,16 @@ footer {
     padding-top: 60px;
 }
 
-
-.cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
-@keyframes blinknoAnime{
-   0% { color: #000000 }
- 100% { color: blue }
-}
-
-.verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
-@keyframes blinknoAnime{
-   0% { color: #000000 }
- 100% { color: blue }
-}
-
-.com-tribe {
-    font-size: 20px;
-    padding-top: 60px;
+.com-tribe:hover:after{
+content:"快適なはずです。";
+display:block;
+position:fixed;
+left:0;
+width:100%;
+height:30px;
+line-height:30px;
+font-weight:bold;
+text-align:center;
 }
 
 .clearbtnparent {
