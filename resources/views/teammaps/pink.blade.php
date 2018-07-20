@@ -53,4 +53,24 @@ for ($i=22; $i<34; $i++){
 
 </div>
 
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2c' ], 'method' => 'put']) !!}
+                {!! Form::submit('2c clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2d' ], 'method' => 'put']) !!}
+                {!! Form::submit('2d clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear3a' ], 'method' => 'put']) !!}
+                {!! Form::submit('3a clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear3b' ], 'method' => 'put']) !!}
+                {!! Form::submit('3b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
 @endsection

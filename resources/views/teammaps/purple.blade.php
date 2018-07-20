@@ -48,6 +48,29 @@ for ($i=34; $i<46; $i++){
 	?>
 
 </div>
-
-
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4a' ], 'method' => 'put']) !!}
+                {!! Form::submit('4a clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4b' ], 'method' => 'put']) !!}
+                {!! Form::submit('4b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4c' ], 'method' => 'put']) !!}
+                {!! Form::submit('4c clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4d' ], 'method' => 'put']) !!}
+                {!! Form::submit('4d clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear4g' ], 'method' => 'put']) !!}
+                {!! Form::submit('4g clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
 @endsection

@@ -46,11 +46,24 @@ for ($i=1; $i<10; $i++){
 
 </div>
 
-        <div class='clear1abtn'>
+        <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear1a' ], 'method' => 'put']) !!}
-                {!! Form::submit('1a温度変えました', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('1a clear', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
-
-
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear1b' ], 'method' => 'put']) !!}
+                {!! Form::submit('1b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2a' ], 'method' => 'put']) !!}
+                {!! Form::submit('2a clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
+        <div class='clearbtn'>
+                {!! Form::open(['route' => ['clear2b' ], 'method' => 'put']) !!}
+                {!! Form::submit('2b clear', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::close() !!}
+        </div>
 @endsection
