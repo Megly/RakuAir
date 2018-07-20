@@ -8,14 +8,14 @@
     
 }
 
-.body {
+body {
     background-color: #fffef4;
     color: #435160;
   /*font-family: "Open Sans", sans-serif;*/
 }
 
 /* copyright*/
-.footer {
+footer {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 0px;
