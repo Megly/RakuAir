@@ -16,9 +16,12 @@
         
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         
         <link rel="stylesheet" href="{{ secure_asset('css/stylesheet.css') }}">
         <link rel="stylesheet" href="{{ secure_asset('css/css.css') }}">
+        
     </head>
     
     <body>

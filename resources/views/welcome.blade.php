@@ -1,12 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class = "sky">
     @if (Auth::check())
        @include('layouts.feel')
         
     @else
         
-<img class="sky" src="../images/sky.jpg"></img>
+    
 
 	 <div class="text-center">
 	        <div class="logo-img">
@@ -19,4 +20,5 @@
     </div>
     
     @endif
+    </div>
 @endsection
