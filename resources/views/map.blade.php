@@ -44,15 +44,15 @@ $array =array(
 
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p><span class="blink-veryhot"><?php echo $tribe ?> is 激熱</span></p>
+	     <p><span class="blink-veryhot"><?php echo $tribe ?> is Really Hot</span></p>
      @elseif( 60 > $sum && $sum >= 20)
-	     <p><span class="blink-hot"><?php echo $tribe ?> is 熱</span></p>
+	     <p><span class="blink-hot"><?php echo $tribe ?> is Hot</span></p>
      @elseif( -20 >= $sum && $sum >= -60)
-	     <p><span class="blink-cold"><?php echo $tribe ?> is 寒</span></p>
+	     <p><span class="blink-cold"><?php echo $tribe ?> is Cold</span></p>
      @elseif($sum <= -60)
-	     <p><span class="blink-veryhot"><?php echo $tribe ?> is 極寒</span></p>
+	     <p><span class="blink-veryhot"><?php echo $tribe ?> is Cold</span></p>
      @else
-	     <p><?php echo $tribe ?> is 快適</p>
+	     <p><?php echo $tribe ?> is Comfortable</p>
      @endif
 	    
 	    @endforeach

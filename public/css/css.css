@@ -67,10 +67,15 @@ color: #fffef4;
 border-bottom: 1px solid #fffef4;
 
 
+
 }
 .cp_offcm01 .cp_menu li img {
  max-width: 50%;
-  margin-left: 25%;
+ margin-top: 10px;
+}
+
+.cp_offcm01 .cp_menu li .feelings {
+    font-size: 30px;
 }
 
 .cp_offcm01 #cp_toggle01 {
