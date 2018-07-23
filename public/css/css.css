@@ -26,10 +26,11 @@ ul > li:hover > a{
 
 /*.cp_cont {*/
 /*height: 65vh;*/
+/*position: fixed;*/
 /*}*/
 
 .cp_offcm01 {
-position: absolute;
+position: fixed;
 top: 20px;
 right: 20px;
 display: inline-block;
