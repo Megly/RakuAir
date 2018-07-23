@@ -292,12 +292,38 @@ h1{
     
 }
 
-h2{
-    font-size:30px;
-}
-
 .wholebody p {
     font-size:25px;
+}
+
+.body2 p{
+    margin:auto 
+}
+
+.body3 h2{
+    display:inline-block;
+    font-size:30px;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 0px;
+}
+
+.body3 ol{
+    font-size:25px !important;
+}
+
+.body4 h2{
+    display:inline-block;
+    font-size:30px;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 0px;
+}
+
+
+.body5 ol{
+    font-size:25px !important;
+    margin-bottom:0px;
+    /*font-size: 30px;*/
+    /* text-align:center;*/
 }
 
 .footer2 footer{
@@ -310,26 +336,6 @@ h2{
     font-size: 50px !important;
 }
 
-.body2 h2{
-    display:inline-block;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 0px;
-}
-
-.body2 p{
-    margin:auto 
-}
-
-.body3 ol{
-    font-size:25px !important;
-}
-
-.body5 ol{
-    font-size:25px !important;
-    margin-bottom:0px;
-    /*font-size: 30px;*/
-    /* text-align:center;*/
-}
 
 
 /* manipulation.blade.php *****************************************************/
@@ -372,7 +378,7 @@ h2{
 }
 
 .map {
-    width: 70%;
+    width: 65%;
     height: 45%;
     margin-top: 20px;
     margin-right: 60px;
