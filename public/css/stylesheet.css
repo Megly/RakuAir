@@ -15,6 +15,7 @@
 .container {
     width: 100%;
     padding: 0;
+    
 }
 
 /* copyright*/
@@ -33,12 +34,10 @@ footer {
   /*position: fixed;*/
 }
 
-
 .icon-image {
     position: fixed;
     z-index: 10;
 }
-
 
 
 
@@ -254,145 +253,38 @@ footer {
     color:  #5b75ad;
 }
 
-/*introduction のcss*/
-
-
-h1{
-   text-align:center;
-   margin-bottom: 5px;
-   margin-top:40px;
-}
-.intrologo img{
-    width:600px;
-    text-align: center;
-    max-width:100%;
-    margin-top:70px;
-    margin-bottom: 0px;
-}
-
-.life{
-    margin-bottom:50px;
-    font-size: 45px;
-    margin-top: 0px; 
-    text-align: center;
-    
-}
-
-.wholebody {
-    text-align:center;
-}
-
-.wholebody h1 {
-    display:inline-block;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 20px;
-    text-align:center !important;
-    margin-top:40px;
-    font-size:40px;
-    
-}
-
-.wholebody p {
-    font-size:25px;
-}
-
-.body2 p{
-    margin:auto 
-}
-
-.body3 h2{
-    display:inline-block;
-    font-size:30px;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 0px;
-}
-
-.body3 ol{
-    font-size:25px !important;
-}
-
-.body4 h2{
-    display:inline-block;
-    font-size:30px;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 0px;
-}
-
-
-.body5 ol{
-    font-size:25px !important;
-    margin-bottom:0px;
-    /*font-size: 30px;*/
-    /* text-align:center;*/
-}
-
-.footer2 footer{
-    text-align:center;
-    margin-top:60px;
-    margin-bottom:40px;
-}
-
-.footer2 p{
-    font-size: 50px !important;
-}
-
-
-
 /* manipulation.blade.php *****************************************************/
-
-.explanation2{
-    margin-top: 70px;
-    margin-bottom: 0px;
-    font-size:70px;
-    color: #5b75ad;
-}
-
-.manipulationpage{
-    text-align:center;
-     padding: 30px 30px 30px 0px;
-}
-
-.asakai{
-    font-size:25px;
-    height:90%;
+.asakai {
+    float: left;
+    text-align: center;
+    width: 49%;
+    padding: 30px 0px 30px 30px;
 }
 
 .remote {
-    font-size:25px;
-}
-
-.asakai h1{
-     font-size:40px;
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     margin-bottom: 20px;
-     margin-top:40px;
-}
-
-.remote h1{
-     font-size:40px;
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     margin-bottom: 20px;
-     margin-top:40px;
+    float: right;
+    text-align: center;
+    width: 49%;
+    padding: 30px 30px 30px 0px;
 }
 
 .map {
-    width: 65%;
+    width: 100%;
     height: 45%;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 60px;
 }
 
+.remotes {
+}
+
+
 .remote1 {
-    margin-top: 10px;
-    width: 39%;
+    padding-top: 0;
+    width: 47%;
     height: auto;
 }
 
 .remote2 {
-    width: 39%;
+    width: 49%;
     height: auto;
 }
 
@@ -600,7 +492,18 @@ h1{
 
 .maptama {
     margin-top: 70px;
+     overflow: hidden;
+
+  animation: flowing 10s linear infinite;
+  transform: translateX(100%);
 }
+@keyframes flowing {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 
 .grah {
     margin-top: 50px;
@@ -701,7 +604,7 @@ h1{
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  font-size: 28px !important;
+  font-size: 40px !important;
 }
 
 /*点滅するアニメーション*/
@@ -933,4 +836,44 @@ text-align:center;
 /*}フォーム入力の背景色*/
 
 
+
+/*introduction のcss*/
+
+h1{
+   text-align:center;
+   margin-bottom: 5px;
+   margin-top:40px;
+}
+.intrologo img{
+    width:800px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.life{
+    margin-bottom:50px;
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.wholebody {
+    text-align:center;
+}
+
+.wholebody h1 {
+    display:inline-block;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 20px;
+    
+}
+
+.wholebody p {
+    font-size:25px;
+}
+
+.footer2 footer{
+    font-size: 30px;
+     text-align:center;
+     
+}
 
