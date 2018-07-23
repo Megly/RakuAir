@@ -86,12 +86,12 @@ $userteam = $user->team;
 
 
  <!--色説明-->
-   <div class="tribecolor">
-        <img class="veryhot" src="/images/veryhot.png"></img>:very hot
-        <img class="hot" src="/images/hot.png"></img> :hot
-        <img class="good" src="/images/good.png"></img> :comfortable
-        <img class="cold" src="/images/cold.png"></img> :cold
-        <img class="verycold" src="/images/verycold.png"></img> :very cold
+    <div class="colorinfo">
+        <img class="veryhot" src="/images/veryhot.png"></img> : Very hot
+        <img class="hot" src="/images/hot.png"></img> : Hot
+        <img class="good" src="/images/good.png"></img> : Comfortable
+        <img class="cold" src="/images/cold.png"></img> : Cold
+        <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
 
 
