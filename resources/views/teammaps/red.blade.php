@@ -60,31 +60,31 @@ $userteam = $user->team;
         @if($userteam == 1 ||   $userteam == 2 || $userteam == 4)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear1a' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 7)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear1b' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 3)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2a' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 5 ||  $userteam == 6 || $userteam == 8 || $userteam == 9)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear2b' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @endif
         </div>
 
-
+<div class="mod">　</div>
  <!--色説明-->
    <div class="colorinfo">
         <img class="veryhot" src="/images/veryhot.png"></img> : Very hot
@@ -93,6 +93,10 @@ $userteam = $user->team;
         <img class="cold" src="/images/cold.png"></img> : Cold
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
+   
+   <footer class="col-lg-12 footermaps">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 
 
 

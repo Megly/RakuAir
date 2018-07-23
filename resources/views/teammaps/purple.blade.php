@@ -62,31 +62,31 @@ for ($i=34; $i<46; $i++){
         @if($userteam == 34 ||   $userteam == 35 || $userteam == 38 || $userteam == 39 )
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear4a' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 42 || $userteam == 43)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear4b' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 36 ||  $userteam == 37 || $userteam == 41)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear4c' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
         @elseif($userteam == 40 ||  $userteam == 44 || $userteam == 45)
         <div class='clearbtn'>
                 {!! Form::open(['route' => ['clear4d' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted temp', ['class' => 'btn btn-lg btn-block']) !!}
+                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
                 {!! Form::close() !!}
         </div>
 
         @endif
         </div>
-
+<div class="mod">　</div>
  <!--色説明-->
    <div class="colorinfo">
         <img class="veryhot" src="/images/veryhot.png"></img> : Very hot
@@ -95,6 +95,10 @@ for ($i=34; $i<46; $i++){
         <img class="cold" src="/images/cold.png"></img> : Cold
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
+   
+   <footer class="col-lg-12 footermaps">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 
 
 @endsection
