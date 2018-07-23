@@ -13,14 +13,11 @@
         <link rel="stylesheet" href="stylesheet.css">
         
     </head>
-    
-        <div class = "header">
         <header>
             <h1 class = "intrologo"><img src="images/RakuAirBlack.png" alt="rakuairlogo"><h1>
             <h1 class = "life"><p>~Comfortable Life to you all~</p></h1>
 
         </header>
-        </div>
         
         
         <body>
@@ -56,9 +53,8 @@
                <!--  <li><p><i class="fa fa-map-marker fa-2x"></i>  : Tribeごとのマップを表示させ、それぞれの寒暖が一目で分かります。</p></i></li>-->
                <!--  <li><p><i class="fa fa-power-off fa-2x"></i>  : ログアウトします。</p></i></li>-->
                <!--  </ol>-->
-              
-              <div class= "body3">   
-               <h2>Procedure</h2>
+                 
+                 <h2>Procedure</h2>
                  <p><ol>
                      <li>1.Please choose your feeling from <i class="fa fa-home fa-2x"></i>.</li><br>
                      <li>2.Please check the feeling of your tribe.<br>
@@ -69,8 +65,8 @@
              </div>
              
              
-             <div class= "body4">
-                <h2>Bar on the right</h2>
+             <div class= "body3">
+                <h2>Bar in the right</h2>
              <ol>
             　　 <li><p><i class="fa fa-map-marker fa-2x"></i>  : Current page you are lokking to. You can check how it works and details.</p></i></li>
                  <li><p><i class="fa fa-home fa-2x"></i>  : You can claim your feeling whenever and whereever you like.</p></i></li>
@@ -80,8 +76,6 @@
              </ol>
              </div>
              
-             
-             <div class= "body5">
               <h1>Uniqueness</h1>
               <!--<p>このRakuAirでは、性別や体質等でポイントが分けられています。ポイントは、－６ポイントから６ポイントまであり、そのポイントをベースに集計や差分を出しています。-->
               <!--　　　<ol>-->
