@@ -41,7 +41,7 @@ $array =array(
 
 
 <div class='map-child2'>
-
+<div class="maptama">
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
 	     <p><span class="blink-veryhot"><?php echo $tribe ?> is Really Hot</span></p>
@@ -56,7 +56,7 @@ $array =array(
      @endif
 	    
 	    @endforeach
-
+</div>
 <div class="map-detail">
         <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> tribe's map</a>
         <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> tribe's map</a>
