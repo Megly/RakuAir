@@ -378,7 +378,13 @@ footer {
 }
 
 .com-icon_img {
+    -webkit-transition: 1s ease-in-out;
   width: 33%;
+}
+
+.com-icon_img:hover {
+    -moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
 }
 
 .combtn{
@@ -434,7 +440,13 @@ footer {
 }
 
 .cold-icon_img {
+    -webkit-transition: 1s ease-in-out;
   width: 33%;
+}
+
+.cold-icon_img:hover {
+    -moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
 }
 
 .coldbtn{
