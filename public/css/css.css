@@ -7,11 +7,12 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+
 }
 
 ol, ul {
 list-style: none;
-text-align :center;
+/*text-align: center;*/
 }
 
 a {
@@ -26,6 +27,7 @@ ul > li:hover > a{
 /*.cp_cont {*/
 /*height: 65vh;*/
 /*}*/
+
 .cp_offcm01 {
 position: absolute;
 top: 20px;
@@ -65,10 +67,8 @@ padding: 10px;
 text-decoration: none;
 color: #fffef4;
 border-bottom: 1px solid #fffef4;
-
-
-
 }
+
 .cp_offcm01 .cp_menu li img {
  max-width: 50%;
  margin-top: 10px;
@@ -76,6 +76,7 @@ border-bottom: 1px solid #fffef4;
 
 .cp_offcm01 .cp_menu li .feelings {
     font-size: 30px;
+    text-align: center !important;
 }
 
 .cp_offcm01 #cp_toggle01 {
@@ -97,7 +98,7 @@ cursor: pointer;
 transition: 0.5s transform;
 -webkit-transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
 transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
-text-align: center;
+/*text-align: center;*/
 color: #5b75ad;
 }
 .cp_offcm01 #cp_toggle01:checked ~ label {
@@ -123,6 +124,7 @@ text-align: center;
 }
 
 /*icon position*/
+
 .iconpos {
     margin-left: 10px;
 }
