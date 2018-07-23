@@ -130,8 +130,14 @@ footer {
    background: #5b75ad;
 }
 
+/* 左ボタン ↓　*/
+.square_btn1 {
+    font-size: 30px;
+}
+
 /* 右ボタン ↓　*/
 .square_btn2 {
+    font-size: 30px;
     margin-right: 25px;
 }
 
