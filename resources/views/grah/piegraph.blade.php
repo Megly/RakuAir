@@ -1,7 +1,3 @@
-<div class="icon-image">
-    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
-</div>
-
 <div class="result-top">
 <div class="grah">
 <script type="text/javascript">
