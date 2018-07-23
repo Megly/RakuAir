@@ -2,9 +2,6 @@
 @include('commons.newnavbar')
 @section('content')
 
-<div class="icon-image">
-     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
-</div>
 	<?php 
 // 全体のHOTなひと
 	$hot2 = App\User::all()->where('feel','>','0');
@@ -144,6 +141,7 @@ $dhot = App\User::all()->where('size','0')->where('feel','>','0');
     $countcomd = 0;
 	foreach($comd as $feelings13){
 		$countcomd = $countcomd + 1 ;}
+		
 // samugari
 $shot = App\User::all()->where('size','2')->where('feel','>','0');
 	 $countshot = 0;
@@ -158,6 +156,7 @@ $shot = App\User::all()->where('size','2')->where('feel','>','0');
     $countcoms = 0;
 	foreach($coms as $feelings13){
 		$countcoms = $countcoms + 1 ;}
+		
 // nomal
 $nhot = App\User::all()->where('size','1')->where('feel','>','0');
 	 $countnhot = 0;
@@ -189,6 +188,7 @@ $hotmen = App\User::all()->where('sex','0')->where('size','0');
     $countcommen = 0;
 	foreach($commen as $feelings13){
 		$countcommen = $countcommen + 1 ;}
+		
 // 女性の登録タイプ
 $hotgirl = App\User::all()->where('sex','1')->where('size','0');
 	 $counthotgirl = 0;
@@ -228,5 +228,9 @@ $hotgirl = App\User::all()->where('sex','1')->where('size','0');
 @include('grah.hotmenpiegraph')
 
 @include('grah.hotgirlpiegraph')
+
+<div class="icon-image">
+     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
 
 @endsection
