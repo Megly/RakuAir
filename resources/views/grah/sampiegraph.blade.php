@@ -15,7 +15,7 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
 ]);
 var options = { //オプションの指定
          title: 'Samugari',
-        'backgroundColor': {'fill':'#fffef4'},
+        'backgroundColor': {'fill':'#fff'},
         width: 500,
         height: 300,
 };

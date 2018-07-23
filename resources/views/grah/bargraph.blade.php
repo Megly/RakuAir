@@ -10,7 +10,7 @@
             ]);
     
         　　var options = {
-                'backgroundColor': {'fill':'#002560'},
+                'backgroundColor': {'fill':'#fff'},
                 // title added
                 'title' : 'point'
             };
