@@ -207,9 +207,9 @@ footer {
 
 /* already have?の部分 ↓　*/
 .loginhere {
-  margin-top: 30px;
+  margin-top: 15px;
   display: block;
-  font-size: 11px;
+  font-size: 17px;
   text-align: center;
   font-weight: bold;
 }
@@ -254,7 +254,8 @@ footer {
     color:  #5b75ad;
 }
 
-/*introduction のcss*/
+/* inroduction.blade.php *****************************************************/
+
 
 
 h1{
@@ -293,7 +294,7 @@ h1{
 }
 
 .wholebody p {
-    font-size:25px;
+    font-size:20px;
 }
 
 .body2 p{
@@ -308,7 +309,7 @@ h1{
 }
 
 .body3 ol{
-    font-size:25px !important;
+    font-size:20px !important;
 }
 
 .body4 h2{
@@ -320,7 +321,7 @@ h1{
 
 
 .body5 ol{
-    font-size:25px !important;
+    font-size:20px !important;
     margin-bottom:0px;
     /*font-size: 30px;*/
     /* text-align:center;*/
@@ -333,7 +334,7 @@ h1{
 }
 
 .footer2 p{
-    font-size: 50px !important;
+    font-size: 45px !important;
 }
 
 
@@ -353,12 +354,12 @@ h1{
 }
 
 .asakai{
-    font-size:25px;
+    font-size:20px;
     height:90%;
 }
 
 .remote {
-    font-size:25px;
+    font-size:20px;
 }
 
 .asakai h1{

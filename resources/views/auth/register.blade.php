@@ -7,9 +7,7 @@
 
 <div class="container-fluid">
         
-    　<p class="ex1">Yes RakuAir</p>
-      <p class="ex1">Yes Life</p>
-      <p class="ex2"></p>
+    　<p class="ex1">Welcome to RakuAir!!</p>
 </div>
 
 <div class="row">
