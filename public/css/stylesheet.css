@@ -129,9 +129,15 @@ footer {
    background: #5b75ad;
 }
 
+/* 左ボタン ↓　*/
+.square_btn1 {
+    font-size: 30px;
+}
+
 /* 右ボタン ↓　*/
 .square_btn2 {
     margin-right: 25px;
+    font-size: 30px;
 }
 
 /* カーソルを合わせた時の棒の動きの角度 ↓　*/
