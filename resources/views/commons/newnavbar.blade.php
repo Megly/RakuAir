@@ -50,8 +50,9 @@
             
             <li>
                 <a href="{{ route('feel.get')}}">
-                <span class="feelings">Your feelings</span>
-                    <?php
+                <span class="nav-text iconpos3">Your</span>
+                <span class="nav-text iconpos4">feeling</span>
+                    <span class = "feelings"><?php
                     $you = Auth::user()->feel;
                     if ($you>0) {
                         echo "<img class='hot' src='images/hoticon2.png'></img>";}

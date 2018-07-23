@@ -38,7 +38,7 @@
 
     </body>
   
-    <footer>
+    <footer class="col-lg-12">
             &copy; 2018 KEMKOW All Rights Reserved.
     </footer>
 </html>  

@@ -74,10 +74,6 @@ border-bottom: 1px solid #fffef4;
  margin-top: 10px;
 }
 
-.cp_offcm01 .cp_menu li .feelings {
-    font-size: 30px;
-    text-align: center !important;
-}
 
 .cp_offcm01 #cp_toggle01 {
 position: absolute;
@@ -133,7 +129,15 @@ text-align: center;
     margin-left: 5px;
 }
 
-
+.iconpos3 {
+    margin-left: 40px;
+}
+.iconpos4 {
+    margin-left: 25px;
+}
+.feelings {
+    margin-left: 30px;
+}
 
 
 /*@font-face {*/
