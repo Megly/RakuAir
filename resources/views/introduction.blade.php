@@ -12,6 +12,10 @@
         <title>RakuAir</title>
         <link rel="stylesheet" href="stylesheet.css">
         
+        <div class="icon-image">
+            <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+        </div>
+        
     </head>
     
         <div class = "header">
@@ -118,5 +122,5 @@
         
         
 </html>
-        
-      
+
+@endsection
