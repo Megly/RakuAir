@@ -90,7 +90,7 @@ footer {
     position: relative;
     display: inline-block;
     font-weight: bold;
-    color: #5b75ad;
+    /*color: #5b75ad;*/
     font-size: x-large;
     padding: 5px 11px 5px 15px;
     text-decoration: none;
@@ -118,6 +118,7 @@ footer {
 /* 左ボタン ↓　*/
 .square_btn1 {
     font-size: 35px;
+    color: #5b75ad;
     margin-right: 50px;
 }
 
@@ -138,6 +139,7 @@ footer {
 /* 右ボタン ↓　*/
 .square_btn2 {
     font-size: 35px;
+    color: #5b75ad;
     margin-right: 25px;
 }
 
