@@ -24,15 +24,16 @@ ul > li:hover > a{
 	background-color: #2f4a84;
 }
 
-/*.cp_cont {*/
-/*height: 65vh;*/
-/*}*/
+.cp_cont {
+height: 1.7vh;
+}
 
 .cp_offcm01 {
 position: absolute;
 top: 20px;
 right: 20px;
 display: inline-block;
+position: fixed;
 }
 
 /* menuの背景色 */

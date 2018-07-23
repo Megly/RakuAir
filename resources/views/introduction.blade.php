@@ -2,8 +2,6 @@
 
 @section('content')
 
-@include('commons.newnavbar')
-
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -12,8 +10,13 @@
         <title>RakuAir</title>
         <link rel="stylesheet" href="stylesheet.css">
         
+        <div class="icon-image">
+            <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+        </div>
     </head>
+    
         <header>
+         
             <h1 class = "intrologo"><img src="images/RakuAirBlack.png" alt="rakuairlogo"><h1>
             <h1 class = "life"><p>~Comfortable Life to you all~</p></h1>
 
@@ -110,7 +113,10 @@
         </footer>
         </div>
         
-        
 </html>
+
+@include('commons.newnavbar')
+
+@endsection
         
       
