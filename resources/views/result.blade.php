@@ -1,6 +1,10 @@
 @extends('layouts.app')
-
+@include('commons.newnavbar')
 @section('content')
+
+<div class="icon-image">
+     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+</div>
 	<?php 
 // 全体のHOTなひと
 	$hot2 = App\User::all()->where('feel','>','0');
@@ -224,7 +228,5 @@ $hotgirl = App\User::all()->where('sex','1')->where('size','0');
 @include('grah.hotmenpiegraph')
 
 @include('grah.hotgirlpiegraph')
-
-@include('commons.newnavbar')
 
 @endsection

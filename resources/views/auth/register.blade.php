@@ -1,32 +1,19 @@
 @extends('layouts.app')
 
-<!--@include('commons.navbar')-->
-
 @section('content')
 <div class="icon-image">
     <img class="logo2" src="/images/RakuAirBlack.png"></img>
 </div>
 
 <div class="container-fluid">
-    <div class="row">
         
-
-
     　<p class="ex1">Yes RakuAir</p>
       <p class="ex1">Yes Life</p>
-     
-     
-     
-    
       <p class="ex2"></p>
-    
-    </div>
-    <!--<div class="sighup-title">-->
-    <!--    <p>Sign up</p>-->
 </div>
 
-
-        <div class="col-sm-6 col-sm-offset-3">
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
 
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
@@ -76,7 +63,6 @@
                 {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
-        </div>
     </div>
 </div>
 @endsection

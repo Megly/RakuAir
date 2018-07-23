@@ -15,7 +15,11 @@ body {
     display: flex;
   flex-direction: column;
   min-height: 100vh;
+<<<<<<< HEAD
   
+=======
+  z-index: 10;
+>>>>>>> master
 }
 
 /* copyright*/
@@ -32,11 +36,18 @@ footer {
   margin: 10px 0px 0px 10px;
 }
 
+<<<<<<< HEAD
 /*.icon-image {*/
 /*    margin: 10px 0px 0px 10px;*/
 /*    position: fixed;*/
     
 /*}*/
+=======
+.icon-image {
+    position: fixed;
+    
+}
+>>>>>>> master
 
 
 
@@ -319,6 +330,9 @@ footer {
 .hot-icon_img{
    width: 33%;
 }
+.hot-icon_img:hover {
+    
+}
 
 .hotbtn{
   display: inline;
@@ -384,6 +398,7 @@ footer {
   color: #03eb89;
   transition: .4s;
   margin-top: 25px;
+  margin-bottom: 40%;
 }
 
 .combtn:before {
@@ -872,5 +887,8 @@ h2{
 .body5 ol{
     font-size:30px !important;
     margin-bottom:0px;
+
+    /*font-size: 30px;*/
+    /* text-align:center;*/
 }
 

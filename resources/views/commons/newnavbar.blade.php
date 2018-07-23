@@ -49,19 +49,20 @@
             </li>  
             
             <li>
-           <a>    <p class="feelings"> Your feelings </p>
-<?php
-  $you = Auth::user()->feel;
- if ($you>0) {
-    echo "<img class='hot' src='images/hoticon2.png'></img>";}
- elseif ($you==0) {
-    echo "<img class='hot' src='images/thumbup.png'></img>";}
- else {
-    echo "<img class='hot' src='images/coldicon2.png'></img>";}
-    
-?>
-
-</a>
+                <a href="{{ route('feel.get')}}">
+                <span class="nav-text iconpos3">Your</span>
+                <span class="nav-text iconpos4">feeling</span>
+                    <span class = "feelings"><?php
+                    $you = Auth::user()->feel;
+                    if ($you>0) {
+                        echo "<img class='hot' src='images/hoticon2.png'></img>";}
+                    elseif ($you==0) {
+                        echo "<img class='hot' src='images/thumbup.png'></img>";}
+                    else {
+                        echo "<img class='hot' src='images/coldicon2.png'></img>";}
+                    ?>
+                </span>
+                </a>
                 
             </li>
             

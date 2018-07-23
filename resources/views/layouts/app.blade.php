@@ -16,9 +16,12 @@
         
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         
         <link rel="stylesheet" href="{{ secure_asset('css/stylesheet.css') }}">
         <link rel="stylesheet" href="{{ secure_asset('css/css.css') }}">
+        
     </head>
     
     <body>
@@ -28,14 +31,14 @@
         <div class="container">
 
             
+
             @include('commons.error_messages')
 
             @yield('content')
-       
 
     </body>
   
-    <footer>
+    <footer class="col-lg-12">
             &copy; 2018 KEMKOW All Rights Reserved.
     </footer>
 </html>  
