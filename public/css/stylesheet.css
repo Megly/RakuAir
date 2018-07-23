@@ -43,14 +43,16 @@ footer {
 
 
 /* welcome.blade.php ↓　*******************************************************/
+
 /* welcomeの背景*/
 
-.sky {
-    background-image: url("../images/sky.jpg");
-    width: 100% !important;
-    height: 100%;
+/*.sky {*/
+/*    background-image: url("../images/sky2.jpg");*/
+/*    width: 100% !important;*/
+/*    height: 100%;*/
    
-}
+/*}*/
+
 .map-child  {
   width: 100%;
   display: inline-block;
@@ -88,6 +90,7 @@ footer {
     position: relative;
     display: inline-block;
     font-weight: bold;
+    color: #5b75ad;
     font-size: x-large;
     padding: 5px 11px 5px 15px;
     text-decoration: none;
@@ -108,12 +111,13 @@ footer {
    height: 100%;
    top: 0;
    left: 0;
-   border-radius: 3px;
+   border-radius: 5px;
    background: #5b75ad;
 }
 
 /* 左ボタン ↓　*/
 .square_btn1 {
+    font-size: 35px;
     margin-right: 50px;
 }
 
@@ -126,18 +130,14 @@ footer {
    height: 100%;
    top:0;
    left: 100%;
-   border-radius: 3px;
+   border-radius: 5px;
    background: #5b75ad;
 }
 
-/* 左ボタン ↓　*/
-.square_btn1 {
-    font-size: 30px;
-}
 
 /* 右ボタン ↓　*/
 .square_btn2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-right: 25px;
 }
 

@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class = "sky">
+
+    <!--<div class = "sky">-->
+
     @if (Auth::check())
        @include('layouts.feel')
         
@@ -20,5 +22,6 @@
     </div>
     
     @endif
-    </div>
+
+    <!--</div>-->
 @endsection
