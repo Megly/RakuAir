@@ -13,13 +13,9 @@ body {
     background-color: #fffef4;
     color: #435160;
     display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-<<<<<<< HEAD
-  
-=======
-  z-index: 10;
->>>>>>> master
+    flex-direction: column;
+    min-height: 100vh;
+    z-index: 10;
 }
 
 /* copyright*/
@@ -36,18 +32,12 @@ footer {
   margin: 10px 0px 0px 10px;
 }
 
-<<<<<<< HEAD
-/*.icon-image {*/
-/*    margin: 10px 0px 0px 10px;*/
-/*    position: fixed;*/
-    
-/*}*/
-=======
+
 .icon-image {
     position: fixed;
     
 }
->>>>>>> master
+
 
 
 
@@ -270,28 +260,34 @@ footer {
 }
 
 /* manipulation.blade.php *****************************************************/
-.asakai {
-    float: left;
-    text-align: center;
-    width: 49%;
-    padding: 30px 0px 30px 30px;
-}
 
-.remote {
-    float: right;
+.manipulation{
+    text-align:center;
+}
+.asakai {
     text-align: center;
-    width: 49%;
     padding: 30px 30px 30px 0px;
 }
 
+
+.remote {
+    text-align: center;
+    padding: 30px 30px 30px 0px;
+}
+
+.asakai h1{
+     display:inline-block;
+     border-bottom:4px solid #5b75ad;
+}
+
+.remote h1{
+     display:inline-block;
+     border-bottom:4px solid #5b75ad;
+}
 .map {
     width: 100%;
     height: 45%;
 }
-
-.remotes {
-}
-
 
 .remote1 {
     padding-top: 0;
@@ -887,7 +883,6 @@ h2{
 .body5 ol{
     font-size:30px !important;
     margin-bottom:0px;
-
     /*font-size: 30px;*/
     /* text-align:center;*/
 }
