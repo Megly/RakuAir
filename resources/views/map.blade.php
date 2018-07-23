@@ -239,5 +239,7 @@ for ($i=34; $i<46; $i++){
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
 
-
+<footer class="col-lg-12 footermap">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 @endsection

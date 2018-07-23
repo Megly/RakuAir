@@ -512,10 +512,6 @@ footer {
 }
 
 
-
-.grah {
-    margin-top: 50px;
-}
 /*mapの上のボタン↓*/
 .map-detail {
   width: 100%;
@@ -526,7 +522,7 @@ footer {
 .map-detail a {
     display: inline-block;
     width: 24%;
-    margin: 30px 3px 0px 3px;
+    margin: 0 3px 0px 3px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -612,7 +608,7 @@ footer {
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  font-size: 40px !important;
+  font-size: 30px !important;
 }
 
 /*点滅するアニメーション*/
@@ -675,7 +671,9 @@ footer {
 .grah {
     float: left;
     width: 33%;
+    margin-top: 50px;
 }
+
 .grah:hover {
     transform: scale(1.5);    
 }
@@ -687,6 +685,7 @@ footer {
     margin: 10px 10px;
     text-align: center;
     width: 100%;
+
 }
 
 .screen {
@@ -879,9 +878,21 @@ h1{
     font-size:25px;
 }
 
-.footer2 footer{
-    font-size: 30px;
-     text-align:center;
-     
+.footerwelcome {
+    text-align: center;
+    margin-top: 700px;
 }
 
+.footerfeel {
+    text-align: center;
+    margin-top: 110px;
+}
+.footermap {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footergrah {
+    text-align: center;
+    margin-top: 10px;
+}

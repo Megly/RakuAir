@@ -50,4 +50,7 @@
     </div>
    
 </div>
+<footer class="col-lg-12 footerfeel">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 @endsection
