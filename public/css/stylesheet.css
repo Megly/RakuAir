@@ -316,9 +316,13 @@ footer {
 }
 
 .hot-icon_img{
-   width: 33%;
+   -webkit-transition: 1s ease-in-out;
+    width: 33%;
 }
 .hot-icon_img:hover {
+    -moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+    
     
 }
 
