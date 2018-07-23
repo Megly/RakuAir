@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <!--<div class = "sky">-->
+    
 
     @if (Auth::check())
        @include('layouts.feel')
@@ -21,7 +21,11 @@
             </div>
     </div>
     
+    <footer class="col-lg-12 footerwelcome">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
+    
     @endif
 
-    <!--</div>-->
+    
 @endsection

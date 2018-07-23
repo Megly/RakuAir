@@ -15,6 +15,7 @@
 .container {
     width: 100%;
     padding: 0;
+    
 }
 
 /* copyright*/
@@ -33,12 +34,10 @@ footer {
   /*position: fixed;*/
 }
 
-
 .icon-image {
     position: fixed;
     z-index: 10;
 }
-
 
 
 
@@ -262,6 +261,7 @@ footer {
     color:  #5b75ad;
 }
 
+
 /* inroduction.blade.php *****************************************************/
 
 
@@ -369,39 +369,39 @@ h1{
 .remote {
     font-size:20px;
 }
-
-.asakai h1{
-     font-size:40px;
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     margin-bottom: 20px;
-     margin-top:40px;
+/* manipulation.blade.php *****************************************************/
+.asakai {
+    float: left;
+    text-align: center;
+    width: 49%;
+    padding: 30px 0px 30px 30px;
 }
 
-.remote h1{
-     font-size:40px;
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     margin-bottom: 20px;
-     margin-top:40px;
+.remote {
+    float: right;
+    text-align: center;
+    width: 49%;
+    padding: 30px 30px 30px 0px;
+
 }
 
 .map {
-    width: 65%;
+    width: 100%;
     height: 45%;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 60px;
 }
 
+.remotes {
+}
+
+
 .remote1 {
-    margin-top: 10px;
-    width: 39%;
+    padding-top: 0;
+    width: 47%;
     height: auto;
 }
 
 .remote2 {
-    width: 39%;
+    width: 49%;
     height: auto;
 }
 
@@ -609,11 +609,18 @@ h1{
 
 .maptama {
     margin-top: 70px;
+     overflow: hidden;
+
+  animation: flowing 10s linear infinite;
+  transform: translateX(100%);
+}
+@keyframes flowing {
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-.grah {
-    margin-top: 50px;
-}
+
 /*mapの上のボタン↓*/
 .map-detail {
   width: 100%;
@@ -624,7 +631,7 @@ h1{
 .map-detail a {
     display: inline-block;
     width: 24%;
-    margin: 30px 3px 0px 3px;
+    margin: 0 3px 0px 3px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -710,7 +717,7 @@ h1{
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  font-size: 28px !important;
+  font-size: 30px !important;
 }
 
 /*点滅するアニメーション*/
@@ -773,7 +780,9 @@ h1{
 .grah {
     float: left;
     width: 33%;
+    margin-top: 50px;
 }
+
 .grah:hover {
     transform: scale(1.5);    
 }
@@ -785,6 +794,7 @@ h1{
     margin: 10px 10px;
     text-align: center;
     width: 100%;
+
 }
 
 .screen {
@@ -943,3 +953,55 @@ text-align:center;
 
 
 
+/*introduction のcss*/
+
+h1{
+   text-align:center;
+   margin-bottom: 5px;
+   margin-top:40px;
+}
+.intrologo img{
+    width:800px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.life{
+    margin-bottom:50px;
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.wholebody {
+    text-align:center;
+}
+
+.wholebody h1 {
+    display:inline-block;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 20px;
+    
+}
+
+.wholebody p {
+    font-size:25px;
+}
+
+.footerwelcome {
+    text-align: center;
+    margin-top: 700px;
+}
+
+.footerfeel {
+    text-align: center;
+    margin-top: 110px;
+}
+.footermap {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footergrah {
+    text-align: center;
+    margin-top: 10px;
+}

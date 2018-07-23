@@ -234,4 +234,8 @@ $hotgirl = App\User::all()->where('sex','1')->where('size','0');
 
 @include('grah.hotgirlpiegraph')
 
+<footer class="col-lg-12 footergrah">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
+
 @endsection
