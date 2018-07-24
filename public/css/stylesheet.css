@@ -34,6 +34,7 @@ footer {
   /*position: fixed;*/
 }
 
+
 .icon-image {
     position: fixed;
     z-index: 10;
@@ -41,7 +42,17 @@ footer {
 
 
 
+
 /* welcome.blade.php ↓　*******************************************************/
+
+/* welcomeの背景*/
+
+/*.sky {*/
+/*    background-image: url("../images/sky2.jpg");*/
+/*    width: 100% !important;*/
+/*    height: 100%;*/
+   
+/*}*/
 
 .map-child  {
   width: 100%;
@@ -71,7 +82,7 @@ footer {
 .logo1 {
     width: 40%;
     height: auto;
-    margin: 100px 0px 50px 0px;
+    margin: 0px 0px 50px 0px;
     transition: 1.5s;
 }
 
@@ -252,7 +263,6 @@ footer {
     color:  #5b75ad;
 }
 
-
 /* inroduction.blade.php *****************************************************/
 
 
@@ -396,16 +406,28 @@ h1{
     height: auto;
 }
 
+
 /* feel.blade.php ↓　**********************************************************/
 .feel-page {
   margin-bottom: 290px;
 }
 
 .explanation {
+    /*text-align: center;*/
+    /*font-size: 48px;*/
+    /*color: #5b75ad;*/
+    /*margin: 50px 0px;*/
+    
     text-align: center;
-    font-size: 48px;
+     margin-top: 70px;
+    margin-bottom: 0px;
+    font-size:60px;
     color: #5b75ad;
-    margin: 50px 0px;
+}
+
+.contents {
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 /* 左のコンテント ↓　*/
@@ -423,8 +445,6 @@ h1{
 .hot-icon_img:hover {
     -moz-transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
-    
-    
 }
 
 .hotbtn{
@@ -790,6 +810,17 @@ h1{
 .screen {
     text-align: center;
     font-size: 30px;
+}
+
+.tribe{
+    margin: 10px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.screen {
+    text-align: center;
+    font-size: 30px;
     margin: 60px 0 20px 0;
     border: 2px;
 }
@@ -802,7 +833,7 @@ h1{
 }
 
 .veryhot-tribe:hover:after{
-content:"エアコンを３度下げる事を許可します。";
+content:"Please turn down the AC by 3 degree.";
 display:block;
 position:fixed;
 left:0;
@@ -819,7 +850,7 @@ text-align:center;
 }
 
 .hot-tribe:hover:after{
-content:"エアコンを２度下げる事を許可します。";
+content:"Please turn down the AC by 2 degree.";
 display:block;
 position:fixed;
 left:0;
@@ -837,7 +868,7 @@ text-align:center;
 }
 
 .cold-tribe:hover:after{
-content:"エアコンを２度上げる事を許可します。";
+content:"Please turn up the AC by 2 degree.";
 display:block;
 position:fixed;
 left:0;
@@ -854,7 +885,7 @@ text-align:center;
 }
 
 .verycold-tribe:hover:after{
-content:"エアコンを３度上げる事を許可します。";
+content:"Please turn up the AC by 3 degree.";
 display:block;
 position:fixed;
 left:0;
@@ -871,7 +902,7 @@ text-align:center;
 }
 
 .com-tribe:hover:after{
-content:"快適なはずです。";
+content:"Comfortable!";
 display:block;
 position:fixed;
 left:0;
