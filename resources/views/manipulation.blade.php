@@ -9,19 +9,19 @@
 </div>
 
 <div class='manipulationpage'>
-    <div class="explanation2">Manipulation</div>
+    <div class="explanation2">How to Use</div><br><br>
         <div class="asakai">
-            <h1>Sketch（Asakai Theatre A）</h1><br>
+            <h1>Where to adjust temperature</h1><br>
                 <p>The colors of the remote controllers is equal to the colors of the areas (tribes).</p>
                 <p>*The green area is where 2 tribes are mixed.</p>
                 <p>Ex.) Green area of Pink tribe >>> Go to the yellow/green controller. </p>
-                <img class="map" src="/images/Map.png"></img><br><br><br><br><br><br><br>
+                <img class="map" src="/images/Map.png"　alt="Asakai Theatre A"></img>
         </div>
     
         
         <div class="remote">
-            <h1>How to manipulate the controllers.</h1><br>
-                <p>Each buttons in the red line is equal to the areas shown on the map.</p>
+            <h1>How to manipulate the controllers</h1><br>
+                <p>Each buttons (A-G) equal to the areas (A-G) shown on the map.</p>
                 <p>*Not all the controllers have A-G.</p>
                 <ol>
                     Ex.) Area C >>> <br>
