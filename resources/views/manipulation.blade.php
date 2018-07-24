@@ -20,7 +20,7 @@
     
         
         <div class="remote">
-            <h1>How to manipulate the controllers.</h1><br>
+            <h1>How to manipulate the controllers</h1><br>
                 <p>Each buttons (A-G) equal to the areas (A-G) shown on the map.</p>
                 <p>*Not all the controllers have A-G.</p>
                 <ol>
