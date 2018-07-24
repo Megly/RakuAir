@@ -65,7 +65,7 @@ Route::get('purple', function () {
     return view('teammaps.purple');})->name('purple.get');
     
 Route::put('clear1a', 'ClearController@a1')->name('clear1a');
-Route::put('clear1b', 'ClearController@a1')->name('clear1b');
+Route::put('clear1b', 'ClearController@b1')->name('clear1b');
 Route::put('clear2a', 'ClearController@a2')->name('clear2a');
 Route::put('clear2b', 'ClearController@b2')->name('clear2b');
 Route::put('clear2c', 'ClearController@c2')->name('clear2c');
