@@ -5,10 +5,26 @@
         <div class="cp_menu">
         <ul>
             
+             <li>
+                <a href="{{ route('feel.get')}}">
+                <span class="nav-text iconpos3">Your feeling</span>
+                    <span class = "feelings"><?php
+                    $you = Auth::user()->feel;
+                    if ($you>0) {
+                        echo "<img class='hot' src='images/hoticon2.png'></img>";}
+                    elseif ($you==0) {
+                        echo "<img class='hot' src='images/thumbup.png'></img>";}
+                    else {
+                        echo "<img class='hot' src='images/coldicon2.png'></img>";}
+                    ?>
+                </span>
+                </a>
+            </li>
+            
             <li>
                 <a href="{{ route('introduction.get')}}">
                    <i class="fa fa-info-circle fa-2x"></i>
-                   <span class="nav-text iconpos"> Desc.</span>
+                   <span class="nav-text iconpos"> About</span>
                 </a>
             </li> 
             
@@ -40,31 +56,27 @@
                     <span class="nav-text iconpos"> Map</span>
                 </a>
             </li>
-                
+            
             <li>
+
+            <span>
+                    @include('youraircon')
+            </span>
+            </li>  
+            
+             <li>
+            <span class="nav-text iconpos">
+                    @include('reset')
+            </span>
+            </li>
+            
+             <li>
                 <a href="{{ route('logout.get')}}">
                     <i class="fa fa-power-off fa-2x"></i>
                     <span class="nav-text iconpos"> Logout</span>
+
                 </a>
             </li>  
-            
-            <li>
-                <a href="{{ route('feel.get')}}">
-                <span class="nav-text iconpos3">Your</span>
-                <span class="nav-text iconpos4">feeling</span>
-                    <span class = "feelings"><?php
-                    $you = Auth::user()->feel;
-                    if ($you>0) {
-                        echo "<img class='hot' src='images/hoticon2.png'></img>";}
-                    elseif ($you==0) {
-                        echo "<img class='hot' src='images/thumbup.png'></img>";}
-                    else {
-                        echo "<img class='hot' src='images/coldicon2.png'></img>";}
-                    ?>
-                </span>
-                </a>
-                
-            </li>
             
         </ul>
         </div>
