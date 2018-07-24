@@ -10,6 +10,7 @@
 <div class="feel-page">
     <div class="explanation">How do you feel now?</div>
     
+    <div class='contents'>
     <div class='hotcontent'>
         <div class='hot-icon'>
                 {!! Form::open(['route' => ['hot' ], 'method' => 'put']) !!}
@@ -49,6 +50,7 @@
         </div>
     </div>
    
+</div>
 </div>
 <footer class="col-lg-12 footerfeel">
             &copy; 2018 KEMKOW All Rights Reserved.
