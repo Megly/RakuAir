@@ -132,14 +132,44 @@ text-align: center;
 }
 
 .iconpos3 {
-    margin-left: 40px;
+    font-size: 20px;
+    margin-left: 23px;
 }
-.iconpos4 {
-    margin-left: 25px;
-}
+
 .feelings {
     margin-left: 30px;
 }
+
+/*Adjusted btn*/
+.clearbtnparent {
+    text-align:center;
+    color: white;
+    border-bottom: 1px solid #fffef4;
+    background-color: #5b75ad;
+}
+
+.blink-adjusthot {animation: blink-adjust-Anime .6s infinite alternate;}
+@keyframes blink-adjust-Anime{
+   0% { color: white}
+ 100% { color: red }
+}
+
+/*Your aircon btn*/
+.airconbtnparent {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid #fffef4;
+}
+
+.aircon {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+
+
 
 
 /*@font-face {*/
