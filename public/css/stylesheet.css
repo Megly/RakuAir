@@ -30,8 +30,6 @@ footer {
   width: 150px;
   height: 50px;
   margin: 10px 0px 0px 10px;
-  
-  /*position: fixed;*/
 }
 
 
@@ -42,34 +40,7 @@ footer {
 
 
 
-
 /* welcome.blade.php ↓　*******************************************************/
-
-/* welcomeの背景*/
-
-/*.sky {*/
-/*    background-image: url("../images/sky2.jpg");*/
-/*    width: 100% !important;*/
-/*    height: 100%;*/
-   
-/*}*/
-
-.map-child  {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-}
-
-.map-child p {
-  width: 24%;
-  display: inline-block;
-  text-align: center;
-  padding: 30% 0; 
-  z-index: 0;
-  font-weight: bold;
-  font-size: 28px !important;
-}
-
 /* 大ロゴとボタンのdiv*/
 .text-center {
     position: absolute;
@@ -87,6 +58,10 @@ footer {
 }
 
 /* ボタン両方 ↓　*/
+.btn-group {
+    margin-right: 25px;
+}
+
 .btn {
     position: relative;
     display: inline-block;
@@ -99,11 +74,7 @@ footer {
     background-color: rgba(0,0,0,0);
 }
 
-.btn-group {
-    margin-right: 25px;
-}
-
-/* ボタンの左の縦棒 ↓　*/
+/* ボタンの左棒 ↓　*/
 .btn:before {
    position: absolute;
    display: inline-block;
@@ -123,11 +94,9 @@ footer {
     margin-right: 50px;
 }
 
-.square_btn1:hover {
-    color: #5b75ad;
-}
+.square_btn1:hover {color: #5b75ad;}
 
-/* ボタンの右の縦棒 ↓　*/
+/* ボタンの右棒 ↓　*/
 .btn:after{
    position: absolute;
    display: inline-block;
@@ -140,7 +109,6 @@ footer {
    background: #5b75ad;
 }
 
-
 /* 右ボタン ↓　*/
 .square_btn2 {
     font-size: 35px;
@@ -148,9 +116,7 @@ footer {
     margin-right: 25px;
 }
 
-.square_btn2:hover {
-    color: #5b75ad;
-}
+.square_btn2:hover {color: #5b75ad;}
 
 /* カーソルを合わせた時の棒の動きの角度 ↓　*/
 .btn:hover:before,.btn:hover:after{
@@ -164,43 +130,18 @@ footer {
     font-family: "Mplus 1p";
 }
 
-.map-child  {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-}
 
-.map-child p {
-  width: 24%;
-  display: inline-block;
-  text-align: center;
-  padding: 30% 0; 
-  z-index: 0;
-  font-weight: bold;
-  font-size: 28px !important;
-}
 
 /* register.blade.php ↓　******************************************************/
+/*Welcome to RakuAir! ↓*/
 .container-fluid {
     margin-top: 30px;
 }
-
 
 .ex1 {
     text-align: center;
     font-size: 50px;
     color: #5b75ad;
-}
-
-.ex2 {
-    text-align: center;
-    font-size: 50px;
-    color: #5b75ad;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /* signupの質問項目 ↓　*/
@@ -212,7 +153,6 @@ footer {
   margin-bottom: 2px;
 }
 
-
 /* signupボタン ↓　*/
 .btn-signup {
     position: relative;
@@ -222,11 +162,12 @@ footer {
     padding: 5px 11px 5px 15px;
     text-decoration: none;
     color:  #5b75ad;
+    margin-top: 10px;
 }
 
 /* already have?の部分 ↓　*/
 .loginhere {
-  margin-top: 15px;
+  margin-top: 25px;
   display: block;
   font-size: 17px;
   text-align: center;
@@ -235,197 +176,12 @@ footer {
 }
 
 
+
 /* login.blade.php ↓　*********************************************************/
 .loginpage {
   margin-top: 170px;
 }
 
-/* loginのタイトル ↓　*/
-.login-title {
-  color: #5b75ad;
-  font-weight: bold;
-  font-size: 3.6em;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.btn-login {
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    font-size: x-large;
-    padding: 5px 11px 5px 15px;
-    text-decoration: none;
-    color:  #5b75ad;
-}
-
-/* inroduction.blade.php *****************************************************/
-h1{
-   text-align:center;
-   margin-bottom: 5px;
-   margin-top:40px;
-}
-.intrologo img{
-    width:600px;
-    text-align: center;
-    max-width:100%;
-    margin-top:70px;
-    margin-bottom: 0px;
-}
-
-.life{
-    margin-bottom:50px;
-    font-size: 45px;
-    margin-top: 0px; 
-    text-align: center;
-    
-}
-
-.wholebody {
-    text-align:center;
-}
-
-.wholebody h1 {
-    display:inline-block;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 20px;
-    text-align:center !important;
-    margin-top:40px;
-    font-size:40px;
-    
-}
-
-.wholebody p {
-    font-size:25px;
-}
-
-.body2 p{
-    margin:auto 
-}
-
-.body3 h2{
-    display:inline-block;
-    font-size:30px;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 0px;
-}
-
-.body3 ol{
-    font-size:20px !important;
-}
-
-.manipulate{
-    margin-bottom: 20px;
-}
-.feel{
-    margin-bottom: 20px;
-}
-.data{
-    margin-bottom: 20px;
-}
-.maplogo{
-    margin-bottom: 20px;
-}
-.logout{
-    margin-bottom: 20px;
-}
-
-
-.body4 p{
-    font-size:20px !important;
-    text-align: left !important;
-    margin-left:270px;
-    margin-bottom: 0px;
-}
-
-.body5 ol{
-    font-size:20px !important;
-}
-
-.body4 h2{
-    display:inline-block;
-    font-size:30px;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 0px;
-}
-
-
-.body5 ol{
-    font-size:20px !important;
-    margin-bottom:0px;
-    /*font-size: 30px;*/
-    /* text-align:center;*/
-}
-
-.footer2 {
-    text-align:center;
-    margin-top:60px;
-    margin-bottom:40px;
-}
-
-.footer2 p{
-    font-size: 45px !important;
-}
-
-
-
-/* manipulation.blade.php *****************************************************/
-
-.explanation2{
-    margin-top: 70px;
-    margin-bottom: 0px;
-    font-size:70px;
-    color: #5b75ad;
-}
-
-.manipulationpage{
-    text-align:center;
-     padding: 30px 30px 30px 0px;
-}
-
-.asakai{
-    font-size:25px;
-    height:90%;
-}
-
-.remote {
-    font-size:25px;
-}
-
-.asakai h1{
-     font-size:40px;
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     margin-bottom: 20px;
-     margin-top:40px;
-}
-
-.remote h1{
-     font-size:40px;
-     display:inline-block;
-     border-bottom:4px solid #5b75ad;
-     margin-bottom: 20px;
-     margin-top:40px;
-}
-
-.map {
-    width: 65%;
-    height: 45%;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 60px;
-}
-
-.remote1 {
-    margin-top: 10px;
-    width: 24%;
-    height: auto;
-}
-
-.remote2 {
-    width: 25%;
-    height: auto;
-}
 
 
 /* feel.blade.php ↓　**********************************************************/
@@ -433,9 +189,10 @@ h1{
   margin-bottom: 290px;
 }
 
+/*How do you feel?*/
 .explanation {
-     text-align: center;
-     margin-top: 90px;
+    text-align: center;
+    margin-top: 90px;
     margin-bottom: 50px;
     font-size:60px;
     color: #5b75ad;
@@ -451,18 +208,20 @@ h1{
   width: 33%;
   float: left;
   text-align: center;
-  /*margin-left: 10%;*/
 }
 
+/*太陽マーク*/
 .hot-icon_img{
    -webkit-transition: 1s ease-in-out;
     width: 33%;
 }
+
 .hot-icon_img:hover {
     -moz-transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 }
 
+/*hotのボタン*/
 .hotbtn{
   display: inline;
   position: relative;
@@ -510,12 +269,12 @@ h1{
   width: 33%;
   float: left;
   text-align: center;
-  /*margin-right: 10%;*/
 }
 
+/*グッドマーク*/
 .com-icon_img {
     -webkit-transition: 1s ease-in-out;
-  width: 33%;
+    width: 33%;
 }
 
 .com-icon_img:hover {
@@ -523,6 +282,7 @@ h1{
 -webkit-transform: rotate(360deg);
 }
 
+/*comボタン*/
 .combtn{
   display: inline;
   position: relative;
@@ -566,18 +326,17 @@ h1{
   transform: rotate(10deg);
 }
 
-
 /* 右のコンテント ↓　*/
 .coldcontent {
   width: 33%;
   float: right;
   text-align: center;
-  /*margin-right: 10%;*/
 }
 
+/*雪マーク*/
 .cold-icon_img {
     -webkit-transition: 1s ease-in-out;
-  width: 33%;
+    width: 33%;
 }
 
 .cold-icon_img:hover {
@@ -585,6 +344,7 @@ h1{
 -webkit-transform: rotate(360deg);
 }
 
+/*coldボタン*/
 .coldbtn{
   display: inline;
   position: relative;
@@ -630,10 +390,10 @@ h1{
 
 
 /* map.blade.php ↓　***********************************************************/
-
+/*右から流れるアニメーション*/
 .maptama {
     margin-top: 70px;
-     overflow: hidden;
+    overflow: hidden;
 
   animation: flowing 15s linear infinite;
   transform: translateX(100%);
@@ -643,8 +403,6 @@ h1{
     transform: translateX(-100%);
   }
 }
-
-
 
 /*mapの上のボタン↓*/
 .map-detail {
@@ -679,6 +437,7 @@ h1{
     transition: all .3s;
     margin: 10px 0 0 0;
 }
+
 .btn-jedi:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
@@ -695,7 +454,6 @@ h1{
 .yellow-tribe {font-size: 30px; color: #d8c638;}
 .pink-tribe {font-size: 30px; color: #ff2baf;}
 .purple-tribe {font-size: 30px; color: #ce21ff;}
-
 
 .tribe-brother {
   width: 100%;
@@ -784,29 +542,189 @@ h1{
     float: right;
     width: 30%;
     font-size: large;
-    
 }
 
-.hot {
-    margin-left: 5px;
-}
-
-.good {
-    margin-left: 5px;
-}
-
-.cold {
-    margin-left: 5px;
-}
-
-.verycold {
-    margin-left: 5px;
-}
+.hot {margin-left: 5px;}
+.good {margin-left: 5px;}
+.cold {margin-left: 5px;}
+.verycold {margin-left: 5px;}
 
 .tribecolor {
     margin-top: 100px;
     text-align: center;
 }
+
+
+
+/* introduction.blade.php *****************************************************/
+h1{
+   text-align:center;
+   margin-bottom: 5px;
+   margin-top:40px;
+}
+
+.intrologo img{
+    width:600px;
+    text-align: center;
+    max-width:100%;
+    margin-top:70px;
+    margin-bottom: 0px;
+}
+
+.life{
+    margin-bottom:50px;
+    font-size: 45px;
+    margin-top: 0px; 
+    text-align: center;
+}
+
+.wholebody {
+    text-align:center;
+}
+
+.wholebody h1 {
+    display:inline-block;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 20px;
+    text-align:center !important;
+    margin-top:40px;
+    font-size:40px;
+}
+
+.wholebody p {
+    font-size:25px;
+}
+
+.body2 p{
+    margin:auto 
+}
+
+.body3 h2{
+    display:inline-block;
+    font-size:30px;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 0px;
+}
+
+.body3 ol{
+    font-size:20px !important;
+}
+
+.manipulate{
+    margin-bottom: 20px;
+}
+
+.feel{
+    margin-bottom: 20px;
+}
+
+.data{
+    margin-bottom: 20px;
+}
+
+.maplogo{
+    margin-bottom: 20px;
+}
+
+.logout{
+    margin-bottom: 20px;
+}
+
+.body4 p{
+    font-size:20px !important;
+    text-align: left !important;
+    margin-left:270px;
+    margin-bottom: 0px;
+}
+
+.body5 ol{
+    font-size:20px !important;
+}
+
+.body4 h2{
+    display:inline-block;
+    font-size:30px;
+    border-bottom:4px solid #5b75ad;
+    margin-bottom: 0px;
+}
+
+.body5 ol{
+    font-size:20px !important;
+    margin-bottom:0px;
+    /*font-size: 30px;*/
+    /* text-align:center;*/
+}
+
+.footer2 {
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:40px;
+}
+
+.footer2 p{
+    font-size: 45px !important;
+}
+
+
+
+/* manipulation.blade.php *****************************************************/
+.explanation2{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-size:70px;
+    color: #5b75ad;
+}
+
+.manipulationpage{
+    text-align:center;
+     padding: 30px 30px 30px 0px;
+}
+
+.asakai{
+    font-size:25px;
+    height:90%;
+}
+
+.remote {
+    font-size:25px;
+}
+
+.asakai h1{
+     font-size:40px;
+     display:inline-block;
+     border-bottom:4px solid #5b75ad;
+     margin-bottom: 20px;
+     margin-top:40px;
+}
+
+.remote h1{
+     font-size:40px;
+     display:inline-block;
+     border-bottom:4px solid #5b75ad;
+     margin-bottom: 20px;
+     margin-top:40px;
+}
+
+.map {
+    width: 65%;
+    height: 45%;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.remote1 {
+    margin-top: 10px;
+    width: 24%;
+    height: auto;
+}
+
+.remote2 {
+    width: 25%;
+    height: auto;
+}
+
+
 
 /* result.blade.php ↓　***********************************************************/
 .result-top {
@@ -830,18 +748,6 @@ h1{
     margin: 10px 10px;
     text-align: center;
     width: 100%;
-
-}
-
-.screen {
-    text-align: center;
-    font-size: 30px;
-}
-
-.tribe{
-    margin: 10px 10px;
-    text-align: center;
-    width: 100%;
 }
 
 .screen {
@@ -859,16 +765,17 @@ h1{
 }
 
 .veryhot-tribe:hover:after{
-content:"Please turn down the AC by 3 degree.";
-display:block;
-position:fixed;
-left:0;
-width:100%;
-height:30px;
-line-height:30px;
-font-weight:bold;
-text-align:center;
+    content:"Please turn down the AC by 3 degree.";
+    display:block;
+    position:fixed;
+    left:0;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    text-align:center;
 }
+
 .hot-tribe {padding-top: 60px; font-size:25px; animation: blinkAnime 1s infinite alternate;}
 @keyframes blinkAnime{
    0% { color: #000000 }
@@ -876,15 +783,15 @@ text-align:center;
 }
 
 .hot-tribe:hover:after{
-content:"Please turn down the AC by 2 degree.";
-display:block;
-position:fixed;
-left:0;
-width:100%;
-height:30px;
-line-height:30px;
-font-weight:bold;
-text-align:center;
+    content:"Please turn down the AC by 2 degree.";
+    display:block;
+    position:fixed;
+    left:0;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    text-align:center;
 }
 
 .cold-tribe {padding-top: 60px; font-size:25px; animation: blinknoAnime 1s infinite alternate;}
@@ -894,15 +801,15 @@ text-align:center;
 }
 
 .cold-tribe:hover:after{
-content:"Please turn up the AC by 2 degree.";
-display:block;
-position:fixed;
-left:0;
-width:100%;
-height:30px;
-line-height:30px;
-font-weight:bold;
-text-align:center;
+    content:"Please turn up the AC by 2 degree.";
+    display:block;
+    position:fixed;
+    left:0;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    text-align:center;
 }
 .verycold-tribe {padding-top: 50px; font-size: 30px; animation: blinknoAnime .2s infinite alternate;}
 @keyframes blinknoAnime{
@@ -911,15 +818,15 @@ text-align:center;
 }
 
 .verycold-tribe:hover:after{
-content:"Please turn up the AC by 3 degree.";
-display:block;
-position:fixed;
-left:0;
-width:100%;
-height:30px;
-line-height:30px;
-font-weight:bold;
-text-align:center;
+    content:"Please turn up the AC by 3 degree.";
+    display:block;
+    position:fixed;
+    left:0;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    text-align:center;
 }
 
 .com-tribe {
@@ -928,15 +835,15 @@ text-align:center;
 }
 
 .com-tribe:hover:after{
-content:"Comfortable!";
-display:block;
-position:fixed;
-left:0;
-width:100%;
-height:30px;
-line-height:30px;
-font-weight:bold;
-text-align:center;
+    content:"Comfortable!";
+    display:block;
+    position:fixed;
+    left:0;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    text-align:center;
 }
 
 
@@ -981,60 +888,13 @@ text-align:center;
 /*  -ms-transform: rotate(10deg);*/
 /*  transform: rotate(10deg);*/
 
-/*input[type="text"], input[type="password"] {*/
-/*  width: 350px;*/
-/*  padding: 20px 0px;*/
-/*  background: transparent;*/
-/*  border: 0;*/
-/*  border-bottom: 1px solid #435160;*/
-/*  outline: none;*/
-/*  color: #6D7781;*/
-/*  font-size: 16px;*/
-/*}*/
-/*input[type=checkbox] {*/
-/*  display: none;*/
-/*}フォーム入力の背景色*/
-
-
-.footerwelcome {
-    text-align: center;
-    margin-top: 700px;
-}
-
-.footerfeel {
-    text-align: center;
-    margin-top: 30px;
-}
-.footermap {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.fottermaps {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.footergrah {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.footerintro {
-     text-align: center;
-     margin-top: 10px;
-}
-.footermani {
-     text-align: center;
-     margin-top: 10px;
-}
-
-.footerlogin {
-     text-align: center;
-     margin-top: 10px;
-}
-
-.footermanireg {
-     text-align: center;
-     margin-top: 10px;
-}
+/*footerたち*******************************************************************/
+.footerwelcome {text-align: center; margin-top: 700px;}
+.footerfeel {text-align: center; margin-top: 30px;}
+.footermap {text-align: center; margin-top: 10px;}
+.fottermaps {text-align: center; margin-top: 10px;}
+.footergrah {text-align: center; margin-top: 10px;}
+.footerintro {text-align: center; margin-top: 10px;}
+.footermani {text-align: center; margin-top: 10px;}
+.footerlogin {text-align: center; margin-top: 10px;}
+.footermanireg {text-align: center; margin-top: 10px;}

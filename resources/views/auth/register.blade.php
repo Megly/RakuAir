@@ -28,9 +28,9 @@
                 </div>
 
                 <div class="form-group">
-                    <p class='sofia'>Password (Confirmation)</p>
+                    <p class='sofia'>Password (confirmation)</p>
                     <div class="form">
-                    {!! Form::password('password_confirmation', ['class' => 'form-control', 'placeholder' => "Password (Confirmation)"]) !!}
+                    {!! Form::password('password_confirmation', ['class' => 'form-control', 'placeholder' => "Password (confirmation)"]) !!}
                     </div>
                 </div>
                 
@@ -56,7 +56,7 @@
                 </div>
                 
 
-                {!! Form::submit('Sign up', ['class' => 'btn btn-signup btn-block']) !!}
+                {!! Form::submit('Sign up!', ['class' => 'btn square_btn1 btn-default btn-block btn-signup']) !!}
                 {!! Form::close() !!}
             
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>

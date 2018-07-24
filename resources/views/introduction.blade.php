@@ -15,21 +15,15 @@
         <div class="icon-image">
             <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
         </div>
-        
     </head>
-    
-        <div class = "header">
+    <body>
         <header>
             <h1 class = "intrologo"><img src="images/RakuAirBlack.png" alt="rakuairlogo"><h1>
             <h1 class = "life"><p>~Comfortable Life to you all~</p></h1>
-
         </header>
-        </div>
-        
-        
-        <body>
+    
             
-         <div class= "wholebody">
+        <div class= "wholebody">
             
             <div class = "body1">
          
@@ -90,7 +84,7 @@
               
              </div> 
               
-         </div>
+        </div>
         </body>
         
         
@@ -102,7 +96,7 @@
         
         <footer class="col-lg-12 footerintro">
             &copy; 2018 KEMKOW All Rights Reserved.
-    </footer>
+        </footer>
         
         
 </html>

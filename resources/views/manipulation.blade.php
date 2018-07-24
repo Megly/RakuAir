@@ -8,7 +8,7 @@
     <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
-<div class='manipulationpage'>
+<div class="manipulationpage">
     <div class="explanation2">How to Use</div><br><br>
         <div class="asakai">
             <h1>Where to adjust temperature</h1><br>
@@ -38,5 +38,5 @@
 
 <footer class="col-lg-12 footermani">
             &copy; 2018 KEMKOW All Rights Reserved.
-    </footer>
+</footer>
 @endsection

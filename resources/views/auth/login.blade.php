@@ -7,8 +7,8 @@
 </div>
 
 <div class="loginpage">
-    <div class="login-title">
-        <p>Log in</p>
+    <div class="container-fluid">
+        <p class="ex1">Log in</p>
     </div>
 
     <div class="row">
@@ -25,7 +25,7 @@
                     {!! Form::password('password', ['class' => 'form-control', 'placeholder' => "Password"]) !!}
                 </div>
 
-                {!! Form::submit('Log in', ['class' => 'btn btn-login btn-block']) !!}
+                {!! Form::submit('Log in!', ['class' => 'btn square_btn2 btn-default btn-block btn-signup']) !!}
                 {!! Form::close() !!}
 
             <p class=loginhere>{!! link_to_route('signup.get', 'New user? Sign up now!') !!}</p>
