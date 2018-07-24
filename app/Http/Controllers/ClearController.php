@@ -9,7 +9,7 @@ class ClearController extends Controller
 {
     public function a1()
     {
-     $users1 = User::all()->where('team','=','4');
+     $users1 = User::all()->where('team','4');
      $users2 = User::all()->where('team','>=','1')->where('team','<=','2');
      foreach($users1 as $user){
      $user -> feel = 0;
@@ -65,8 +65,8 @@ class ClearController extends Controller
     {
      $users1 = User::all()->where('team','>=','12')->where('team','<=','13');
      $users2 = User::all()->where('team','>=','16')->where('team','<=','17');
-     $users3 = User::all()->where('team','>=','22');
-     $users4 = User::all()->where('team','>=','26');
+     $users3 = User::all()->where('team','22');
+     $users4 = User::all()->where('team','26');
      $users = [$users1,$users2,$users3,$users4];
      foreach($users as $a){
      foreach($a as $user){
@@ -79,7 +79,7 @@ class ClearController extends Controller
     public function d2()
     {
      $users1 = User::all()->where('team','>=','20')->where('team','<=','21');
-     $users2 = User::all()->where('team','>=','30');
+     $users2 = User::all()->where('team','30');
      $users = [$users1,$users2];
      foreach($users as $a){
      foreach($a as $user){

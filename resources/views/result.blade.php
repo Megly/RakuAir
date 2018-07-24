@@ -136,12 +136,12 @@ $dhot = App\User::all()->where('size','0')->where('feel','>','0');
 	 $countdhot = 0;
  	foreach($dhot as $feelings13){
  		$countdhot = $countdhot + 1 ;}
-	$dcold = App\User::all()->where('size','0')->where('feel','<','0');
+ 		
+	$dcold = App\User::all()->where('size','0')->where('team','<','0');
 	$countdcold = 0;
  	foreach($dcold as $feelings13){
- 		$countdcold = $countdcold + 1 ;		
-	}
-	echo $countdcold;
+ 		$countdcold = $countdcold + 1 ;	}
+	
 	$comd = App\User::all()->where('size','0')->where('feel','0');
     $countcomd = 0;
 	foreach($comd as $feelings13){
@@ -206,7 +206,6 @@ $hotgirl = App\User::all()->where('sex','1')->where('size','0');
 	}
 	
 	$comgirl = App\User::all()->where('sex','1')->where('size','1');
-	$countcomgirl = 0;
 	foreach($comgirl as $feelings13){
 		$countcomgirl = $countcomgirl + 1 ;}
 	?>

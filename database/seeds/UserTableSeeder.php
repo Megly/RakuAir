@@ -19,7 +19,7 @@ class UserTableSeeder extends Seeder
             'team' => $a,
             'sex' => rand(0,1),
             'size' => rand(0,2),
-            'feel' => rand(-6,6),
+            'feel' => rand(0,6),
         
         ]);};
         }
