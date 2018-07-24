@@ -57,34 +57,10 @@ for ($i=34; $i<46; $i++){
 };
 
 	?>
-</div>
-        <div class = 'clearbtnparent'>
-        @if($userteam == 34 ||   $userteam == 35 || $userteam == 38 || $userteam == 39 )
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear4a' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @elseif($userteam == 42 || $userteam == 43)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear4b' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @elseif($userteam == 36 ||  $userteam == 37 || $userteam == 41)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear4c' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @elseif($userteam == 40 ||  $userteam == 44 || $userteam == 45)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear4d' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
 
-        @endif
+       
+
+    
         </div>
 <div class="mod">　</div>
  <!--色説明-->

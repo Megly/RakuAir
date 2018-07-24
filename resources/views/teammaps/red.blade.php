@@ -56,33 +56,8 @@ $userteam = $user->team;
 
 </div>
 
-        <div class = 'clearbtnparent'>
-        @if($userteam == 1 ||   $userteam == 2 || $userteam == 4)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear1a' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @elseif($userteam == 7)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear1b' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @elseif($userteam == 3)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear2a' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @elseif($userteam == 5 ||  $userteam == 6 || $userteam == 8 || $userteam == 9)
-        <div class='clearbtn'>
-                {!! Form::open(['route' => ['clear2b' ], 'method' => 'put']) !!}
-                {!! Form::submit('Adjusted ', ['class' => 'btn btn-lg btn-block']) !!}
-                {!! Form::close() !!}
-        </div>
-        @endif
-        </div>
+        
+        
 
 <div class="mod">　</div>
  <!--色説明-->
