@@ -138,7 +138,7 @@ class ClearController extends Controller
     public function c4()
     {
      $users1 = User::all()->where('team','>=','36')->where('team','<=','37');
-     $users2 = User::all()->where('team','>=','41');
+     $users2 = User::all()->where('team','=','41');
      $users = [$users1,$users2];
      foreach($users as $a){
      foreach($a as $user){
