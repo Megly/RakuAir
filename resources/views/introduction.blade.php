@@ -92,10 +92,14 @@
         
         
         <div class = "footer2">
-        <footer>
+        
             <p>Now, let's say hello to Comfortable Life!</p>
-        </footer>
+        
         </div>
+        
+        <footer class="col-lg-12 footerintro">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
         
         
 </html>

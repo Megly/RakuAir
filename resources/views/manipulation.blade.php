@@ -35,4 +35,8 @@
         </div>
     </div>
 </div>
+
+<footer class="col-lg-12 footermani">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 @endsection
