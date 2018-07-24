@@ -33,4 +33,8 @@
     </div>
 </div>
 
+<footer class="col-lg-12 footerlogin">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
+
 @endsection

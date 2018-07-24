@@ -336,7 +336,7 @@ h1{
     /* text-align:center;*/
 }
 
-.footer2 footer{
+.footer2 {
     text-align:center;
     margin-top:60px;
     margin-bottom:40px;
@@ -1030,4 +1030,23 @@ h1{
 .footergrah {
     text-align: center;
     margin-top: 10px;
+}
+
+.footerintro {
+     text-align: center;
+     margin-top: 10px;
+}
+.footermani {
+     text-align: center;
+     margin-top: 10px;
+}
+
+.footerlogin {
+     text-align: center;
+     margin-top: 10px;
+}
+
+.footermanireg {
+     text-align: center;
+     margin-top: 10px;
 }

@@ -63,4 +63,8 @@
             <p class=loginhere>{!! link_to_route('login', 'Already have an account?') !!}</p>
     </div>
 </div>
+
+<footer class="col-lg-12 footerreg">
+            &copy; 2018 KEMKOW All Rights Reserved.
+    </footer>
 @endsection
