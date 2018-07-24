@@ -318,8 +318,28 @@ h1{
     font-size:20px !important;
 }
 
+.manipulate{
+    margin-bottom: 20px;
+}
+.feel{
+    margin-bottom: 20px;
+}
+.data{
+    margin-bottom: 20px;
+}
+.maplogo{
+    margin-bottom: 20px;
+}
+.logout{
+    margin-bottom: 20px;
+}
+
+
 .body4 p{
     font-size:20px !important;
+    text-align: left !important;
+    margin-left:270px;
+    margin-bottom: 0px;
 }
 
 .body5 ol{

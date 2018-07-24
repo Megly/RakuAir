@@ -41,28 +41,28 @@ $array =array(
 
 
 <div class='map-child2'>
-<div class="maptama">
+  <div class="maptama">
 	@foreach($array as $sum => $tribe)
 	@if($sum>=60)
-	     <p><span class="blink-veryhot"><?php echo $tribe ?> is Really Hot</span></p>
-     @elseif( 60 > $sum && $sum >= 20)
+	     <p><span class="blink-veryhot"><?php echo $tribe ?> is Super Hot</span></p>
+     @elseif( 30 > $sum && $sum >= 20)
 	     <p><span class="blink-hot"><?php echo $tribe ?> is Hot</span></p>
-     @elseif( -20 >= $sum && $sum >= -60)
+     @elseif( -20 >= $sum && $sum >= -30)
 	     <p><span class="blink-cold"><?php echo $tribe ?> is Cold</span></p>
-     @elseif($sum <= -60)
-	     <p><span class="blink-veryhot"><?php echo $tribe ?> is Cold</span></p>
+     @elseif($sum <= -30)
+	     <p><span class="blink-verycold"><?php echo $tribe ?> is Super Cold</span></p>
      @else
 	     <p><?php echo $tribe ?> is Comfortable</p>
      @endif
-	    
-	    @endforeach
-</div>
-<div class="map-detail">
+	 @endforeach
+  </div>
+
+  <div class="map-detail">
         <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> detail</a>
         <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> detail</a>
         <a class="btn-master btn-jedi btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> detail</a>
         <a class="btn-master btn-jedi btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> detail</a>
-</div>
+  </div>
 
 <div class="tribe-brother">
 <div class="red-tribe-map">
