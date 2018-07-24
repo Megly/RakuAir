@@ -230,6 +230,7 @@ for ($i=34; $i<46; $i++){
 </div>
 
 
+<div class= "mapbottom">
     <!--色説明-->
    <div class="colorinfo">
         <img class="veryhot" src="/images/veryhot.png"></img> : Very hot
@@ -238,8 +239,13 @@ for ($i=34; $i<46; $i++){
         <img class="cold" src="/images/cold.png"></img> : Cold
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
+   
+   <div class="maplink">
+        <a href="{{ route('manipulation.get')}}">>>>Map</a>
+   </div>
+</div>
 
 <footer class="col-lg-12 footermap">
             &copy; 2018 KEMKOW All Rights Reserved.
     </footer>
-@endsection
+@endsection/
