@@ -123,6 +123,10 @@ footer {
     margin-right: 50px;
 }
 
+.square_btn1:hover {
+    color: #5b75ad;
+}
+
 /* ボタンの右の縦棒 ↓　*/
 .btn:after{
    position: absolute;
@@ -142,6 +146,10 @@ footer {
     font-size: 35px;
     color: #5b75ad;
     margin-right: 25px;
+}
+
+.square_btn2:hover {
+    color: #5b75ad;
 }
 
 /* カーソルを合わせた時の棒の動きの角度 ↓　*/
@@ -173,6 +181,11 @@ footer {
 }
 
 /* register.blade.php ↓　******************************************************/
+.container-fluid {
+    margin-top: 30px;
+}
+
+
 .ex1 {
     text-align: center;
     font-size: 50px;
@@ -218,27 +231,13 @@ footer {
   font-size: 17px;
   text-align: center;
   font-weight: bold;
+  color: #5b75ad;
 }
-
-.loginhere:hover {
-  margin-top: 30px;
-  display: block;
-  font-size: 11px;
-  text-align: center;
-  font-weight: bold;
-  color:  #5b75ad;
-}
-
-::-webkit-input-placeholder {
-  color: #435160;
-  font-size: 12px;
-}
-
 
 
 /* login.blade.php ↓　*********************************************************/
 .loginpage {
-  margin-top: 20px;
+  margin-top: 170px;
 }
 
 /* loginのタイトル ↓　*/
@@ -261,9 +260,6 @@ footer {
 }
 
 /* inroduction.blade.php *****************************************************/
-
-
-
 h1{
    text-align:center;
    margin-bottom: 5px;
