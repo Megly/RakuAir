@@ -248,4 +248,4 @@ for ($i=34; $i<46; $i++){
 <footer class="col-lg-12 footermap">
             &copy; 2018 KEMKOW All Rights Reserved.
     </footer>
-@endsection/
+@endsection
