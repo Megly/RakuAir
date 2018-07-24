@@ -38,14 +38,14 @@ $userteam = $user->team;
 }
 
 
-     if(${"sum".$i}>=10)
+     if(${"sum".$i}>=7)
 
 	    echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.$redteam[$i].'</p>';
-     elseif( 10 > ${"sum".$i} && ${"sum".$i} >= 5)
+     elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
 	     echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.$redteam[$i].'</p>';
-     elseif( -5 >= ${"sum".$i} && ${"sum".$i} >= -10)
+     elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
 	     echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.$redteam[$i].'</p>';
-     elseif(${"sum".$i} <= -10)
+     elseif(${"sum".$i} <= -7)
 	     echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.$redteam[$i].'</p>';
      else
 	     echo '<p style="width:32%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.$redteam[$i].'</p>';
