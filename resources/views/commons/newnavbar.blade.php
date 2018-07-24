@@ -49,16 +49,6 @@
             </li>  
             
             <li>
-            <span class="nav-text iconpos">
-                    @include('reset')
-            </span>
-            <span>
-                    @include('youraircon')
-            </span>
-            </li>  
-            
-            
-            <li>
                 <a href="{{ route('feel.get')}}">
                 <span class="nav-text iconpos3">Your</span>
                 <span class="nav-text iconpos4">feeling</span>

@@ -199,9 +199,6 @@ footer {
   margin-bottom: 2px;
 }
 
-/* signupの入力内容　*/
-.form{
-}
 
 /* signupボタン ↓　*/
 .btn-signup {
@@ -303,7 +300,7 @@ h1{
 }
 
 .wholebody p {
-    font-size:20px;
+    font-size:25px;
 }
 
 .body2 p{
@@ -318,6 +315,14 @@ h1{
 }
 
 .body3 ol{
+    font-size:20px !important;
+}
+
+.body4 p{
+    font-size:20px !important;
+}
+
+.body5 ol{
     font-size:20px !important;
 }
 
@@ -363,12 +368,12 @@ h1{
 }
 
 .asakai{
-    font-size:20px;
+    font-size:25px;
     height:90%;
 }
 
 .remote {
-    font-size:20px;
+    font-size:25px;
 }
 
 .asakai h1{
@@ -972,41 +977,6 @@ text-align:center;
 /*  display: none;*/
 /*}フォーム入力の背景色*/
 
-
-
-/*introduction のcss*/
-
-h1{
-   text-align:center;
-   margin-bottom: 5px;
-   margin-top:40px;
-}
-.intrologo img{
-    width:800px;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.life{
-    margin-bottom:50px;
-    font-size: 45px;
-    margin-top: 0px;
-}
-
-.wholebody {
-    text-align:center;
-}
-
-.wholebody h1 {
-    display:inline-block;
-    border-bottom:4px solid #5b75ad;
-    margin-bottom: 20px;
-    
-}
-
-.wholebody p {
-    font-size:25px;
-}
 
 .footerwelcome {
     text-align: center;

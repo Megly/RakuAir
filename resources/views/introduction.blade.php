@@ -62,7 +62,8 @@
              <div class= "body4">
                 <h2>Bar on the right</h2>
              <ol>
-            　　 <li><p><i class="fa fa-map-marker fa-2x"></i>  : Current page you are looking to. You can check how it works and details.</p></i></li>
+            　　 <li><p><i class="fa fa-info-circle fa-2x"></i>  : Current page you are looking to. You can check how it works and details.</p></i></li>
+            　　 <li><p><i class="fa fa-book fa-2x"></i>  : You can check which AC to manipulate.</p></i></li>
                  <li><p><i class="fa fa-home fa-2x"></i>  : You can claim your feeling whenever and wherever you like.</p></i></li>
                  <li><p><i class="fa fa-bar-chart-o fa-2x"></i>  : Showing each data from lots of perspectives.</p></i></li>
                  <li><p><i class="fa fa-map-marker fa-2x"></i>  : You can see where is comfortable using the map of training room.</p></i></li>
