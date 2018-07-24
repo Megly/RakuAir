@@ -6,9 +6,9 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 var data = google.visualization.arrayToDataTable([ //グラフデータの指定
         ['Task', 'Hours per Day'],
-        ['Cold',    <?php echo $countcoldmen ?>],
-        ['Hot',     <?php echo $counthotmen ?>],
-        ['Comfortable',     <?php echo $countcommen ?>]
+        ['Samugari',    <?php echo $countcoldmen ?>],
+        ['Atsugari',     <?php echo $counthotmen ?>],
+        ['Normal',     <?php echo $countcommen ?>]
         
      
        

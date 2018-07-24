@@ -205,6 +205,7 @@ $hotgirl = App\User::all()->where('sex','1')->where('size','0');
 	}
 	
 	$comgirl = App\User::all()->where('sex','1')->where('size','1');
+	$countcomgirl = 0;
 	foreach($comgirl as $feelings13){
 		$countcomgirl = $countcomgirl + 1 ;}
 	?>
