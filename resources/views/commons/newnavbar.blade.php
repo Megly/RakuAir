@@ -51,7 +51,10 @@
             <li>
             <span class="nav-text iconpos">
                     @include('reset')
-                </span>
+            </span>
+            <span>
+                    @include('youraircon')
+            </span>
             </li>  
             
             
