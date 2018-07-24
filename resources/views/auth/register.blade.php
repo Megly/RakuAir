@@ -6,8 +6,7 @@
 </div>
 
 <div class="container-fluid">
-        
-    　<p class="ex1">Welcome to RakuAir!!</p>
+    　<p class="ex1">Welcome to RakuAir!</p>
 </div>
 
 <div class="row">
