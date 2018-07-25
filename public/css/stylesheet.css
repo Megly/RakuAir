@@ -390,9 +390,16 @@ footer {
 
 
 /* map.blade.php ↓　***********************************************************/
+.maptitle {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 -50px 0;
+    font-weight: bold;
+}
+
 /*右から流れるアニメーション*/
 .maptama {
-    margin-top: 70px;
+    margin-top: 0px;
     overflow: hidden;
 
   animation: flowing 15s linear infinite;
