@@ -57,14 +57,10 @@
                 </a>
             </li>
             
-            <li>
-                    @include('youraircon')
-            </li>  
             
-             <li>
-            <span class="nav-text iconpos">
-                    @include('reset')
-            </span>
+            <li><div class='airconnn'>
+                    @include('youraircon')
+            </div>
             </li>
             
              <li>
@@ -73,7 +69,13 @@
                     <span class="nav-text iconpos"> Logout</span>
 
                 </a>
-            </li>  
+            </li>
+            
+             <li>
+            <span class="nav-text">
+                    @include('reset')
+            </span>
+            </li>
             
         </ul>
         </div>
