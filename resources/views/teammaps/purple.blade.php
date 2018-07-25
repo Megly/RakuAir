@@ -58,10 +58,6 @@ for ($i=34; $i<46; $i++){
 
 	?>
 
-       
-
-    
-        </div>
 <div class="mod">　</div>
  <!--色説明-->
    <div class="colorinfo">

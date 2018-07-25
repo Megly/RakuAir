@@ -57,8 +57,6 @@ for ($i=10; $i<22; $i++){
 };
 ?>
 
-</div>
-
 <div class="mod">　</div>
  <!--色説明-->
    <div class="colorinfo">
