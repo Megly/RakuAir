@@ -577,7 +577,7 @@ h1{
 
 .wholebody h1 {
     display:inline-block;
-    border-bottom:4px solid #5b75ad;
+    border-bottom: 4px solid #5b75ad;
     margin-bottom: 20px;
     text-align:center !important;
     margin-top:40px;
@@ -626,7 +626,7 @@ h1{
 .body4 p{
     font-size:20px !important;
     text-align: left !important;
-    margin-left:270px;
+    margin-left: 400px;
     margin-bottom: 0px;
 }
 

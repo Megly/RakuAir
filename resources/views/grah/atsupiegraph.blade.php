@@ -16,7 +16,7 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
 var options = { //オプションの指定
          title: 'Atsugari',
         'backgroundColor': {'fill':'#fff'},
-        width: 600,
+        width: 500,
         height: 300,
 };
 var chart = new google.visualization.PieChart(document.getElementById('atsupiechart')); //グラフを表示させる要素の指定
