@@ -162,12 +162,18 @@ text-align: center;
     border-bottom: 1px solid #fffef4;
 }
 
+.airconbtnparent :hover {
+    	background-color: #2f4a84;
+}
+
+
 .aircon {
     text-align: center;
     font-size: 35px;
     color: white;
     
 }
+
 
 
 
