@@ -85,3 +85,6 @@ Route::get('introduction', function () {
     return view('introduction');
 })->name('introduction.get');
 
+Route::get('tutorial', function () {
+    return view('tutorial');
+})->name('tutorial.get');
