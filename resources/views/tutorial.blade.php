@@ -25,7 +25,7 @@
    
     <div class='check'>
         <div class='check-icon'>
-             <img src = "images/AC.jpg" alt = "step2">
+             <img src = "images/map.jpg" alt = "step2">
         </div>
         
         <div class='step'>
@@ -36,7 +36,7 @@
    
     <div class='adjust'>
         <div class='adjust-icon'>
-                <img src = "images/map.jpg" alt = "step3">
+                <img src = "images/AC.jpg" alt = "step3">
         </div>
         <div class='step'>
              <h1>Adjust!</h1><br>
