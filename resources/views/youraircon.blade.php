@@ -4,7 +4,6 @@ $userteam = $user->team;
 ?>
 
 <div class = 'airconbtnparent'>
-  <a href="{{ route('manipulation.get')}}">
     your air conditioner is
      <div class='aircon'>
         @if($userteam == 1 ||   $userteam == 2 || $userteam == 4)
