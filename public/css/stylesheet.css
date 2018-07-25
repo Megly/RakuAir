@@ -384,9 +384,16 @@
 
 
 /* map.blade.php ↓　***********************************************************/
+.maptitle {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 -50px 0;
+    font-weight: bold;
+}
+
 /*右から流れるアニメーション*/
 .maptama {
-    margin-top: 70px;
+    margin-top: 0px;
     overflow: hidden;
 
   animation: flowing 15s linear infinite;
@@ -528,14 +535,6 @@
     text-align: center;
     float: left;
     width: 100%;
-}
-
-.maplink {
-    margin: 10px 0 20px 0;
-    text-align: center;
-    float: right;
-    width: 30%;
-    font-size: large;
 }
 
 .hot {margin-left: 5px;}
@@ -887,7 +886,7 @@ h1{
 .footerreg {text-align: center; margin-top: 33px;}
 .footerlogin {text-align: center; margin-top: 180px;}
 .footerfeel {text-align: center; margin-top: 185px;}
-.footermap {text-align: center; margin-top: 10px;}
+.footermap {text-align: center; margin-top: 30px;}
 .footermaps {text-align: center; margin-top: 15px;}
 .footergrah {text-align: center; margin-top: 10px;}
 .footerintro {text-align: center; margin-top: 10px;}

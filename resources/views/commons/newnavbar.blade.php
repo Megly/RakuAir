@@ -58,10 +58,7 @@
             </li>
             
             <li>
-
-            <span>
                     @include('youraircon')
-            </span>
             </li>  
             
              <li>

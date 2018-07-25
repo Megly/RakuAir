@@ -6,7 +6,10 @@
 <div class="icon-image">
      <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
-
+<p class="maptitle">Floor Map</p>
+<div class="screen">
+    <p>---------- Screen ----------</p>
+</div>
 
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
@@ -89,15 +92,15 @@ $redteam = array(
 
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:29.8%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:29.8%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:29.8%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:29.8%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:29.8%; float:left; height:20%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:29.8%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:29.8%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:29.8%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:29.8%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:29.8%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
     
 };
 ?>
@@ -130,15 +133,15 @@ for ($i=10; $i<22; $i++){
 }
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
 };
 ?>
 </div>
@@ -170,15 +173,15 @@ for ($i=22; $i<34; $i++){
 }
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:21.7%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:21.7%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
     
     
 };
@@ -213,15 +216,15 @@ for ($i=34; $i<46; $i++){
 }
      
      if(${"sum".$i}>=7)
-	    echo '<p style="width:21.6%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe"">'.'</p>';
+	    echo '<p style="width:21.6%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe"">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:21.6%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:21.6%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:21.6%; float:left; height:20%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:21.6%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:21.6%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:21.6%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:21.6%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:21.6%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
     
 };
 
@@ -229,8 +232,6 @@ for ($i=34; $i<46; $i++){
 </div>
 </div>
 
-
-<div class= "mapbottom">
     <!--色説明-->
    <div class="colorinfo">
         <img class="veryhot" src="/images/veryhot.png"></img> : Very hot
@@ -239,6 +240,9 @@ for ($i=34; $i<46; $i++){
         <img class="cold" src="/images/cold.png"></img> : Cold
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
+
+</div>
+
 
 <footer class="col-lg-12 footermap">
             &copy; 2018 KEMKOW All Rights Reserved.
