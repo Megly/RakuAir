@@ -58,10 +58,8 @@
             </li>
             
             <li>
-
-            <span>
-                    @include('youraircon')
-            </span>
+               <a href="{{ route('manipulation.get')}}">
+                    <span>@include('youraircon')</span>
             </li>  
             
              <li>
