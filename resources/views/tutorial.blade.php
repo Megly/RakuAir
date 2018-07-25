@@ -4,7 +4,7 @@
 
 
 <div class="icon-image">
-    <img class="logo2" src="/images/RakuAirBlack.png"></img>
+    <a href="{{route('welcome.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
         <header>
@@ -30,7 +30,7 @@
         
         <div class='step'>
              <h1>Check!</h1><br>
-             <P>Check the feelings of your tribe and team.</P>
+             <P>Check the map of your tribe and team.</P>
         </div>
     </div>
    
@@ -40,7 +40,7 @@
         </div>
         <div class='step'>
              <h1>Adjust!</h1><br>
-             <P>Adjust the AC and push 'Adjusted button' on navbar.</P>
+             <P>Adjust the A/C and push "⚠︎Adjusted" on the navbar.</P>
         </div>
     </div>
 </div>
@@ -50,7 +50,7 @@
                 <a href="{{ route('signup.get')}}" class="btn tutorial_btn1">Sign up</a>
             </div>
         
-        <footer class="col-lg-12 footerintro">
+        <footer class="col-lg-12 footertutorial">
             &copy; 2018 KEMKOW All Rights Reserved.
         </footer>
         

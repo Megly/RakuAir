@@ -13,7 +13,7 @@
 // top page
 Route::get('/', function () {
     return view('welcome');
-});
+})->name("welcome.get");
 
 // signup page
 Route::get('signup', 'Auth\RegisterController@showRegistrationForm')->name('signup.get');

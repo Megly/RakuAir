@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="icon-image">
-    <img class="logo2" src="/images/RakuAirBlack.png"></img>
+    <a href="{{route('welcome.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
 <div class="container-fluid">

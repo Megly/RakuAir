@@ -43,7 +43,7 @@ $userteam = $user->team;
             
             <li>
                 <a href="{{ route('feel.get')}}">
-                   <i class="fa fa-home fa-2x"></i>
+                   <i class="fa fa-heart fa-2x"></i>
                    <span class="nav-text iconpos"> Feel</span>
                 </a>
             </li>

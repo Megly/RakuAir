@@ -12,7 +12,7 @@
     <div class="explanation2">How to Use</div>
         <div class="asakai">
             <h1>Where to adjust temperature</h1><br>
-                <p>The colors of the remote controllers is equal to the colors of the areas (tribes).</p>
+                <p>The colors of the remote controllers are equal to the colors of the areas (tribes).</p>
                 <p>*The green area is where 2 tribes are mixed.</p>
                 <p>Ex.) Green area of Pink tribe >>> Go to the yellow/green controller. </p>
                 <img class="map" src="/images/Map.png"　alt="Asakai Theatre A"></img>
@@ -21,12 +21,12 @@
         
         <div class="remote">
             <h1>How to manipulate the controllers</h1><br>
-                <p>Each buttons (A-G) equal to the areas (A-G) shown on the map.</p>
+                <p>Each button (A-G) equals to the areas (A-G) shown on the map.</p>
                 <p>*Not all the controllers have A-G.</p>
                 <ol>
                     Ex.) Area C >>> <br>
-                      1.Press the buttom "C" twice.<br>
-                      2.Press the buttom "室温調節" to adjust temperature.<br>
+                      1.Press the button "C" twice.<br>
+                      2.Press the button "室温調節" to adjust temperature.<br>
                  </ol>
                 <div class=remotes>
                     <img class="remote1" src="/images/RemoteClose.jpg"></img>
