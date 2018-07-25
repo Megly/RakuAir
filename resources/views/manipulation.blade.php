@@ -9,7 +9,7 @@
 </div>
 
 <div class="manipulationpage">
-    <div class="explanation2">How to Use</div><br><br>
+    <div class="explanation2">How to Use</div>
         <div class="asakai">
             <h1>Where to adjust temperature</h1><br>
                 <p>The colors of the remote controllers is equal to the colors of the areas (tribes).</p>
