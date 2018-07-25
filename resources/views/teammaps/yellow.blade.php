@@ -57,8 +57,6 @@ for ($i=10; $i<22; $i++){
 };
 ?>
 
-</div>
-
 <div class="mod">　</div>
  <!--色説明-->
    <div class="colorinfo">
@@ -69,9 +67,9 @@ for ($i=10; $i<22; $i++){
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
    
-   <footer class="col-lg-12 footermaps">
+<footer class="col-lg-12 footermaps">
             &copy; 2018 KEMKOW All Rights Reserved.
-    </footer>
+</footer>
 
 
 @endsection

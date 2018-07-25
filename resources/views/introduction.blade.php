@@ -88,7 +88,7 @@
         </body>
         
         
-        <div class = "footer2">
+        <div class = "last-message">
         
             <p>Now, let's say hello to Comfortable Life!</p>
         
