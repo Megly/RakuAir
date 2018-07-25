@@ -14,25 +14,25 @@
 		$sumhot = $sumhot + $feelings->feel;
 	}
 	$counthot = 0;
-	foreach($hot2 as $feelings2){
+	foreach($hot2 as $feelings){
 		$counthot = $counthot + 1 ;
 	}
 	
 	
 	$com1 = App\User::all()->where('feel','==','0');
     $countcom = 0;
-	foreach($com1 as $feelings2){
+	foreach($com1 as $feelings){
 		$countcom = $countcom + 1 ;
 	}
 
 // 全体のCOLDな人
 	$cold2 = App\User::all()->where('feel','<','0');
 	$sumcold = 0;
-	foreach($cold2 as $feelings4){
-		$sumcold = $sumcold + $feelings4->feel;
+	foreach($cold2 as $feelings){
+		$sumcold = $sumcold + $feelings->feel;
 	}
 	$countcold = 0;
-	foreach($cold2 as $feelings2){
+	foreach($cold2 as $feelings){
 		$countcold = $countcold + 1 ;
 	}
 	
@@ -189,10 +189,10 @@ $hotmen = App\User::all()->where('sex','0')->where('size','0');
  		$countcoldmen = $countcoldmen + 1 ;		
 	}
 	
-	$commen = App\User::all()->where('sex','0')->where('size','1');
-    $countcommen = 0;
-	foreach($commen as $feelings13){
-		$countcommen = $countcommen + 1 ;}
+	$mencom = App\User::all()->where('sex','0')->where('size','1');
+    $countmencom = 0;
+	foreach($mencom as $feelings13){
+		$countmencom = $countmencom + 1 ;}
 		
 // 女性の登録タイプ
 $hotgirl = App\User::all()->where('sex','1')->where('size','0');
@@ -205,9 +205,10 @@ $hotgirl = App\User::all()->where('sex','1')->where('size','0');
  		$countcoldgirl = $countcoldgirl + 1 ;		
 	}
 	
-	$comgirl = App\User::all()->where('sex','1')->where('size','1');
-	foreach($comgirl as $feelings13){
-		$countcomgirl = $countcomgirl + 1 ;}
+	$girlcom = App\User::all()->where('sex','1')->where('size','1');
+	$countgirlcom = 0;
+	foreach($girlcom as $feelings13){
+		$countgirlcom = $countgirlcom + 1 ;}
 	?>
 	</div>
 

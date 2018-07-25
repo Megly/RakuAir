@@ -8,7 +8,7 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
         ['Task', 'Hours per Day'],
         ['Samugari',    <?php echo $countcoldmen ?>],
         ['Atsugari',     <?php echo $counthotmen ?>],
-        ['Normal',     <?php echo $countcommen ?>]
+        ['Normal',     <?php echo $countmencom ?>]
         
      
        

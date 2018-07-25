@@ -15,7 +15,7 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
 ]);
 var options = { //オプションの指定
          title: 'Atsugari',
-        'backgroundColor': {'fill':'#fff'},
+        'backgroundColor': {'fill':'#fffs'},
         width: 500,
         height: 300,
 };
