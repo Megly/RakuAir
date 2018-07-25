@@ -12,7 +12,7 @@ $userteam = $user->team;
             
              <li>
                 <a href="{{ route('feel.get')}}">
-                <span class="nav-text iconpos3"><?php echo "$user->name" ?>'s feeling</span>
+                <span class="nav-text iconpos3">Your feeling</span>
                     <span class = "feelings"><?php
                     $you = Auth::user()->feel;
                     if ($you>0) {
