@@ -11,7 +11,11 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($a = 1; $a <=3; $a++) {
+        
+        // cold teams
+        $coldteam = array(1,2,3,10,11,12,13,22,23,24,25,34,35,36,37,41,45);
+        
+        foreach ($coldteam as $a) {
         for ($i = 1; $i <= 6; $i++) {
         DB::table('users')->insert([
             'name' => str_random(10),
@@ -23,56 +27,11 @@ class UsersTableSeeder extends Seeder
         
         ]);};};
         
+        //hot teams 
         
-        for ($a = 10; $a <=13; $a++) {
-        for ($i = 1; $i <= 6; $i++) {
-        DB::table('users')->insert([
-            'name' => str_random(10),
-            'password' => bcrypt('secret'),
-            'team' => $a,
-            'sex' => rand(0,1),
-            'size' => rand(0,2),
-            'feel' => rand(-6,0),
+        $hotteam = array(14,15,16,17,18,19,20,21,28,29,30,31,32,33,38,39,40,42,43);
         
-        ]);};};
-        
-        for ($a = 22; $a <=25; $a++) {
-        for ($i = 1; $i <= 6; $i++) {
-        DB::table('users')->insert([
-            'name' => str_random(10),
-            'password' => bcrypt('secret'),
-            'team' => $a,
-            'sex' => rand(0,1),
-            'size' => rand(0,2),
-            'feel' => rand(-6,0),
-        
-        ]);};};
-        
-        for ($a = 34; $a <=37; $a++) {
-        for ($i = 1; $i <= 6; $i++) {
-        DB::table('users')->insert([
-            'name' => str_random(10),
-            'password' => bcrypt('secret'),
-            'team' => $a,
-            'sex' => rand(0,1),
-            'size' => rand(0,2),
-            'feel' => rand(-6,0),
-        
-        ]);};};
-        
-        for ($a = 14; $a <=21; $a++) {
-        for ($i = 1; $i <= 6; $i++) {
-        DB::table('users')->insert([
-            'name' => str_random(10),
-            'password' => bcrypt('secret'),
-            'team' => $a,
-            'sex' => rand(0,1),
-            'size' => rand(0,2),
-            'feel' => rand(0,6),
-        
-        ]);};};
-        
-        for ($a = 28; $a <=33; $a++) {
+        foreach ($hotteam as $a) {
         for ($i = 1; $i <= 6; $i++) {
         DB::table('users')->insert([
             'name' => str_random(10),
@@ -85,6 +44,23 @@ class UsersTableSeeder extends Seeder
         ]);};};
         
 
+        //comfrotable teams
+        
+        $comteam = array(4,5,6,7,8,9,26,27,40,44);
+        
+        foreach ($coldteam as $a) {
+        for ($i = 1; $i <= 6; $i++) {
+        DB::table('users')->insert([
+            'name' => str_random(10),
+            'password' => bcrypt('secret'),
+            'team' => $a,
+            'sex' => rand(0,1),
+            'size' => rand(0,2),
+            'feel' => 0,
+        
+        ]);};};
+
+    
     
     }
 }
