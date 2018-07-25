@@ -58,10 +58,10 @@ $array =array(
   </div>
 
   <div class="map-detail">
-        <a class="btn-master btn-jedi btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> detail</a>
-        <a class="btn-master btn-jedi btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> detail</a>
-        <a class="btn-master btn-jedi btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> detail</a>
-        <a class="btn-master btn-jedi btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> detail</a>
+        <a class="btn-master btn-disciple btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> detail</a>
+        <a class="btn-master btn-disciple btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> detail</a>
+        <a class="btn-master btn-disciple btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> detail</a>
+        <a class="btn-master btn-disciple btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> detail</a>
   </div>
 
 <div class="tribe-brother">
@@ -239,11 +239,6 @@ for ($i=34; $i<46; $i++){
         <img class="cold" src="/images/cold.png"></img> : Cold
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
-   
-   <div class="maplink">
-        <a href="{{ route('manipulation.get')}}">>>>Map</a>
-   </div>
-</div>
 
 <footer class="col-lg-12 footermap">
             &copy; 2018 KEMKOW All Rights Reserved.
