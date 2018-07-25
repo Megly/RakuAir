@@ -5,7 +5,7 @@ $userteam = $user->team;
 
 <div class = 'airconbtnparent'>
         <a href="{{ route('manipulation.get')}}">
-            <?php echo "$user->name" ?>s's air conditioner is 
+            Your air conditioner is
              <div class='aircon'>
                 @if($userteam == 1 ||   $userteam == 2 || $userteam == 4)
                
