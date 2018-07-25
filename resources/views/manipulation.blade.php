@@ -16,7 +16,7 @@
                 <p>*The green area is where 2 tribes are mixed.</p>
                 <p>Ex.) Green area of Pink tribe >>> Go to the yellow/green controller. </p>
                 <img class="map" src="/images/Map.png"　alt="Asakai Theatre A"></img>
-        </div><br><br>
+        </div>
     
         
         <div class="remote">

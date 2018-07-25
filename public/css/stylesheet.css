@@ -226,7 +226,7 @@
   text-decoration: none;
   color: #ff6767;
   transition: .4s;
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 .hotbtn:before {
@@ -287,7 +287,7 @@
   text-decoration: none;
   color: #03eb89;
   transition: .4s;
-  margin-top: 10px;
+  margin-top: 21px;
 }
 
 .combtn:before {
@@ -662,8 +662,7 @@ h1{
 
 /* manipulation.blade.php *****************************************************/
 .explanation2{
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin: 0px 0px;
     font-size:70px;
     color: #5b75ad;
 }
@@ -678,6 +677,10 @@ h1{
     height:90%;
 }
 
+.manipulationpage p {
+    margin: 0px 0px;
+}
+
 .remote {
     font-size:25px;
 }
@@ -687,7 +690,7 @@ h1{
      display:inline-block;
      border-bottom:4px solid #5b75ad;
      margin-bottom: 20px;
-     margin-top:40px;
+     margin-top: 10px;
 }
 
 .remote h1{
@@ -695,13 +698,12 @@ h1{
      display:inline-block;
      border-bottom:4px solid #5b75ad;
      margin-bottom: 20px;
-     margin-top:40px;
 }
 
 .map {
-    width: 60%;
+    width: 65%;
     height: 60%;
-    margin-top: 20px;
+    margin-top: 8px;
     margin-right: 60px;
     margin-bottom: 60px;
 }
