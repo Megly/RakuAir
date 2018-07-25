@@ -65,5 +65,5 @@
 
 <footer class="col-lg-12 footerreg">
             &copy; 2018 KEMKOW All Rights Reserved.
-    </footer>
+</footer>
 @endsection

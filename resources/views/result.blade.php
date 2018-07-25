@@ -137,7 +137,7 @@ $dhot = App\User::all()->where('size','0')->where('feel','>','0');
  	foreach($dhot as $feelings13){
  		$countdhot = $countdhot + 1 ;}
  		
-	$dcold = App\User::all()->where('size','0')->where('team','<','0');
+	$dcold = App\User::all()->where('size','0')->where('feel','<','0');
 	$countdcold = 0;
  	foreach($dcold as $feelings13){
  		$countdcold = $countdcold + 1 ;	}

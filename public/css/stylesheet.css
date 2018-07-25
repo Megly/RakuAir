@@ -15,20 +15,12 @@
 .container {
     width: 100%;
     padding: 0;
-    
-}
-
-/* copyright*/
-footer {
-    text-align: center;
-    width: 100%;
-    margin-top: auto;
 }
 
 /* navbarの小ロゴ ↓　*/
 .logo2 {
   width: 150px;
-  height: 50px;
+  height: auto;
   margin: 10px 0px 0px 10px;
 }
 
@@ -46,7 +38,6 @@ footer {
     position: absolute;
     top: 100px;
     width: 100%;
-    z-index: 10;
 }
 
 /* welcomeの大ロゴ ↓　*/
@@ -176,6 +167,10 @@ footer {
     margin-top: 30px;
 }
 
+.row {
+    width: 100%;
+}
+
 .ex1 {
     text-align: center;
     font-size: 50px;
@@ -188,7 +183,7 @@ footer {
   font-weight: bold;
   font-size: 1.4em;
   text-align: left;
-  margin-bottom: 2px;
+  margin-bottom: 0;
 }
 
 /* signupボタン ↓　*/
@@ -231,7 +226,7 @@ footer {
 .explanation {
     text-align: center;
     margin-top: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     font-size:60px;
     color: #5b75ad;
 }
@@ -304,7 +299,7 @@ footer {
 
 /* comfortableのコンテント ↓　*/
 .comcontent {
-  width: 33%;
+  width: 34%;
   float: left;
   text-align: center;
 }
@@ -331,7 +326,6 @@ footer {
   color: #03eb89;
   transition: .4s;
   margin-top: 25px;
-  margin-bottom: 40%;
 }
 
 .combtn:before {
@@ -428,9 +422,16 @@ footer {
 
 
 /* map.blade.php ↓　***********************************************************/
+.maptitle {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 -50px 0;
+    font-weight: bold;
+}
+
 /*右から流れるアニメーション*/
 .maptama {
-    margin-top: 70px;
+    margin-top: 0px;
     overflow: hidden;
 
   animation: flowing 15s linear infinite;
@@ -466,7 +467,7 @@ footer {
     border-radius: 5px;
 }
 
-.btn-jedi {
+.btn-disciple {
     /*color: #fff !important;*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -476,7 +477,7 @@ footer {
     margin: 10px 0 0 0;
 }
 
-.btn-jedi:hover {
+.btn-disciple:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
@@ -568,18 +569,10 @@ footer {
 
 /*map color info*/
 .colorinfo {
-    margin: 10px 0 20px 0;
-    text-align: right;
-    float: left;
-    width: 70%
-}
-
-.maplink {
-    margin: 10px 0 20px 0;
+    margin-top: 10px;
     text-align: center;
-    float: right;
-    width: 30%;
-    font-size: large;
+    float: left;
+    width: 100%;
 }
 
 .hot {margin-left: 5px;}
@@ -622,7 +615,7 @@ h1{
 
 .wholebody h1 {
     display:inline-block;
-    border-bottom:4px solid #5b75ad;
+    border-bottom: 4px solid #5b75ad;
     margin-bottom: 20px;
     text-align:center !important;
     margin-top:40px;
@@ -671,7 +664,7 @@ h1{
 .body4 p{
     font-size:20px !important;
     text-align: left !important;
-    margin-left:270px;
+    margin-left: 400px;
     margin-bottom: 0px;
 }
 
@@ -693,13 +686,13 @@ h1{
     /* text-align:center;*/
 }
 
-.footer2 {
+.last-message {
     text-align:center;
     margin-top:60px;
     margin-bottom:40px;
 }
 
-.footer2 p{
+.last-message p{
     font-size: 45px !important;
 }
 
@@ -744,8 +737,8 @@ h1{
 }
 
 .map {
-    width: 65%;
-    height: 45%;
+    width: 60%;
+    height: 60%;
     margin-top: 20px;
     margin-right: 60px;
     margin-bottom: 60px;
@@ -793,6 +786,10 @@ h1{
     font-size: 30px;
     margin: 60px 0 20px 0;
     border: 2px;
+}
+
+.mod {
+    width: 100%;
 }
 
 /*tribeの文字*/
@@ -926,16 +923,6 @@ h1{
 /*  -ms-transform: rotate(10deg);*/
 /*  transform: rotate(10deg);*/
 
-/*footerたち*******************************************************************/
-.footerwelcome {text-align: center; margin-top: 600px;}
-.footerfeel {text-align: center; margin-top: 30px;}
-.footermap {text-align: center; margin-top: 10px;}
-.fottermaps {text-align: center; margin-top: 10px;}
-.footergrah {text-align: center; margin-top: 10px;}
-.footerintro {text-align: center; margin-top: 10px;}
-.footermani {text-align: center; margin-top: 10px;}
-.footerlogin {text-align: center; margin-top: 10px;}
-.footermanireg {text-align: center; margin-top: 10px;}
 
 /*tutorial.blade.php*******************************************************************/
 
@@ -1019,4 +1006,18 @@ h1{
     font-weight: bold;
     color:#5b75ad;
 }
+
+/* footers==================================================================
+
+s
+.footerwelcome {text-align: center; margin-top: 700px;}
+.footerreg {text-align: center; margin-top: 33px;}
+.footerlogin {text-align: center; margin-top: 180px;}
+.footerfeel {text-align: center; margin-top: 185px;}
+.footermap {text-align: center; margin-top: 30px;}
+.footermaps {text-align: center; margin-top: 15px;}
+.footergrah {text-align: center; margin-top: 10px;}
+.footerintro {text-align: center; margin-top: 10px;}
+.footermani {text-align: center; margin-top: 10px;}
+.footermanireg {text-align: center; margin-top: 10px;}
 

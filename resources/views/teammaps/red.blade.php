@@ -69,9 +69,9 @@ $userteam = $user->team;
         <img class="verycold" src="/images/verycold.png"></img> : Very cold
    </div>
    
-   <footer class="col-lg-12 footermaps">
+<footer class="col-lg-12 footermaps">
             &copy; 2018 KEMKOW All Rights Reserved.
-    </footer>
+</footer>
 
 
 

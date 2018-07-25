@@ -23,7 +23,6 @@
             Despite you want to change the temperature, lots of factors had been preventing you from doing that.<br>
             That suffering ends today once you use RakuAir.<br>
             RakuAir definitely brings great comfort to you all.<br>
-        
             </p>
             </div>
             
@@ -48,13 +47,11 @@
                 <h2>Bar on the right</h2>
              <ol>
             　　 <li><p><i class="fa fa-info-circle fa-2x" style = "font-size:27px"></i>  : Current page you are looking to. You can check how it works and details.</p></i></li>
-            　　<!--<div class = "otherlogos">-->
             　　 <li class = "manipulate"><p><i class="fa fa-book fa-2x" style = "font-size:27px"></i>  : You can check which AC to manipulate.</p></i></li>
                  <li class = "feel"><p><i class="fa fa-home fa-2x" style = "font-size:27px"></i>  : You can claim your feeling whenever and wherever you like.</p></i></li>
                  <li class = "data"><p><i class="fa fa-bar-chart-o fa-2x" style = "font-size:27px"></i>  : Showing each data from lots of perspectives.</p></i></li>
                  <li class = "maplogo"><p><i class="fa fa-map-marker fa-2x" style = "font-size:27px"></i>  : You can see where is comfortable using the map of training room.</p></i></li>
                  <li class = "logout"><p><i class="fa fa-power-off fa-2x" style = "font-size:27px"></i>  : Logging out.</p></i></li>
-                <!--</div>-->
               </ol>
              </div>
              
@@ -79,7 +76,7 @@
         </body>
         
         
-        <div class = "footer2">
+        <div class = "last-message">
         
             <p>Now, let's say hello to Comfortable Life!</p>
         

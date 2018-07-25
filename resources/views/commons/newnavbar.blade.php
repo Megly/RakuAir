@@ -1,3 +1,8 @@
+<?php
+$user = \Auth::user();
+$userteam = $user->team;  
+?>
+
 <div class="cp_cont">
     <div class="cp_offcm01">
             <input type="checkbox" id="cp_toggle01">
@@ -7,7 +12,7 @@
             
              <li>
                 <a href="{{ route('feel.get')}}">
-                <span class="nav-text iconpos3">Your feeling</span>
+                <span class="nav-text iconpos3"><?php echo "$user->name" ?>'s feeling</span>
                     <span class = "feelings"><?php
                     $you = Auth::user()->feel;
                     if ($you>0) {
@@ -57,17 +62,10 @@
                 </a>
             </li>
             
-            <li>
-
-            <span>
-                    @include('youraircon')
-            </span>
-            </li>  
             
-             <li>
-            <span class="nav-text iconpos">
-                    @include('reset')
-            </span>
+            <li><div class='airconnn'>
+                    @include('youraircon')
+            </div>
             </li>
             
              <li>
@@ -76,7 +74,13 @@
                     <span class="nav-text iconpos"> Logout</span>
 
                 </a>
-            </li>  
+            </li>
+            
+             <li>
+            <span class="nav-text">
+                    @include('reset')
+            </span>
+            </li>
             
         </ul>
         </div>
