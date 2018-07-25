@@ -4,19 +4,10 @@
 
 @include('commons.newnavbar')
 
+<div class="icon-image">
+    <img class="logo2" src="/images/RakuAirBlack.png"></img>
+</div>
 
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>RakuAir</title>
-        <link rel="stylesheet" href="stylesheet.css">
-        
-        <div class="icon-image">
-            <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
-        </div>
-    </head>
-    <body>
         <header>
             <h1 class = "intrologo"><img src="images/RakuAirBlack.png" alt="rakuairlogo"><h1>
             <h1 class = "life"><p>~Comfortable Life to you all~</p></h1>

@@ -131,6 +131,44 @@ footer {
 }
 
 
+.welcomepro {
+		/* boxレイアウトの指定 */
+		display: box;
+		/*display: -webkit-box;*/
+		display: -moz-box;
+
+		/* 配置したボックスを左右中央寄せにする */
+		box-pack: center;
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		
+		
+		margin-top:100px;
+		margin-left: 260px;
+
+	}
+
+.step{
+    display:inline-block;
+    width:25%;
+	text-align: center;
+	margin-top:200px;
+}
+
+.step img {
+       width:25%;
+		text-align: center;
+		margin: 10px;
+}
+
+.step figcaption{
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+
+
 
 /* register.blade.php ↓　******************************************************/
 /*Welcome to RakuAir! ↓*/
@@ -889,7 +927,7 @@ h1{
 /*  transform: rotate(10deg);*/
 
 /*footerたち*******************************************************************/
-.footerwelcome {text-align: center; margin-top: 700px;}
+.footerwelcome {text-align: center; margin-top: 600px;}
 .footerfeel {text-align: center; margin-top: 30px;}
 .footermap {text-align: center; margin-top: 10px;}
 .fottermaps {text-align: center; margin-top: 10px;}
@@ -898,3 +936,87 @@ h1{
 .footermani {text-align: center; margin-top: 10px;}
 .footerlogin {text-align: center; margin-top: 10px;}
 .footermanireg {text-align: center; margin-top: 10px;}
+
+/*tutorial.blade.php*******************************************************************/
+
+
+
+
+.welcomepro {
+		/* boxレイアウトの指定 */
+		display: box;
+		display: -webkit-box;
+		display: -moz-box;
+
+		/* 配置したボックスを左右中央寄せにする */
+		box-pack: center;
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		
+		
+		margin-top:50px;
+		margin-right:120px;
+		margin-bottom: 50px;
+}
+
+.step{
+    display:inline-block;
+    width:50%;
+	text-align: center;
+	margin-top:0px;
+}
+
+.step p{
+    font-size:20px;
+    width:100%;
+    text-align: center;
+}
+
+.choose{
+    width:35%;
+}
+
+.choose-icon img {
+     width:45%;
+}
+
+
+.check{
+    width:35%;
+}
+
+.check-icon img {
+     width:45%;
+}
+
+
+.Adjust{
+    width:35%;
+}
+
+.adjust-icon img {
+     width:45%;
+}
+
+.btn-tutorial{
+    text-align: center !important;
+    margin-right:0px!important;
+    margin-bottom: 30px;
+    
+}
+
+.tutorial_btn {
+    font-size: 35px;
+    color: #5b75ad;
+    margin-top: 90px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+
+.tutorial_h1 {
+    margin-top: 50px;
+    font-size:60px;
+    font-weight: bold;
+    color:#5b75ad;
+}
+
