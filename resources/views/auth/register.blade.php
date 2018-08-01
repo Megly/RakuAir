@@ -51,7 +51,7 @@
                 <div class="form-group">
                     <p class='sofia'>Type</p>
                     <div class="form">
-                    {!! Form::select('size', ['atsugari', 'Nomal', 'Samugari']) !!}
+                    {!! Form::select('size', ['atsugari', 'Normal', 'Samugari']) !!}
                     </div>
                 </div>
                 
