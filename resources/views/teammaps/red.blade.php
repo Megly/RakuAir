@@ -18,15 +18,15 @@
 <?php
 $i = 0;
 $redteam = array(
-        1 => 'youはたまご',
-        2 => 'Ra Ra Ra RIZAP',
-        3 => 'Siésta',
-        4 => 'BoB',
-        5 => 'ぽなるけみり',
-        6 => 'Kolkata (カルカッタ)',
-        7 => 'Fortune',
-        8 => 'The U.K',
-        9 => 'TWICE');
+        1 => 'team1',
+        2 => 'team2',
+        3 => 'team3',
+        4 => 'team4',
+        5 => 'team5',
+        6 => 'team6',
+        7 => 'team7',
+        8 => 'team8',
+        9 => 'team9');
 $user = \Auth::user();
 $userteam = $user->team;        
  ${"team".$i} = NULL;

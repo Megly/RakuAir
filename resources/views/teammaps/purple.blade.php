@@ -17,18 +17,18 @@
 <?php
 $i = 0;
 $purpleteam = array(
-        34 => 'Mkpali(ムカパリ)',
-        35 => 'Koders',
-        36 => 'Medium Rare',
-        37 => 'Noisyy',
-        38 => 'Pocket 6',
-        39 => 'JETS',
-        40 => 'ひよこさん組',
-        41 => 'Team Kay',
-        42 => 'チームきりんさん',
-        43 => '新鮮グミ',
-        44 => 'A BANANA',
-        45 => 'KEMKOW');
+        34 => 'team34',
+        35 => 'team35',
+        36 => 'team36',
+        37 => 'team37',
+        38 => 'team38',
+        39 => 'team39',
+        40 => 'team40',
+        41 => 'team41',
+        42 => 'team42',
+        43 => 'team43',
+        44 => 'team44',
+        45 => 'team45');
         
  ${"team".$i} = NULL;
 $user = \Auth::user();

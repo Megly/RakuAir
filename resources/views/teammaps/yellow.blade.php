@@ -18,18 +18,18 @@
 <?php
 $i = 0;
 $yellowteam = array(
-        10 => 'Eternal Dragon',
-        11 => 'kara-age',
-        12 => 'Y. Nature',
-        13 => 'Avengers',
-        14 => '卍Olive卍',
-        15 => 'Porsche',
-        16 => 'Amigos',
-        17 => 'CodeWars',
-        18 => 'なだ万',
-        19 => 'TERAKOYA',
-        20 => 'Letian panda',
-        21 => 'Pandanity');
+        10 => 'team10',
+        11 => 'team11',
+        12 => 'team12',
+        13 => 'team13',
+        14 => 'team14',
+        15 => 'team15',
+        16 => 'team16',
+        17 => 'team17',
+        18 => 'team18',
+        19 => 'team19',
+        20 => 'team20',
+        21 => 'team21');
 $user = \Auth::user();
 $userteam = $user->team;
 

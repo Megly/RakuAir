@@ -6,9 +6,10 @@
 <div class="icon-image">
      <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
-<p class="maptitle">Floor Map</p>
+<p class="maptitle">　</p>
+
 <div class="screen">
-    <p>---------- Screen ----------</p>
+    <p>Floor Map</p>
 </div>
 
 <?php
@@ -60,11 +61,11 @@ $array =array(
 	 @endforeach
   </div>
 
-  <div class="map-detail">
-        <a class="btn-master btn-disciple btn-red" href="{{route('red.get')}}"><span class="red-tribe">Red</span> detail</a>
-        <a class="btn-master btn-disciple btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">Yellow</span> detail</a>
-        <a class="btn-master btn-disciple btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">Pink</span> detail</a>
-        <a class="btn-master btn-disciple btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">Purple</span> detail</a>
+ <div class="map-detail">
+        <a class="btn-master paper paper-raise-flatten btn-red" href="{{route('red.get')}}"><span class="red-tribe">CHECKA</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-yellow" href="{{route('yellow.get')}}"><span class="yellow-tribe">CHECKB</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-pink" href="{{route('pink.get')}}"><span class="pink-tribe">CHECKC</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-purple" href="{{route('purple.get')}}"><span class="purple-tribe">CHECKD</span> detail</a>
   </div>
 
 <div class="tribe-brother">
@@ -72,15 +73,15 @@ $array =array(
 <?php
 $i = 0;
 $redteam = array(
-        1 => 'youはたまご',
-        2 => 'Ra Ra Ra RIZAP',
-        3 => 'Siésta',
-        4 => 'BoB',
-        5 => 'ぽなるけみり',
-        6 => 'Kolkata (カルカッタ)',
-        7 => 'Fortune',
-        8 => 'The U.K',
-        9 => 'TWICE');
+        1 => 'team1',
+        2 => 'team2',
+        3 => 'team3',
+        4 => 'team4',
+        5 => 'team5',
+        6 => 'team6',
+        7 => 'team7',
+        8 => 'team8',
+        9 => 'team9');
         
  ${"team".$i} = NULL;
     for ($i=1; $i<10; $i++){
@@ -111,18 +112,18 @@ $redteam = array(
 <?php
 $i = 0;
 $yellowteam = array(
-        10 => 'Eternal Dragon',
-        11 => 'kara-age',
-        12 => 'Y. Nature',
-        13 => 'Avengers',
-        14 => '卍Olive卍',
-        15 => 'Porsche',
-        16 => 'Amigos',
-        17 => 'CodeWars',
-        18 => 'なだ万',
-        19 => 'TERAKOYA',
-        20 => 'Letian panda',
-        21 => 'Pandanity');
+        10 => 'team10',
+        11 => 'team11',
+        12 => 'team12',
+        13 => 'team13',
+        14 => 'team14',
+        15 => 'team15',
+        16 => 'team16',
+        17 => 'team17',
+        18 => 'team18',
+        19 => 'team19',
+        20 => 'team20',
+        21 => 'team21');
         
  ${"team".$i} = NULL;
 for ($i=10; $i<22; $i++){
@@ -150,18 +151,18 @@ for ($i=10; $i<22; $i++){
 <?php
 $i = 0;
 $pinkteam = array (
-        22 => 'Daichi+no+Megumi',
-        23 => 'SAKEty (酒ティー)',
-        24 => 'Team One',
-        25 => 'TK Kingdom',
-        26 => 'YAKITOMATO',
-        27 => 'Kiwami Pudding',
-        28 => 'Team Sekaikan',
-        29 => 'Jasmine',
-        30 => 'HRM',
-        31 => '御富士も梅雨',
-        32 => 'JIAOZI',
-        33 => 'いいとも');
+        22 => 'team22',
+        23 => 'team23',
+        24 => 'team24',
+        25 => 'team25',
+        26 => 'team26',
+        27 => 'team27',
+        28 => 'team28',
+        29 => 'team29',
+        30 => 'team30',
+        31 => 'team31',
+        32 => 'team32',
+        33 => 'team33');
         
  ${"team".$i} = NULL;
  
@@ -193,18 +194,18 @@ for ($i=22; $i<34; $i++){
 <?php
 $i = 0;
 $purpleteam = array(
-        34 => 'Mkpali(ムカパリ)',
-        35 => 'Koders',
-        36 => 'Medium Rare',
-        37 => 'Noisyy',
-        38 => 'Pocket 6',
-        39 => 'JETS',
-        40 => 'ひよこさん組',
-        41 => 'Team Kay',
-        42 => 'チームきりんさん',
-        43 => '新鮮グミ',
-        44 => 'A BANANA',
-        45 => 'KEMKOW');
+        34 => 'team34',
+        35 => 'team35',
+        36 => 'team36',
+        37 => 'team37',
+        38 => 'team38',
+        39 => 'team39',
+        40 => 'team40',
+        41 => 'team41',
+        42 => 'team42',
+        43 => 'team43',
+        44 => 'team44',
+        45 => 'team45');
         
  ${"team".$i} = NULL;
  
