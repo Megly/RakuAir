@@ -7,9 +7,7 @@
      <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 <p class="maptitle">Floor Map</p>
-<div class="screen">
-    <p>---------- Screen ----------</p>
-</div>
+
 
 <?php
  $red = App\User::all()->where('team','>','0')->where('team','<','10');
@@ -35,10 +33,10 @@
 		};
 		
 $array =array(
- $sumred => 'Red',
- $sumyellow => 'Yellow',
- $sumpink => 'Pink',
- $sumpurple => 'Purple')
+ $sumred => 'A',
+ $sumyellow => 'B',
+ $sumpink => 'C',
+ $sumpurple => 'D')
 	?>
 
 

@@ -37,7 +37,7 @@
                 <div class="form-group">
                     <p class='sofia'>Team name</p>
                     <div class="form">
-                    {!! Form::select('team', Config::get('array.teams'), null, ['data-rel' => 'chosen']) !!}
+                    {!! Form::select('team', Config::get('teamsforfamilyday.teams'), null, ['data-rel' => 'chosen']) !!}
                     </div>
                 </div>
                 
