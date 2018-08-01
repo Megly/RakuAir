@@ -9,7 +9,7 @@
 </div>
 
 <div class="screen">
-    <p><span class="purple-tribe">Purple tribe's map</span></p>
+    <p><span class="purple-tribe"> D map</span></p>
     <p>　</p>
 </div>
 
@@ -17,18 +17,19 @@
 <?php
 $i = 0;
 $purpleteam = array(
-        34 => '34',
-        35 => '35',
-        36 => '36',
-        37 => '37',
-        38 => '38',
-        39 => '39',
-        40 => '40',
-        41 => '41',
-        42 => '42',
-        43 => '43',
-        44 => '44',
-        45 => '45');
+        34 => 'team34',
+        35 => 'team35',
+        36 => 'team36',
+        37 => 'team37',
+        38 => 'team38',
+        39 => 'team39',
+        40 => 'team40',
+        41 => 'team41',
+        42 => 'team42',
+        43 => 'team43',
+        44 => 'team44',
+        45 => 'team45');
+
         
  ${"team".$i} = NULL;
 $user = \Auth::user();

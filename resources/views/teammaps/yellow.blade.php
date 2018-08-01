@@ -9,7 +9,7 @@
 </div>
 
 <div class="screen">
-    <p><span class="yellow-tribe">Yellow tribe's map</span></p>
+    <p><span class="yellow-tribe">B map</span></p>
     <p>　</p>
 </div>
 
@@ -18,18 +18,19 @@
 <?php
 $i = 0;
 $yellowteam = array(
-        10 => '10',
-        11 => '11',
-        12 => '12',
-        13 => '13',
-        14 => '14',
-        15 => '15',
-        16 => '16',
-        17 => '17',
-        18 => '18',
-        19 => '19',
-        20 => '20',
-        21 => '21');
+        10 => 'team10',
+        11 => 'team11',
+        12 => 'team12',
+        13 => 'team13',
+        14 => 'team14',
+        15 => 'team15',
+        16 => 'team16',
+        17 => 'team17',
+        18 => 'team18',
+        19 => 'team19',
+        20 => 'team20',
+        21 => 'team21');
+
 $user = \Auth::user();
 $userteam = $user->team;
 
