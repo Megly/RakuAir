@@ -531,28 +531,49 @@
 }
 
 .btn-master {
-    padding: 15px 70px;
-    font-weight: bold;
-    display: inline-block;
-    text-decoration: none !important;
-    font-size: 20px;
-    border-radius: 5px;
+  position: relative;
+  display: block;
+  width: 250px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform-style: flat;
+  transition: all 250ms ease-out;
+}
+.btn-master:before, .btn-master:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  transition: all 250ms ease-out;
 }
 
-.btn-disciple {
-    /*color: #fff !important;*/
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    margin: 10px 0 0 0;
+/* Paper effect – slightly raised off background */
+.paper {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+  border-color: #dedede;
 }
 
-.btn-disciple:hover {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+.paper-raise-flatten {
+  border-color: #fff;
+  box-shadow: none;
+}
+.paper-raise-flatten:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+}
+.paper-raise-flatten:hover {
+  border-color: #dedede;
+}
+.paper-raise-flatten:hover:before {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
 }
 
 .btn-red {color: #ff1c1c !important; background-color: #ffbcbc;}
@@ -955,6 +976,14 @@ h1{
     text-align:center;
 }
 
+
+
+/*youraircon.blade*******************************************************************/
+/*色の変更*/
+.aircon-red {color: #ff1c1c;}
+.aircon-yellow {color: #d8c638;}
+.aircon-pink {color: #ff2baf;}
+.aircon-purple {color: #a016c9;}
 
 
 /*footerたち*******************************************************************/
