@@ -10,25 +10,25 @@
 
 <div class="screen">
     <p><span class="purple-tribe">Purple tribe's map</span></p>
-    <p>---------- Screen ----------</p>
+    <p>　</p>
 </div>
 
 <div class="tribe">
 <?php
 $i = 0;
 $purpleteam = array(
-        34 => 'Mkpali(ムカパリ)',
-        35 => 'Koders',
-        36 => 'Medium Rare',
-        37 => 'Noisyy',
-        38 => 'Pocket 6',
-        39 => 'JETS',
-        40 => 'ひよこさん組',
-        41 => 'Team Kay',
-        42 => 'チームきりんさん',
-        43 => '新鮮グミ',
-        44 => 'A BANANA',
-        45 => 'KEMKOW');
+        34 => '34',
+        35 => '35',
+        36 => '36',
+        37 => '37',
+        38 => '38',
+        39 => '39',
+        40 => '40',
+        41 => '41',
+        42 => '42',
+        43 => '43',
+        44 => '44',
+        45 => '45');
         
  ${"team".$i} = NULL;
 $user = \Auth::user();

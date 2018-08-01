@@ -10,7 +10,7 @@
 
 <div class="screen">
     <p><span class="yellow-tribe">Yellow tribe's map</span></p>
-    <p>---------- Screen ----------</p>
+    <p>　</p>
 </div>
 
 <div class="tribe">
@@ -18,18 +18,18 @@
 <?php
 $i = 0;
 $yellowteam = array(
-        10 => 'Eternal Dragon',
-        11 => 'kara-age',
-        12 => 'Y. Nature',
-        13 => 'Avengers',
-        14 => '卍Olive卍',
-        15 => 'Porsche',
-        16 => 'Amigos',
-        17 => 'CodeWars',
-        18 => 'なだ万',
-        19 => 'TERAKOYA',
-        20 => 'Letian panda',
-        21 => 'Pandanity');
+        10 => '10',
+        11 => '11',
+        12 => '12',
+        13 => '13',
+        14 => '14',
+        15 => '15',
+        16 => '16',
+        17 => '17',
+        18 => '18',
+        19 => '19',
+        20 => '20',
+        21 => '21');
 $user = \Auth::user();
 $userteam = $user->team;
 

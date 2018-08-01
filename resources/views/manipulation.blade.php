@@ -15,7 +15,7 @@
                 <p>The colors of the remote controllers are equal to the colors of the areas (tribes).</p>
                 <p>*The green area is where 2 tribes are mixed.</p>
                 <p>Ex.) Green area of Pink tribe >>> Go to the yellow/green controller. </p>
-                <img class="map" src="/images/Map.png"　alt="Asakai Theatre A"></img>
+                <img class="map" src="/images/Mapforfamiliyday.png"　alt="Asakai Theatre A"></img>
         </div>
     
         
