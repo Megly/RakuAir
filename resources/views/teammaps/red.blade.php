@@ -10,7 +10,7 @@
 
 <div class="screen">
     <p><span class="red-tribe">Red tribe's map</span></p>
-    <p>---------- Screen ----------</p>
+    <p>　</p>
 </div>
 
 <div class="tribe">
