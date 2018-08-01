@@ -7,11 +7,10 @@
      <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
-<p class="maptitle">Floor Map</p>
+<p class="maptitle">　</p>
 
 <div class="screen">
-    <p>　</p>
-
+    <p>Floor Map</p>
 </div>
 
 <?php
