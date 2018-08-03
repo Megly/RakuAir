@@ -199,6 +199,10 @@
     width:35%;
 }
 
+.tutorial-adjusted {
+    color: red;
+}
+
 .adjust-icon img {
      width:45%;
 }
@@ -831,17 +835,20 @@ h1{
      margin-bottom: 20px;
 }
 
-.map {
+.example-maniplate p{
+    text-align: left;
+    margin-left: 435px;
+}
+
+.aircon-map {
     width: 65%;
     height: 60%;
     margin-top: 8px;
-    margin-right: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .remote1 {
-    margin-top: 10px;
-    width: 24%;
+    width: 25%;
     height: auto;
 }
 
@@ -984,6 +991,7 @@ h1{
 .aircon-yellow {color: #d8c638;}
 .aircon-pink {color: #ff2baf;}
 .aircon-purple {color: #a016c9;}
+
 
 
 /*footerたち*******************************************************************/

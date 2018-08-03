@@ -40,7 +40,7 @@
         </div>
         <div class='step'>
              <h1>Adjust!</h1><br>
-             <P>Adjust the A/C and push "⚠︎Adjusted" on the navbar.</P>
+             <P>Adjust the A/C and push "<span class="tutorial-adjusted">⚠︎Adjusted</span>" on the navbar.</P>
         </div>
     </div>
 </div>

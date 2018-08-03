@@ -63,10 +63,10 @@ $array =array(
   </div>
 
 <div class="map-detail">
-        <a class="btn-master paper paper-raise-flatten btn-red" href="{{route('red.get')}}">check <span class="red-tribe">A</span> detail</a>
-        <a class="btn-master paper paper-raise-flatten btn-yellow" href="{{route('yellow.get')}}">check <span class="yellow-tribe">B</span> detail</a>
-        <a class="btn-master paper paper-raise-flatten btn-pink" href="{{route('pink.get')}}">check <span class="pink-tribe">C</span> detail</a>
-        <a class="btn-master paper paper-raise-flatten btn-purple" href="{{route('purple.get')}}">check <span class="purple-tribe">D</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-red" href="{{route('red.get')}}">Area <span class="red-tribe">A</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-yellow" href="{{route('yellow.get')}}">Area <span class="yellow-tribe">B</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-pink" href="{{route('pink.get')}}">Area <span class="pink-tribe">C</span> detail</a>
+        <a class="btn-master paper paper-raise-flatten btn-purple" href="{{route('purple.get')}}">Area <span class="purple-tribe">D</span> detail</a>
 
   </div>
 

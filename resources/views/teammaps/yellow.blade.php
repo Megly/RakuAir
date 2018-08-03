@@ -9,7 +9,7 @@
 </div>
 
 <div class="screen">
-    <p><span class="yellow-tribe">B map</span></p>
+    <p><span class="yellow-tribe">Area B</span></p>
     <p>　</p>
 </div>
 

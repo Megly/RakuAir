@@ -12,25 +12,24 @@
     <div class="explanation2">How to Use</div>
         <div class="asakai">
             <h1>Where to adjust temperature</h1><br>
-                <p>The colors of the remote controllers are equal to the colors of the areas (tribes).</p>
-                <p>*The green area is where 2 tribes are mixed.</p>
-                <p>Ex.) Green area of Pink tribe >>> Go to the yellow/green controller. </p>
-                <img class="map" src="/images/Mapforfamiliyday.png"　alt="Asakai Theatre A"></img>
+                <p>The colors of the remote controllers are equal to the colors of the areas.</p>
+                <p>Ex.) When you are in 1D area, you should check the purple controller panel and maniplate it.</p>
+                <img class="aircon-map" src="/images/Mapforfamiliyday.png"　alt="Asakai Theatre A"></img>
         </div>
     
         
         <div class="remote">
             <h1>How to manipulate the controllers</h1><br>
                 <p>Each button (A-G) equals to the areas (A-G) shown on the map.</p>
-                <p>*Not all the controllers have A-G.</p>
-                <ol>
-                    Ex.) Area C >>> <br>
-                      1.Press the button "C" twice.<br>
-                      2.Press the button "室温調節" to adjust temperature.<br>
-                 </ol>
+                <p>(*Not all the controllers have A-G.)</p><br>
+            <div class="example-maniplate">    
+                    <p>Ex.) Area C</p>
+                    <p>1.Press the button "C" twice.</p>
+                    <p>2.Press the button "室温調節" to adjust temperature.</p>
+            </div>
                 <div class=remotes>
-                    <img class="remote1" src="/images/RemoteClose.jpg"></img>
-                    <img class="remote2" src="/images/RemoteOpen.jpg"></img>
+                    <img class="remote1" src="/images/aircon-panel1.png"></img>
+                    <img class="remote2" src="/images/aircon-panel2.png"></img>
                 </div>
         </div>
     </div>
