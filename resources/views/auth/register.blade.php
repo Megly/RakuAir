@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="icon-image">
-    <a href="{{route('welcome.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
+    <img class="logo2" src="/images/RakuAirBlack.png"></img>
 </div>
 
 <div class="container-fluid">
@@ -16,7 +16,7 @@
                 <div class="form-group">
                     <p class='sofia'>Name</p>
                     <div class="form">
-                    {!! Form::text('name', old('name'), ['class' => 'form-control', 'placeholder' => "name"]) !!}
+                    {!! Form::text('name', old('name'), ['class' => 'form-control', 'placeholder' => "Name"]) !!}
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@
                 <div class="form-group">
                     <p class='sofia'>Team name</p>
                     <div class="form">
-                    {!! Form::select('team', Config::get('teamsforfamilyday.teams'), null, ['data-rel' => 'chosen']) !!}
+                    {!! Form::select('team', Config::get('array.teams'), null, ['data-rel' => 'chosen']) !!}
                     </div>
                 </div>
                 
@@ -51,7 +51,7 @@
                 <div class="form-group">
                     <p class='sofia'>Type</p>
                     <div class="form">
-                    {!! Form::select('size', ['atsugari', 'Normal', 'Samugari']) !!}
+                    {!! Form::select('size', ['Atsugari', 'Normal', 'Samugari']) !!}
                     </div>
                 </div>
                 
