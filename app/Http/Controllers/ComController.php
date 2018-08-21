@@ -72,18 +72,8 @@ class ComController extends Controller
         $user ->feel=0;
         $user->save();
         
-        if($user->team >= 1 && $user->team <=9 ){
-            return view('teammaps.red');
-        }
-        elseif($user->team >= 10 && $user->team <= 21){
-            return view('teammaps.yellow');
-        }
-        elseif($user->team >= 22 && $user->team <= 33){
-            return view('teammaps.pink');
-        }
-        elseif($user->team >= 34 && $user->team <= 45){
-            return view('teammaps.purple');
-        }
+        return view('map');
+        
     }
 
     /**
