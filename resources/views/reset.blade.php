@@ -93,7 +93,7 @@ $userteam = $user->team;
 
 <script type="text/javascript">
 function checkSubmit() {
-	return confirm("⚠︎エアコンの温度を調節しましたか？");
+	return confirm("⚠︎Did you really adjust the temperature？");
 }
 </script>
         </div>
