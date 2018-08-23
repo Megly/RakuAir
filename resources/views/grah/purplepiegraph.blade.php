@@ -14,7 +14,7 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
        
 ]);
 var options = { //オプションの指定
-         title: 'Purple',
+         title: 'D',
         'backgroundColor': {'fill':'#fff'},
         width: 500,
                 height: 300,
