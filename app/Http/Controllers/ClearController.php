@@ -100,7 +100,7 @@ class ClearController extends Controller
     }
     
     // Area1のエアコン
-    public function d4()
+    public function d1()
     {
      $users1 = User::all()->where('team','>=','34')->where('team','<=','35');
      $users2 = User::all()->where('team','>=','38')->where('team','<=','39');
@@ -113,7 +113,7 @@ class ClearController extends Controller
      return view('map');
     }
     
-    public function b4()
+    public function b1()
     {
      $users = User::all()->where('team','>=','36')->where('team','<=','37');
      foreach($users as $user){
@@ -123,7 +123,7 @@ class ClearController extends Controller
      return view('map');
     }
     
-    public function c4()
+    public function c1()
     {
      $users = User::all()->where('team','>=','42')->where('team','<=','43');
      foreach($users as $user){
@@ -133,7 +133,7 @@ class ClearController extends Controller
      return view('map');
     }
     
-    public function a4()
+    public function a1()
     {
      $users1 = User::all()->where('team','>=','40')->where('team','<=','41');
      $users2 = User::all()->where('team','>=','44')->where('team','<=','45');
