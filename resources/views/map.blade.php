@@ -105,15 +105,15 @@ $redteam = array(
 
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
     
 };
 
@@ -127,15 +127,15 @@ ${"team".$i} = NULL;
 
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:18.5%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:18.3%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:18.5%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:18.3%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:18.5%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:18.3%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:18.5%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:18.3%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:18.5%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:18.3%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
     
 };
 ?>
@@ -172,15 +172,15 @@ $yellowteam = array(
 }
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:23.6%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:23.3%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:23.6%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:23.3%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:23.6%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:23.3%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:23.6%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:23.3%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:23.6%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:23.3%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
 };
 
 ${"team".$i} = NULL;
@@ -192,15 +192,15 @@ ${"team".$i} = NULL;
 }
 
      if(${"sum".$i}>=7)
-	    echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
+	    echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.'</p>';
      elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.'</p>';
      elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.'</p>';
      elseif(${"sum".$i} <= -7)
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.'</p>';
      else
-	     echo '<p style="width:15.3%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
+	     echo '<p style="width:15%; float:left; height:15%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.'</p>';
 };
 ?>
 </div>

@@ -528,7 +528,7 @@
 
 .map-detail a {
     display: inline-block;
-    width: 49.4%;
+    width: 49%;
     margin: 0 3px 0px 3px;
     font-size: 20px;
     font-weight: bold;
@@ -580,8 +580,8 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
 }
 
-.btn-red {color: black !important; background-color: #dd3b3b;}
-.btn-yellow {color: black !important; background-color: #523be5;}
+.btn-red {color: white !important; background-color: #dd3b3b;}
+.btn-yellow {color: white !important; background-color: #523be5;}
 /*.btn-pink {color: #ff2baf !important; background-color: #ffcbea;}*/
 /*.btn-purple {color: #ce21ff !important; background-color: #f0bcff;}*/
 
@@ -601,14 +601,14 @@
     display: inline-block;
     margin: 1px 1px;
     text-align: center;
-    width: 49.4%;
+    width: 49%;
 }
 
 .yellow-tribe-map {
     display: inline-block;
     margin: 1px 1px;
     text-align: center;
-    width: 49.4%;
+    width: 49%;
 }
 
 /*.pink-tribe-map {*/
