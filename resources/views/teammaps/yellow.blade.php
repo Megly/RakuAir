@@ -9,7 +9,7 @@
 </div>
 
 <div class="screen">
-    <p><span class="yellow-tribe">Area B</span></p>
+    <p><span class="yellow-tribe">楽座</span></p>
     <p>　</p>
 </div>
 
@@ -18,24 +18,28 @@
 <?php
 $i = 0;
 $yellowteam = array(
-        10 => 'team10',
-        11 => 'team11',
-        12 => 'team12',
-        13 => 'team13',
-        14 => 'team14',
-        15 => 'team15',
-        16 => 'team16',
-        17 => 'team17',
-        18 => 'team18',
-        19 => 'team19',
-        20 => 'team20',
-        21 => 'team21');
+        17 => 'SKOKTY',
+        18 => 'Mexico',
+        19 => 'ぺんぎん',
+        20 => '万衆一心',
+        21 => 'OneBridge',
+        22 => 'WONDA',
+        23 => "Ocean's 6",
+        24 => 'TeamJ',
+        25 => 'コアラのMARCH',
+        26 => 'KADOCCO',
+        27 => 'TAN-SHAN-SHUI',
+        28 => 'Harmonin',
+        29 => 'Karats',
+        30 => 'Vingt-Sept',
+        31 => 'ちーむすまいる',
+        32 => 'JETSTREAM');
 
 $user = \Auth::user();
 $userteam = $user->team;
 
  ${"team".$i} = NULL;
-for ($i=10; $i<22; $i++){
+for ($i=17; $i<21; $i++){
  ${"team".$i} = App\User::all()->where('team',$i);
  	 ${"sum".$i} = 0;
  	foreach( ${"team".$i} as $feelings){
@@ -53,6 +57,29 @@ for ($i=10; $i<22; $i++){
 	     echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.$yellowteam[$i].'</p>';
      else
 	     echo '<p style="width:24%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.$yellowteam[$i].'</p>';
+
+    
+};
+
+${"team".$i} = NULL;
+for ($i=21; $i<33; $i++){
+ ${"team".$i} = App\User::all()->where('team',$i);
+ 	 ${"sum".$i} = 0;
+ 	foreach( ${"team".$i} as $feelings){
+	${"sum".$i} = ${"sum".$i} + $feelings->feel;
+}
+
+     if(${"sum".$i}>=7)
+
+	    echo '<p style="width:15.8%; float:left; height:20%; margin:5px 5px; background-color:#ff8e8e !important" class="veryhot-tribe">'.$yellowteam[$i].'</p>';
+     elseif( 7 > ${"sum".$i} && ${"sum".$i} >= 3)
+	     echo '<p style="width:15.8%; float:left; height:20%; margin:5px 5px; background-color:#f9bdbd !important" class="hot-tribe">'.$yellowteam[$i].'</p>';
+     elseif( -3 >= ${"sum".$i} && ${"sum".$i} >= -7)
+	     echo '<p style="width:15.8%; float:left; height:20%; margin:5px 5px; background-color:#bdd2f9 !important" class="cold-tribe">'.$yellowteam[$i].'</p>';
+     elseif(${"sum".$i} <= -7)
+	     echo '<p style="width:15.8%; float:left; height:20%; margin:5px 5px; background-color:#8ec6ff !important" class="verycold-tribe">'.$yellowteam[$i].'</p>';
+     else
+	     echo '<p style="width:15.8%; float:left; height:20%; margin:5px 5px; background-color:#a8ffda !important" class="com-tribe">'.$yellowteam[$i].'</p>';
 
     
 };
