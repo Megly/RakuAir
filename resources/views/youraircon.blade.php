@@ -7,59 +7,49 @@ $userteam = $user->team;
         <a href="{{ route('manipulation.get')}}">
             Your A/C
              <div class='aircon'>
-                @if($userteam == 1 || $userteam == 2 || $userteam == 4)
+                @if($userteam == 1 || $userteam == 7)
                <div class="aircon-red">
-                         3D</div>
+                         1A</div>
                 
-                @elseif($userteam == 3 || $userteam == 5 ||  $userteam == 6)
+                @elseif($userteam == 12)
                <div class="aircon-red">
-                        3B</div>
+                        1B</div>
         
-                @elseif($userteam == 7)
+                @elseif($userteam == 2 || $userteam == 3 || $userteam == 4 || $userteam == 8 || $userteam == 9)
                 <div class="aircon-red">
-                        3C</div>
+                        1C</div>
                 
-                @elseif($userteam == 8 || $userteam == 9)
+                @elseif($userteam == 10 || $userteam == 13 || $userteam == 14 || $userteam == 15)
                 <div class="aircon-red">
-                        3A</div>
+                        1D</div>
+                        
+                        
                 
-
-
-                @elseif($userteam == 10 || $userteam == 11 || $userteam == 12 || $userteam == 13 || $userteam == 14 || $userteam == 15)        
+                @elseif($userteam == 5 || $userteam == 6 || $userteam == 11 || $userteam == 21)
                 <div class="aircon-yellow">
-                        2D</div>
-                
-                @elseif($userteam == 16 || $userteam == 17 || $userteam == 18 || $userteam == 19 || $userteam == 20 || $userteam == 21)
-               <div class="aircon-yellow">
-                        2C</div>
-                        
-                        
-                
-                @elseif($userteam == 22 || $userteam == 23 || $userteam == 24 || $userteam == 25 || $userteam == 26 || $userteam == 27)
-               <div class="aircon-pink">
-                        2B</div>
-                
-                @elseif($userteam == 28 || $userteam == 29 || $userteam == 30 || $userteam == 31 || $userteam == 32 || $userteam == 33)
-                <div class="aircon-pink">
                         2A</div>
                 
+                @elseif($userteam == 16 || $userteam == 27)
+                <div class="aircon-yellow">
+                        2B</div>
+
+
        
-       
-                @elseif($userteam == 34 || $userteam == 35 || $userteam == 38 || $userteam == 39)
+                @elseif($userteam == 17 || $userteam == 18 || $userteam == 19 || $userteam == 22 || $userteam == 23 || $userteam == 24)
                 <div class="aircon-purple">
-                        1D</div>
+                        3A</div>
                 
-                @elseif($userteam == 36 || $userteam == 37)
+                @elseif($userteam == 28 || $userteam == 29 || $userteam == 30)
                 <div class="aircon-purple">
-                        1B</div>
+                        3B</div>
               
-                @elseif($userteam == 42 || $userteam == 43)
+                @elseif($userteam == 20 || $userteam == 25 || $userteam == 26)
                 <div class="aircon-purple">
-                        1C</div>
+                        3C</div>
              
-                @elseif($userteam == 40 || $userteam == 41 || $userteam == 44 || $userteam == 45)
+                @elseif($userteam == 31)
                 <div class="aircon-purple">
-                        1A</div>
+                        3D</div>
                 @endif
         </div>
     </a>       
