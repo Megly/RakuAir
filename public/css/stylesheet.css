@@ -528,7 +528,7 @@
 
 .map-detail a {
     display: inline-block;
-    width: 24%;
+    width: 49.4%;
     margin: 0 3px 0px 3px;
     font-size: 20px;
     font-weight: bold;
@@ -580,16 +580,16 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
 }
 
-.btn-red {color: #ff1c1c !important; background-color: #ffbcbc;}
-.btn-yellow {color: #d8c638 !important; background-color: #ffffbc;}
-.btn-pink {color: #ff2baf !important; background-color: #ffcbea;}
-.btn-purple {color: #ce21ff !important; background-color: #f0bcff;}
+.btn-red {color: black !important; background-color: #dd3b3b;}
+.btn-yellow {color: black !important; background-color: #523be5;}
+/*.btn-pink {color: #ff2baf !important; background-color: #ffcbea;}*/
+/*.btn-purple {color: #ce21ff !important; background-color: #f0bcff;}*/
 
 /*tribeの文字*/
-.red-tribe {font-size: 30px; color: #ff1c1c;}
-.yellow-tribe {font-size: 30px; color: #d8c638;}
-.pink-tribe {font-size: 30px; color: #ff2baf;}
-.purple-tribe {font-size: 30px; color: #ce21ff;}
+/*.red-tribe {font-size: 30px; color: #ff1c1c;}*/
+/*.yellow-tribe {font-size: 30px; color: #d8c638;}*/
+/*.pink-tribe {font-size: 30px; color: #ff2baf;}*/
+/*.purple-tribe {font-size: 30px; color: #ce21ff;}*/
 
 .tribe-brother {
   width: 100%;
@@ -601,29 +601,29 @@
     display: inline-block;
     margin: 1px 1px;
     text-align: center;
-    width: 25%;
+    width: 49.4%;
 }
 
 .yellow-tribe-map {
     display: inline-block;
     margin: 1px 1px;
     text-align: center;
-    width: 24%;
+    width: 49.4%;
 }
 
-.pink-tribe-map {
-    display: inline-block;
-    margin: 1px 1px;
-    text-align: center;
-    width: 24%;
-}
+/*.pink-tribe-map {*/
+/*    display: inline-block;*/
+/*    margin: 1px 1px;*/
+/*    text-align: center;*/
+/*    width: 24%;*/
+/*}*/
 
-.purple-tribe-map {
-    display: inline-block;
-    margin: 1px 1px;
-    text-align: center;
-    width: 25%;
-}
+/*.purple-tribe-map {*/
+/*    display: inline-block;*/
+/*    margin: 1px 1px;*/
+/*    text-align: center;*/
+/*    width: 25%;*/
+/*}*/
 
 .map-child2  {
   width: 100%;
@@ -1006,4 +1006,3 @@ h1{
 .footerintro {text-align: center; margin-top: 10px;}
 .footermani {text-align: center; margin-top: 10px;}
 .footermanireg {text-align: center; margin-top: 10px;}
-
