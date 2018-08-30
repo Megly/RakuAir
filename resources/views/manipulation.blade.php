@@ -11,9 +11,9 @@
 <div class="manipulationpage">
     <div class="explanation2">How to Use</div>
         <div class="asakai">
-            <h1>Where to adjust temperature</h1><br>
+            <h1>Where to adjust the room's temperature</h1><br>
                 <p>The colors of the remote controllers are equal to the colors of the areas.</p>
-                <p>Ex.) When you are in 1D area, you should check the purple controller panel and manipulate it.</p>
+                <p>Ex.) When you are in 1A area, you should check the panal 1 and adjust it.</p>
                 <img class="aircon-map" src="/images/Mapforfamiliyday.png"　alt="Asakai Theatre A"></img>
         </div>
     

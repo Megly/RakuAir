@@ -15,11 +15,11 @@ $userteam = $user->team;
                <div class="aircon-red">
                         1B</div>
         
-                @elseif($userteam == 2 || $userteam == 3 || $userteam == 4 || $userteam == 8 || $userteam == 9)
+                @elseif($userteam == 2 || $userteam == 3 || $userteam == 4 || $userteam == 8 || $userteam == 9 || $userteam == 10)
                 <div class="aircon-red">
                         1C</div>
                 
-                @elseif($userteam == 10 || $userteam == 13 || $userteam == 14 || $userteam == 15)
+                @elseif($userteam == 13 || $userteam == 14 || $userteam == 15)
                 <div class="aircon-red">
                         1D</div>
                         
@@ -47,7 +47,7 @@ $userteam = $user->team;
                 <div class="aircon-purple">
                         3C</div>
              
-                @elseif($userteam == 31)
+                @elseif($userteam == 31 || $userteam == 32)
                 <div class="aircon-purple">
                         3D</div>
                 @endif
