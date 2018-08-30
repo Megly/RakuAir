@@ -19,7 +19,7 @@
             <div class = "body1">
          
             <h1>Introduction</h1>
-            <p>We have been worrying about the room temperature for a long time.<br>
+            <p>We have been worrying about the room's temperature for a long time.<br>
             Despite you want to change the temperature, lots of factors had been preventing you from doing that.<br>
             That suffering ends today once you use RakuAir.<br>
             RakuAir definitely brings great comfort to you all.<br>
