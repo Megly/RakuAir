@@ -24,12 +24,12 @@
                 <p>(*Not all the controllers have A-G.)</p><br>
             <div class="example-maniplate">    
                     <p>Ex.) Area C</p>
-                    <p>1.Press the button "C" twice.</p>
-                    <p>2.Press the button "室温調節" to adjust temperature.</p>
+                    <p>①Press the button "C" twice.(the picture on the left)</p>
+                    <p>②Open the cover and press the "室温調節" button <br>to adjust the room's temperature.(the picture on the right)</p>
             </div>
                 <div class=remotes>
-                    <img class="remote1" src="/images/aircon-panel1.png"></img>
-                    <img class="remote2" src="/images/aircon-panel2.png"></img>
+                    <img class="remote1" src="/images/RemoteClose.jpg"></img>
+                    <img class="remote2" src="/images/RemoteOpen.jpg"></img>
                 </div>
         </div>
     </div>

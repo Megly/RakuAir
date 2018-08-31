@@ -847,6 +847,10 @@ h1{
     margin-bottom: 40px;
 }
 
+.remotes {
+    margin-top: 20px;
+}
+
 .remote1 {
     width: 25%;
     height: auto;

@@ -5,7 +5,7 @@
 @include('commons.newnavbar')
 
 <div class="icon-image">
-    <img class="logo2" src="/images/RakuAirBlack.png"></img>
+    <a href="{{route('map.get')}}"><img class="logo2" src="/images/RakuAirBlack.png"></img></a>
 </div>
 
         <header>
@@ -19,10 +19,10 @@
             <div class = "body1">
          
             <h1>Introduction</h1>
-            <p>We have been worrying about the room's temperature for a long time.<br>
-            Despite you want to change the temperature, lots of factors had been preventing you from doing that.<br>
-            That suffering ends today once you use RakuAir.<br>
-            RakuAir definitely brings great comfort to you all.<br>
+            <p>Have you ever experienced being in a room that's too cold or too hot?<br>
+            Even though you want to adjust the temperature, it might be awkward because you don't know how your doukis feel.<br>
+            This suffering ends today, once you use RakuAir.<br>
+            RakuAir will make everyone comfortable.<br>
             </p>
             </div>
             
@@ -36,9 +36,9 @@
                  <p><ol>
                      <li>1.Please choose your feeling from <i class="fa fa-heart fa-2x"></i>.</li><br>
                      <li>2.Please check the feeling of your tribe.<br>
-                     You can also check the feel of the team by clicking colored detail box.</li><br>
+                     You can also check the feel of the team by clicking the colored detail box.</li><br>
                      <li>3.Please adjust air conditionar(A/C) as it says. </li><br>
-                     <li>4.After adjusting, plase push "Adjusted" button to refresh data.</li>
+                     <li>4.After adjusting, plase click "Adjusted" button to refresh data.</li>
                  </ol></p>
              </div>
              
@@ -61,7 +61,7 @@
               
                <p>There is a secret in this wonderful application. <br>
                   That is, Point System. We make points from -6 to 6 to calculate exact data.<br>
-                  The points are based on sex and body characters and so on.</p>
+                  The points are based on sex and body type and so on.</p>
                
               　　　<ol>
               　　　  ex：Atsugari  Man  →　hot:1pt   comfortable:0pt   cold:-6pt<br>

@@ -30,7 +30,7 @@
         
         <div class='step'>
              <h1>Check!</h1><br>
-             <P>Check the map of your tribe and team.</P>
+             <P>Check the map of your area and team.</P>
         </div>
     </div>
    
@@ -40,7 +40,7 @@
         </div>
         <div class='step'>
              <h1>Adjust!</h1><br>
-             <P>Adjust the A/C and push "<span class="tutorial-adjusted">⚠︎Adjusted</span>" on the navbar.</P>
+             <P>Adjust the A/C and click "<span class="tutorial-adjusted">⚠︎Adjusted</span>" on the navbar.</P>
         </div>
     </div>
 </div>
