@@ -36,19 +36,19 @@ $userteam = $user->team;
 
        
                 @elseif($userteam == 17 || $userteam == 18 || $userteam == 19 || $userteam == 22 || $userteam == 23 || $userteam == 24)
-                <div class="aircon-purple">
+                <div class="aircon-green">
                         3A</div>
                 
                 @elseif($userteam == 28 || $userteam == 29 || $userteam == 30)
-                <div class="aircon-purple">
+                <div class="aircon-green">
                         3B</div>
               
                 @elseif($userteam == 20 || $userteam == 25 || $userteam == 26)
-                <div class="aircon-purple">
+                <div class="aircon-green">
                         3C</div>
              
                 @elseif($userteam == 31 || $userteam == 32)
-                <div class="aircon-purple">
+                <div class="aircon-green">
                         3D</div>
                 @endif
         </div>

@@ -841,8 +841,8 @@ h1{
 }
 
 .aircon-map {
-    width: 65%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     margin-top: 8px;
     margin-bottom: 40px;
 }
@@ -993,8 +993,8 @@ h1{
 /*色の変更*/
 .aircon-red {color: #ff1c1c;}
 .aircon-yellow {color: #d8c638;}
-.aircon-pink {color: #ff2baf;}
-.aircon-purple {color: #a016c9;}
+/*.aircon-pink {color: #ff2baf;}*/
+.aircon-green {color: #77f975;}
 
 
 
