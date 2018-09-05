@@ -48,7 +48,7 @@ class ClearController extends Controller
     
     public function d2()
     {
-     $users1 = User::all()->where('team','>=','13')->where('team','<=','15');
+     $users = User::all()->where('team','>=','13')->where('team','<=','15');
      foreach($users as $user){
      $user -> feel = 0;
      $user -> save();
