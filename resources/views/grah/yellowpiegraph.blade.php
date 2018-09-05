@@ -14,10 +14,10 @@ var data = google.visualization.arrayToDataTable([ //グラフデータの指定
        
 ]);
 var options = { //オプションの指定
-         title: 'C',
+         title: '楽座',
         'backgroundColor': {'fill':'#fff'},
         width: 500,
-                height: 300,
+        height: 300,
 };
 var chart = new google.visualization.PieChart(document.getElementById('yellowpiechart')); //グラフを表示させる要素の指定
     chart.draw(data, options);

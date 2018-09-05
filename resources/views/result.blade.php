@@ -70,66 +70,67 @@
 		$countcomboy = $countcomboy + 1 ;}
 	
 //RED 
-	$redhot = App\User::all()->where('team','>=','1')->where('team','<=','9')->where('feel','>','0');
+	$redhot = App\User::all()->where('team','>=','1')->where('team','<=','16')->where('feel','>','0');
 	 $countredhot = 0;
  	foreach($redhot as $feelings){
  		$countredhot = $countredhot + 1 ;}
-	$redcold = App\User::all()->where('team','>=','1')->where('team','<=','9')->where('feel','<','0');
+	$redcold = App\User::all()->where('team','>=','1')->where('team','<=','16')->where('feel','<','0');
 	$countredcold = 0;
  	foreach($redcold as $feelings){
  		$countredcold = $countredcold + 1 ;		
 	}
 	
-	$comred = App\User::all()->where('team','>=','1')->where('team','<=','9')->where('feel','0');
+	$comred = App\User::all()->where('team','>=','1')->where('team','<=','16')->where('feel','0');
     $countcomred = 0;
 	foreach($comred as $feelings){
 		$countcomred = $countcomred + 1 ;}
 	
 // yellow
-	$yellowhot = App\User::all()->where('team','>=','10')->where('team','<=','21')->where('feel','>','0');
+	$yellowhot = App\User::all()->where('team','>=','17')->where('team','<=','32')->where('feel','>','0');
 	 $countyellowhot = 0;
  	foreach($yellowhot as $feelings11){
  		$countyellowhot = $countyellowhot + 1 ;}
-	$yellowcold = App\User::all()->where('team','>=','10')->where('team','<=','21')->where('feel','<','0');
+	$yellowcold = App\User::all()->where('team','>=','17')->where('team','<=','32')->where('feel','<','0');
 	$countyellowcold = 0;
  	foreach($yellowcold as $feelings11){
  		$countyellowcold = $countyellowcold + 1 ;		
 	}
 	
-	$comyellow = App\User::all()->where('team','>=','10')->where('team','<=','21')->where('feel','0');
+	$comyellow = App\User::all()->where('team','>=','17')->where('team','<=','32')->where('feel','0');
     $countcomyellow = 0;
 	foreach($comyellow as $feelings11){
 		$countcomyellow = $countcomyellow + 1 ;}
+		
 //pink
-	$pinkhot = App\User::all()->where('team','>=','22')->where('team','<=','33')->where('feel','>','0');
+	$pinkhot = App\User::all()->where('team','>=','33')->where('team','<=','34')->where('feel','>','0');
 	 $countpinkhot = 0;
  	foreach($pinkhot as $feelings12){
  		$countpinkhot = $countpinkhot + 1 ;}
-	$pinkcold = App\User::all()->where('team','>=','22')->where('team','<=','33')->where('feel','<','0');
+	$pinkcold = App\User::all()->where('team','>=','33')->where('team','<=','34')->where('feel','<','0');
 	$countpinkcold = 0;
  	foreach($pinkcold as $feelings12){
  		$countpinkcold = $countpinkcold + 1 ;		
 	}
 	
-	$compink = App\User::all()->where('team','>=','22')->where('team','<=','33')->where('feel','0');
+	$compink = App\User::all()->where('team','>=','33')->where('team','<=','34')->where('feel','0');
     $countcompink = 0;
 	foreach($compink as $feelings12){
 		$countcompink = $countcompink + 1 ;}
 // purple
-	$purplehot = App\User::all()->where('team','>=','34')->where('team','<=','45')->where('feel','>','0');
+	$purplehot = App\User::all()->where('team','>=','35')->where('team','<=','36')->where('feel','>','0');
 	 $countpurplehot = 0;
  	foreach($purplehot as $feelings13){
  		$countpurplehot = $countpurplehot + 1 ;}
-	$purplecold = App\User::all()->where('team','>=','34')->where('team','<=','45')->where('feel','<','0');
+	$purplecold = App\User::all()->where('team','>=','35')->where('team','<=','36')->where('feel','<','0');
 	$countpurplecold = 0;
  	foreach($purplecold as $feelings13){
  		$countpurplecold = $countpurplecold + 1 ;		
 	}
 	
-	$compurple = App\User::all()->where('team','>=','34')->where('team','<=','45')->where('feel','0');
+	$compurple = App\User::all()->where('team','>=','35')->where('team','<=','36')->where('feel','0');
     $countcompurple = 0;
 	foreach($compurple as $feelings13){
-		$countcompurple = $countcomred + 1 ;}
+		$countcompurple = $countcompurple + 1 ;}
 		
 // atsugari
 $dhot = App\User::all()->where('size','0')->where('feel','>','0');
